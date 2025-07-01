@@ -1,0 +1,56 @@
+@import './base.css';
+@import './prose.css';
+
+:root {
+  --color-background: #e3f2fd; /* Sky Blue */
+  --color-text: #6a1b9a;       /* Deep Playful Purple */
+  --color-primary: #ff80ab;    /* Candy Pink */
+  --color-secondary: #ffd54f;  /* Sunny Yellow */
+  --color-primary-light: rgba(255, 128, 171, 0.2); /* Light version of primary color */
+}
+
+body {
+  color: var(--color-text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color-background);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.page-main {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.container2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.page-wrapper {
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+  border-radius: 1rem; /* More rounded corners */
+  box-shadow: 0 4px 20px rgba(255, 128, 171, 0.2); /* Soft Pink Glow */
+  border: 2px solid white;
+}
+
+
+@media (max-width: 768px) {
+  .container{
+    padding: 0 0.5rem;
+  }
+  .page-wrapper{
+    padding: 0.5rem;
+  }
+}
