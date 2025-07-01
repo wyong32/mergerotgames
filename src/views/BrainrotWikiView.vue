@@ -50,13 +50,25 @@
                 The song is catchy, repetitive, and probably worming its way into your brain as you
                 read this. It's completely ridiculous. That's the point.
               </p>
-              <iframe
-                class="yt-video"
-                src="https://www.youtube.com/embed/Iep-8lR9H0U"
-                title="Bombardino Crocodilo Funk"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
+              <div class="video-wrapper">
+                <div v-if="!video1Loaded" class="video-mask" @click="loadVideo('video1')">
+                  <img src="https://picsum.photos/800/450?1" alt="Video thumbnail" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                <iframe
+                  v-if="video1Loaded"
+                  class="yt-video"
+                  src="https://www.youtube.com/embed/Iep-8lR9H0U"
+                  title="Bombardino Crocodilo Funk"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </article>
 
             <article>
@@ -72,13 +84,25 @@
                 Is he a threat? A prophet? A sentient cricket bat? We don't know. No one knows. And
                 once again: don't overthink it.
               </p>
-              <iframe
-                class="yt-video"
-                src="https://www.youtube.com/embed/Vu6ooxSe5M8"
-                title="Tung Tung Sahur Meme"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
+              <div class="video-wrapper">
+                <div v-if="!video2Loaded" class="video-mask" @click="loadVideo('video2')">
+                  <img src="https://picsum.photos/800/450?2" alt="Video thumbnail" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                <iframe
+                  v-if="video2Loaded"
+                  class="yt-video"
+                  src="https://www.youtube.com/embed/Vu6ooxSe5M8"
+                  title="Tung Tung Sahur Meme"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </article>
 
             <article>
@@ -94,13 +118,25 @@
                 <strong>Italian Brainrot</strong> doesn't need to make sense. It just needs to make
                 you laugh — or feel weird. Preferably both.
               </p>
-              <iframe
-                class="yt-video"
-                src="https://www.youtube.com/embed/FHpjW6AD-Vk"
-                title="Lirilì Larilà Italian Brainrot"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
+              <div class="video-wrapper">
+                <div v-if="!video3Loaded" class="video-mask" @click="loadVideo('video3')">
+                  <img src="https://picsum.photos/800/450?3" alt="Video thumbnail" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                <iframe
+                  v-if="video3Loaded"
+                  class="yt-video"
+                  src="https://www.youtube.com/embed/FHpjW6AD-Vk"
+                  title="Lirilì Larilà Italian Brainrot"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </article>
 
             <h2>Why Is Italian Brainrot So Popular?</h2>
@@ -162,10 +198,27 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import { brainrotWikiData as wikiData } from '@/data/brainrotWiki.js'
+
+// 视频加载状态
+const video1Loaded = ref(false)
+const video2Loaded = ref(false)
+const video3Loaded = ref(false)
+
+// 加载视频函数
+const loadVideo = (videoId) => {
+  if (videoId === 'video1') {
+    video1Loaded.value = true
+  } else if (videoId === 'video2') {
+    video2Loaded.value = true
+  } else if (videoId === 'video3') {
+    video3Loaded.value = true
+  }
+}
 </script>
 
 <style scoped>
@@ -311,7 +364,8 @@ import { brainrotWikiData as wikiData } from '@/data/brainrotWiki.js'
   font-weight: 600;
 }
 
-.info-card iframe {
+/* Video Wrapper Styles */
+.video-wrapper {
   display: block;
   max-width: 50%;
   width: 100%;
@@ -320,6 +374,53 @@ import { brainrotWikiData as wikiData } from '@/data/brainrotWiki.js'
   border: 2px solid white;
   margin-bottom: 1rem;
   box-shadow: 0 4px 20px rgba(255, 128, 171, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.info-card iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+}
+
+/* Video Mask Styles */
+.video-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+.play-button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+.play-button svg {
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
 
 .info-card {
@@ -395,8 +496,13 @@ import { brainrotWikiData as wikiData } from '@/data/brainrotWiki.js'
     font-size: 0.9rem;
     line-height: 1.6;
   }
-  .info-card iframe {
+  .video-wrapper {
     max-width: 100%;
+  }
+  
+  .play-button svg {
+    width: 60px;
+    height: 60px;
   }
   .info-card p:last-child {
     font-size: 0.8rem;

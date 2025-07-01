@@ -1,6 +1,6 @@
 export const homeData = {
   gameTitle: 'Merge Rot',
-  iframeSrc: 'https://wordle2.io/merge-rot.embed',
+  iframeSrc: 'https://d2511kxt8bbh0c.cloudfront.net/',
   imageSrc: './images/home-game.webp',
   videoIframeSrc: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder video
   aboutHtml: `

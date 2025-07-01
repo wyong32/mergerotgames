@@ -29,14 +29,26 @@
             <section class="video-section info-card">
               <h2 class="section-title">Game Trailer</h2>
               <div class="video-wrapper">
+                <!-- Video Mask (shown when not loaded) -->
+                <div v-if="!videoLoaded" class="video-mask" @click="loadVideo">
+                  <img src="https://picsum.photos/800/600?1" alt="Video thumbnail" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                
+                <!-- Actual iframe (shown when loaded) -->
                 <iframe
+                  v-if="videoLoaded"
                   class="video-iframe"
                   :src="data.videoIframeSrc"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
-                  loading="lazy"
                 >
                 </iframe>
               </div>
@@ -56,7 +68,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import GameFrame from '@/components/GameFrame.vue'
@@ -67,6 +79,14 @@ import { mergeGamesData } from '@/data/mergeGames.js'
 const homeGames = computed(() => {
   return mergeGamesData.gamesList.filter((game) => game.isHome)
 })
+
+// 视频加载状态
+const videoLoaded = ref(false)
+
+// 加载视频函数
+const loadVideo = () => {
+  videoLoaded.value = true
+}
 </script>
 
 <style scoped>
@@ -151,6 +171,45 @@ const homeGames = computed(() => {
   border: none;
 }
 
+/* Video Mask Styles */
+.video-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.play-button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+.play-button svg {
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
 .prose {
   margin: 0;
 }
@@ -188,6 +247,11 @@ const homeGames = computed(() => {
   .section-title {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  .play-button svg {
+    width: 60px;
+    height: 60px;
   }
 }
 </style>
