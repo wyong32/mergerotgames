@@ -8,7 +8,7 @@
           
           <div class="content">
             <div class="last-updated">
-              <p><strong>Last Updated:</strong> December 2024</p>
+              <p><strong>Last Updated:</strong> July 2025</p>
             </div>
 
             <section class="section">

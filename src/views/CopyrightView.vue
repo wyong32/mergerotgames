@@ -8,13 +8,13 @@
           
           <div class="content">
             <div class="last-updated">
-              <p><strong>Last Updated:</strong> December 2024</p>
+              <p><strong>Last Updated:</strong> July 2025</p>
             </div>
 
             <section class="section">
               <h2>1. Copyright Notice</h2>
               <p>This website and all content contained herein, including but not limited to text, images, audio, video, game code, design elements, layout, and software, are protected by copyright law.</p>
-              <p><strong>© 2024 Merge Rot. All rights reserved.</strong></p>
+              <p><strong>© 2025 Merge Rot. All rights reserved.</strong></p>
             </section>
 
             <section class="section">

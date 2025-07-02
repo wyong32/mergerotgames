@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="footer-copyright">
-        <p>&copy; 2024 Merge Rot. All rights reserved.</p>
+        <p>&copy; 2025 Merge Rot. All rights reserved.</p>
       </div>
     </div>
   </footer>
