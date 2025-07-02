@@ -26,28 +26,33 @@
           <div class="footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="#">Game Rules</a></li>
-              <li><a href="#">Leaderboard</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Terms of Service</a></li>
+              <li><RouterLink to="/">Home</RouterLink></li>
+              <li><RouterLink to="/merge-fellas">Merge Fellas</RouterLink></li>
+              <li><RouterLink to="/merge-games">Merge Games</RouterLink></li>
+              <li><RouterLink to="/italian-brainrot-games">Italian Brainrot Games</RouterLink></li>
+              <li><RouterLink to="/brainrot-wiki">Brainrot Wiki</RouterLink></li>
+              <li><RouterLink to="/blog">Blog</RouterLink></li>
+              <li><a href="#" target="_blank" rel="noopener noreferrer">Discord</a></li>
             </ul>
           </div>
           <div class="footer-links">
-            <h4>Quick Links</h4>
+            <h4>Game Categories</h4>
             <ul>
-              <li><a href="#">Game Rules</a></li>
-              <li><a href="#">Leaderboard</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Terms of Service</a></li>
+              <li><RouterLink to="/merge-fellas">Privacy Policy</RouterLink></li>
+              <li><RouterLink to="/2048-italian-brainrot">2048 Italian Brainrot</RouterLink></li>
+              <li><RouterLink to="/merge-games/brainrot-clicker">Brainrot Clicker</RouterLink></li>
+              <li><RouterLink to="/italian-brainrot-games/italian-brainrot-obby-parkour">Italian Brainrot Obby Parkour</RouterLink></li>
+              <li><RouterLink to="/merge-games/merge-fellas-italian-brainrot">Merge Fellas Italian Brainrot</RouterLink></li>
             </ul>
           </div>
           <div class="footer-links">
-            <h4>Quick Links</h4>
+            <h4>Legal</h4>
             <ul>
-              <li><a href="#">Game Rules</a></li>
-              <li><a href="#">Leaderboard</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Terms of Service</a></li>
+              <li><RouterLink to="/privacy-policy">Privacy Policy</RouterLink></li>
+              <li><RouterLink to="/terms-of-use">Terms of Use</RouterLink></li>
+              <li><RouterLink to="/copyright">Copyright</RouterLink></li>
+              <li><RouterLink to="/about-us">About Us</RouterLink></li>
+              <li><RouterLink to="/contact-us">Contact Us</RouterLink></li>
             </ul>
           </div>
         </div>

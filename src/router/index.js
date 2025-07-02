@@ -89,6 +89,67 @@ const router = createRouter({
       path: '/blog/:slug',
       name: 'blog-detail',
       component: () => import('../views/BlogDetailView.vue')
+    },
+    // Legal Pages
+    {
+      path: '/privacy-policy',
+      name: 'privacy-policy',
+      component: () => import('../views/PrivacyPolicyView.vue'),
+      meta: {
+        seo: {
+          title: 'Privacy Policy - Merge Rot',
+          description: 'Read our privacy policy to understand how we collect, use, and protect your personal information.',
+          keywords: 'privacy policy, data protection, merge rot, privacy'
+        }
+      }
+    },
+    {
+      path: '/terms-of-use',
+      name: 'terms-of-use',
+      component: () => import('../views/TermsOfUseView.vue'),
+      meta: {
+        seo: {
+          title: 'Terms of Use - Merge Rot',
+          description: 'Read our terms of use and service agreement for using Merge Rot games and website.',
+          keywords: 'terms of use, terms of service, merge rot, legal'
+        }
+      }
+    },
+    {
+      path: '/copyright',
+      name: 'copyright',
+      component: () => import('../views/CopyrightView.vue'),
+      meta: {
+        seo: {
+          title: 'Copyright Information - Merge Rot',
+          description: 'Copyright information and intellectual property rights for Merge Rot games and content.',
+          keywords: 'copyright, intellectual property, merge rot, legal'
+        }
+      }
+    },
+    {
+      path: '/about-us',
+      name: 'about-us',
+      component: () => import('../views/AboutUsView.vue'),
+      meta: {
+        seo: {
+          title: 'About Us - Merge Rot',
+          description: 'Learn about the Merge Rot team, our mission, and the story behind the ultimate merging game experience.',
+          keywords: 'about us, merge rot team, company, mission'
+        }
+      }
+    },
+    {
+      path: '/contact-us',
+      name: 'contact-us',
+      component: () => import('../views/ContactUsView.vue'),
+      meta: {
+        seo: {
+          title: 'Contact Us - Merge Rot',
+          description: 'Get in touch with the Merge Rot team. Find our contact information and support resources.',
+          keywords: 'contact us, support, merge rot, help'
+        }
+      }
     }
   ],
 })

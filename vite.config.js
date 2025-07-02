@@ -18,6 +18,11 @@ const staticRoutes = [
   '/italian-brainrot-games',
   '/brainrot-wiki',
   '/blog',
+  '/privacy-policy',
+  '/terms-of-use',
+  '/copyright',
+  '/about-us',
+  '/contact-us',
 ]
 
 // 生成动态路由
