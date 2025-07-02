@@ -6,7 +6,7 @@ export const blogData = {
       title: 'Merge-Rot: When Puzzle Games Descend Into Glorious Chaos',
       excerpt: 'Explore how Merge-Rot took the traditional merge mechanic and flipped it into a meme-fueled cultural explosion.',
       date: '2025-07-01',
-      imageUrl: 'https://picsum.photos/800/600?1',
+      imageUrl: '/images/blog-01.png',
       imageAlt: 'Colorful and chaotic merge-rot gameplay',
       seo: {
         title: 'Merge-Rot and the Memeification of Merge Games | Merge-Rot',
@@ -48,7 +48,7 @@ export const blogData = {
       title: 'How Merge-Rot Took Over the Internet, One Meme at a Time',
       excerpt: 'Merge-Rot isn’t just a game style—it’s a cultural virus. We unpack how it spread, why it sticks, and what it says about modern gaming.',
       date: '2025-07-01',
-      imageUrl: 'https://picsum.photos/800/600?2',
+      imageUrl: '/images/blog-02.png',
       imageAlt: 'Chaotic merge-rot gameplay filled with random objects and characters',
       seo: {
         title: 'The Internet Takeover of Merge-Rot | Meme Gaming Culture',
