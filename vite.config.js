@@ -45,28 +45,53 @@ const dynamicBlogRoutes = blogData.posts.map((post) => `/blog/${post.addressBar}
 const allRoutes = [...staticRoutes, ...dynamicGameRoutes, ...dynamicWikiRoutes, ...dynamicBlogRoutes]
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [
+export default defineConfig(({ command }) => {
+  const plugins = [
     vue(),
     vueJsx(),
     vueDevTools(),
-    // 使用标准的 vite-plugin-sitemap
-    sitemap({
-      hostname: 'https://merge-rot.com', // 请根据实际域名修改 (与 src/config/site.js 保持一致)
-      dynamicRoutes: allRoutes,
-      // 不自动生成robots.txt，我们已在public目录下创建
-      generateRobotsTxt: false,
-    }),
-    // 或者使用自定义插件（取消注释以下行并注释掉上面的sitemap配置）
-    // sitemapPlugin({
-    //   hostname: 'https://merge-rot.com',
-    //   outDir: 'dist',
-    //   generateRobotsTxt: true, // 自定义插件可以生成robots.txt
-    // }),
-  ],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+  ]
+
+  // 只在生产构建时使用sitemap插件
+  if (command === 'build') {
+    plugins.push(
+      sitemap({
+        hostname: 'https://mergerotgames.vercel.app', // 请根据实际域名修改 (与 src/config/site.js 保持一致)
+        dynamicRoutes: allRoutes,
+        // 不自动生成robots.txt，我们已在public目录下创建
+        generateRobotsTxt: false,
+      })
+    )
+  }
+
+  return {
+    plugins,
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('./src', import.meta.url))
+      },
     },
-  },
+    // 确保正确的base路径配置
+    base: '/',
+    // 构建配置
+    build: {
+      // 确保生成正确的资产路径
+      assetsDir: 'assets',
+      // 优化构建
+      rollupOptions: {
+        output: {
+          // 分块策略，优化缓存
+          manualChunks: {
+            'vendor': ['vue', 'vue-router', 'pinia'],
+            'utils': ['@vueuse/head']
+          }
+        }
+      }
+    },
+    // 开发服务器配置
+    server: {
+      // 在开发模式下也处理SPA路由
+      historyApiFallback: true,
+    }
+  }
 })

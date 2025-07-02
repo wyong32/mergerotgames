@@ -1,42 +1,50 @@
-# Merge-Rot
+# Merge Rot
 
-This template should help get you started developing with Vue 3 in Vite.
+The ultimate merging game experience with brainrot entertainment!
 
-## Recommended IDE Setup
+## Vercel Deployment
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This project is optimized for **Vercel** deployment:
 
-## Customize configuration
+1. **Connect your repository** to Vercel
+2. **Build command**: `npm run build`
+3. **Output directory**: `dist`
+4. **SPA routing** is handled by `vercel.json`
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Auto-deployment
+- Push to main branch → automatic deployment
+- Pull requests → preview deployments
 
-## Project Setup
+### Configuration
+- `vercel.json` - Handles SPA routing and caching
+- All other routes redirect to `index.html`
+- Static assets get optimized caching headers
 
-```sh
+## Development
+
+```bash
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Start development server
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
+
+# Preview production build
+npm run preview
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## Features
 
-```sh
-npm run test:unit
-```
+- ✅ SPA routing with client-side navigation
+- ✅ SEO-optimized meta tags
+- ✅ Responsive design
+- ✅ Legal pages (Privacy, Terms, etc.)
+- ✅ Automatic sitemap generation
+- ✅ Performance optimized builds
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
->>>>>>> addd073 (Initial commit)
+**Ready for Vercel deployment!** 🚀

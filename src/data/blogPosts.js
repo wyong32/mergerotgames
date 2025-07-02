@@ -81,8 +81,5 @@ export const blogData = {
         <p>One thing is certain: Merge-Rot isn’t just a style—it’s a movement. A brain-melting, dopamine-hitting, meme-fueled movement. And the internet wouldn’t have it any other way.</p>
       `
     }
-    
-    
-   
   ]
 };

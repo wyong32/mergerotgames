@@ -25,27 +25,41 @@ const siteData = ref({
 useHead(siteData);
 
 // 3. Watch for route changes and update the reactive data
+const updateSEO = (currentRoute) => {
+  // 生成canonical URL
+  const canonicalUrl = getCanonicalUrl(currentRoute);
+  
+  console.log('Route changed:', currentRoute.path, currentRoute.meta?.seo);
+  
+  // 更新SEO信息
+  if (currentRoute.meta && currentRoute.meta.seo) {
+    siteData.value.title = currentRoute.meta.seo.title;
+    siteData.value.meta = getArticleSeoMeta(canonicalUrl, currentRoute.meta.seo);
+    console.log('Updated SEO with route meta:', currentRoute.meta.seo.title);
+  } else {
+    // 默认SEO信息
+    siteData.value.title = SITE_CONFIG.TITLE;
+    siteData.value.meta = getDefaultSeoMeta(canonicalUrl);
+    console.log('Updated SEO with default:', SITE_CONFIG.TITLE);
+  }
+  
+  // 更新canonical URL
+  siteData.value.link = [
+    { rel: 'canonical', href: canonicalUrl }
+  ];
+};
+
+// 监听路由变化
 watch(
-  () => route,
-  (currentRoute) => {
-    // 生成canonical URL
-    const canonicalUrl = getCanonicalUrl(currentRoute);
-    
-    // 更新SEO信息
-    if (currentRoute.meta && currentRoute.meta.seo) {
-      siteData.value.title = currentRoute.meta.seo.title;
-      siteData.value.meta = getArticleSeoMeta(canonicalUrl, currentRoute.meta.seo);
-    } else {
-      // 默认SEO信息
-      siteData.value.title = SITE_CONFIG.TITLE;
-      siteData.value.meta = getDefaultSeoMeta(canonicalUrl);
-    }
-    
-    // 更新canonical URL
-    siteData.value.link = [
-      { rel: 'canonical', href: canonicalUrl }
-    ];
-  },
+  () => route.path,
+  () => updateSEO(route),
+  { immediate: true }
+);
+
+// 也监听meta变化（以防动态路由的meta信息变化）
+watch(
+  () => route.meta,
+  () => updateSEO(route),
   { immediate: true }
 );
 </script>

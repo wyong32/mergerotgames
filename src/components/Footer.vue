@@ -5,7 +5,7 @@
         <div class="footer-about">
           <div class="logo">
             <span class="logo-icon">M</span>
-            <span>Merge Rot</span>
+            <h3>Merge Rot</h3>
           </div>
           <p>
             Revolutionary merge game experience that challenges your strategic thinking and creates

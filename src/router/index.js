@@ -9,9 +9,9 @@ const router = createRouter({
       component: () => import('../views/HomeView.vue'),
       meta: {
         seo: {
-          title: 'Merge Rot - Official Site',
-          description: 'Welcome to Merge Rot, the ultimate strategic merge game. Join thousands of players, explore game modes, and become a legend.',
-          keywords: 'merge rot, merge game, strategy, puzzle, mobile game'
+          title: 'Merge Rot - Meme Merge Puzzle Game with Italian Brainrot',
+          description: 'Merge Rot is a free, browser-based merge puzzle game full of chaotic humor, meme-style items, and evolving madness across themes like Italian Brainrot and more.',
+          keywords: 'merge rot, meme merge game, italian brainrot, merge puzzle, funny merge, gravity merge, browser game'
         }
       }
     },
@@ -21,9 +21,9 @@ const router = createRouter({
       component: () => import('../views/MergeFellasView.vue'),
       meta: {
         seo: {
-          title: 'Meet the Merge Fellas - Merge Rot',
-          description: 'Discover the legendary pioneers of the Merge Rot world. Learn about the Fellas, their backstories, and unique abilities.',
-          keywords: 'merge rot, merge fellas, characters, lore, legends'
+          title: 'Merge Fellas - Funny Meme Merge Puzzle Game Online',
+          description: 'Play Merge Fellas, the funniest browser-based merge puzzle game! Combine meme-inspired characters, unlock crazy evolutions, and enjoy chaotic fun for free.',
+          keywords: 'merge fellas, merge game online, funny puzzle game, meme merge game, browser puzzle, free merge game'
         }
       }
     },
@@ -33,9 +33,9 @@ const router = createRouter({
       component: () => import('../views/MergeGamesView.vue'),
       meta: {
         seo: {
-          title: 'All Game Modes - Merge Rot',
-          description: 'Explore the full collection of Merge Rot game modes, from Classic and Puzzle to high-action Arena and Speed Run.',
-          keywords: 'merge rot, game modes, classic, speed run, puzzle, arena'
+          title: 'Merge Games - Play the Best Free Merge Puzzle Games Online',
+          description: 'Discover the top free merge games online! Play Merge Fruit, Merge Fellas, Merge Rot, and more. Fun, addictive puzzle games that anyone can enjoy.',
+          keywords: 'merge games, free merge puzzle, online merge games, merge fruit, merge fellas, merge rot'
         }
       }
     },
@@ -50,9 +50,9 @@ const router = createRouter({
       component: () => import('../views/ItalianBrainrotGamesView.vue'),
       meta: {
         seo: {
-          title: 'Italian Brainrot Games - Merge Rot',
-          description: 'A special collection of Italian-themed brainrot games.',
-          keywords: 'merge rot, italian games, brainrot'
+          title: 'Italian Brainrot Games - Play Chaotic Puzzle & Merge Games',
+          description: 'Dive into Italian Brainrot games — a wild collection of chaotic merge and puzzle games full of memes, madness, and unfiltered fun. Play online for free!',
+          keywords: 'italian brainrot games, merge games, chaotic puzzle, meme games, brainrot merge, free online puzzle'
         }
       }
     },
@@ -62,9 +62,9 @@ const router = createRouter({
       component: () => import('../views/BrainrotWikiView.vue'),
       meta: {
         seo: {
-          title: 'Brainrot Wiki - Merge Rot',
-          description: 'The official community wiki for all things Merge Rot and Brainrot. Find guides, lore, and more.',
-          keywords: 'merge rot, wiki, brainrot, guides, lore, community'
+          title: 'Brainrot Wiki - Explore the World of Meme Games & Italian',
+          description: 'Brainrot Wiki covers the chaotic world of brainrot games, Italian meme culture, and viral merge games. Learn about characters, trends, and game mechanics.',
+          keywords: 'brainrot wiki, italian brainrot, brainrot games, meme games, merge brainrot, brainrot culture'
         }
       }
     },
@@ -79,9 +79,9 @@ const router = createRouter({
       component: () => import('../views/BlogView.vue'),
       meta: {
         seo: {
-          title: 'Official Blog - Merge Rot',
-          description: 'The latest news, updates, and developer insights from the Merge Rot team.',
-          keywords: 'merge rot, blog, news, updates, dev blog'
+          title: 'The Merge-Rot Blog - Updates, Memes & Chaos from the Merge',
+          description: 'Welcome to The Merge-Rot Blog! Get the latest updates, strategy guides, and meme-fueled chaos from Merge Rot and other brainrot-style merge games.',
+          keywords: 'merge rot blog, merge rot updates, brainrot games, meme merge blog, merge puzzle news, chaotic games'
         }
       }
     },

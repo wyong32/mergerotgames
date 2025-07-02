@@ -55,23 +55,32 @@ export function getArticleSeoMeta(canonicalUrl, seo, imageUrl = null, publishedT
   const meta = [
     { name: 'description', content: seo.description },
     { name: 'keywords', content: seo.keywords },
+    // Basic meta
+    { name: 'author', content: SITE_CONFIG.NAME },
+    { name: 'robots', content: 'index, follow' },
     // Open Graph
     { property: 'og:title', content: seo.title },
     { property: 'og:description', content: seo.description },
     { property: 'og:url', content: canonicalUrl },
     { property: 'og:type', content: SITE_CONFIG.SOCIAL.OG_TYPE_ARTICLE },
     { property: 'og:site_name', content: SITE_CONFIG.NAME },
+    { property: 'og:locale', content: 'en_US' },
     // Twitter Card
     { name: 'twitter:card', content: SITE_CONFIG.SOCIAL.TWITTER_CARD_TYPE },
     { name: 'twitter:title', content: seo.title },
     { name: 'twitter:description', content: seo.description },
+    { name: 'twitter:site', content: SITE_CONFIG.DEFAULT_TWITTER_HANDLE },
   ]
   
-  // 添加图片信息
-  if (imageUrl) {
-    const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : getFullUrl(imageUrl)
+  // 添加默认或指定的图片信息
+  const finalImageUrl = imageUrl || SITE_CONFIG.DEFAULT_OG_IMAGE
+  if (finalImageUrl) {
+    const fullImageUrl = finalImageUrl.startsWith('http') ? finalImageUrl : getFullUrl(finalImageUrl)
     meta.push(
       { property: 'og:image', content: fullImageUrl },
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '630' },
+      { property: 'og:image:type', content: 'image/webp' },
       { name: 'twitter:image', content: fullImageUrl }
     )
   }
