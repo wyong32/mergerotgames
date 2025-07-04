@@ -147,75 +147,27 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
+                    <tr v-for="character in characters" :key="character.id">
                       <td class="character-image">
-                        <img src="/images/brainrot-wiki-01.png" alt="Tung Tung Sahur" class="character-img">
+                        <img :src="character.imageUrl" :alt="character.imageAlt" class="character-img">
                       </td>
-                      <td class="character-name">Tung Tung Sahur</td>
-                      <td class="character-desc">The blue dancing shark that started it all with his infectious rhythm</td>
+                      <td class="character-name">{{ character.name }}</td>
+                      <td class="character-desc">{{ character.description }}</td>
                       <td class="audio-cell">
                         <button 
-                          @click="playAudio('audio1')" 
+                          @click="playAudio(character.audioRef)" 
                           class="audio-btn"
-                          :class="{ 'playing': currentPlaying === 'audio1' }"
+                          :class="{ 'playing': currentPlaying === character.audioRef }"
                         >
-                          <svg v-if="currentPlaying !== 'audio1'" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                          <svg v-if="currentPlaying !== character.audioRef" width="20" height="20" viewBox="0 0 24 24" fill="none">
                             <path d="M8 5v14l11-7z" fill="currentColor"/>
                           </svg>
                           <svg v-else width="20" height="20" viewBox="0 0 24 24" fill="none">
                             <path d="M6 19h4V5H6v14zM14 5v14h4V5h-4z" fill="currentColor"/>
                           </svg>
                         </button>
-                        <audio ref="audio1" preload="none">
-                          <source src="/audio/videoplayback.m4a" type="audio/mpeg">
-                        </audio>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="character-image">
-                        <img src="/images/brainrot-wiki-02.png" alt="Patapim" class="character-img">
-                      </td>
-                      <td class="character-name">Patapim</td>
-                      <td class="character-desc">The chaotic pizza slice with attitude and questionable Italian accent</td>
-                      <td class="audio-cell">
-                        <button 
-                          @click="playAudio('audio2')" 
-                          class="audio-btn"
-                          :class="{ 'playing': currentPlaying === 'audio2' }"
-                        >
-                          <svg v-if="currentPlaying !== 'audio2'" width="20" height="20" viewBox="0 0 24 24" fill="none">
-                            <path d="M8 5v14l11-7z" fill="currentColor"/>
-                          </svg>
-                          <svg v-else width="20" height="20" viewBox="0 0 24 24" fill="none">
-                            <path d="M6 19h4V5H6v14zM14 5v14h4V5h-4z" fill="currentColor"/>
-                          </svg>
-                        </button>
-                        <audio ref="audio2" preload="none">
-                          <source src="/audio/videoplayback.m4a" type="audio/mpeg">
-                        </audio>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="character-image">
-                        <img src="/images/game-01.webp" alt="Trallallà" class="character-img">
-                      </td>
-                      <td class="character-name">Trallallà</td>
-                      <td class="character-desc">The mysterious singing meatball with operatic tendencies</td>
-                      <td class="audio-cell">
-                        <button 
-                          @click="playAudio('audio3')" 
-                          class="audio-btn"
-                          :class="{ 'playing': currentPlaying === 'audio3' }"
-                        >
-                          <svg v-if="currentPlaying !== 'audio3'" width="20" height="20" viewBox="0 0 24 24" fill="none">
-                            <path d="M8 5v14l11-7z" fill="currentColor"/>
-                          </svg>
-                          <svg v-else width="20" height="20" viewBox="0 0 24 24" fill="none">
-                            <path d="M6 19h4V5H6v14zM14 5v14h4V5h-4z" fill="currentColor"/>
-                          </svg>
-                        </button>
-                        <audio ref="audio3" preload="none">
-                          <source src="/audio/videoplayback.m4a" type="audio/mpeg">
+                        <audio :ref="el => audioRefs[character.audioRef] = el" preload="none">
+                          <source :src="character.audioUrl" type="audio/mpeg">
                         </audio>
                       </td>
                     </tr>
@@ -256,44 +208,44 @@ import { RouterLink } from 'vue-router'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import { brainrotWikiData as wikiData } from '@/data/brainrotWiki.js'
+import { brainrotCharactersData } from '@/data/brainrotCharacters.js'
+
+// 角色数据
+const characters = brainrotCharactersData.characters
 
 // 音频播放状态
 const currentPlaying = ref(null)
-const audio1 = ref(null)
-const audio2 = ref(null)
-const audio3 = ref(null)
+const audioRefs = ref({})
 
 // 播放音频函数
-const playAudio = (audioId) => {
-  const audioElements = {
-    audio1: audio1.value,
-    audio2: audio2.value,
-    audio3: audio3.value
-  }
+const playAudio = (audioRef) => {
+  const audioElement = audioRefs.value[audioRef]
+  
+  if (!audioElement) return
   
   // 如果当前正在播放这个音频，则暂停
-  if (currentPlaying.value === audioId) {
-    audioElements[audioId].pause()
+  if (currentPlaying.value === audioRef) {
+    audioElement.pause()
     currentPlaying.value = null
     return
   }
   
   // 暂停所有其他音频
-  Object.keys(audioElements).forEach(key => {
-    if (audioElements[key] && !audioElements[key].paused) {
-      audioElements[key].pause()
+  Object.values(audioRefs.value).forEach(audio => {
+    if (audio && !audio.paused) {
+      audio.pause()
     }
   })
   
   // 播放选中的音频
-  currentPlaying.value = audioId
-  audioElements[audioId].play().catch(error => {
+  currentPlaying.value = audioRef
+  audioElement.play().catch(error => {
     console.error('Audio playback failed:', error)
     currentPlaying.value = null
   })
   
   // 监听音频结束事件
-  audioElements[audioId].onended = () => {
+  audioElement.onended = () => {
     currentPlaying.value = null
   }
 }
@@ -302,7 +254,7 @@ const playAudio = (audioId) => {
 <style scoped>
 .page-title {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 900;
   background: linear-gradient(
     90deg,
@@ -567,7 +519,7 @@ const playAudio = (audioId) => {
 } */
 
 .characters-table td {
-  padding: 1rem;
+  padding: 0.5rem;
   border-bottom: 1px solid rgba(255, 128, 171, 0.2);
   vertical-align: middle;
 }
@@ -577,7 +529,7 @@ const playAudio = (audioId) => {
 }
 
 .character-image {
-  width: 80px;
+  width: 60px;
   text-align: center;
 }
 
@@ -597,14 +549,15 @@ const playAudio = (audioId) => {
 .character-name {
   font-weight: bold;
   color: var(--color-primary);
-  font-size: 1.1rem;
+  font-size: 1rem;
   min-width: 120px;
 }
 
 .character-desc {
   color: var(--color-text);
   line-height: 1.4;
-  max-width: 300px;
+  width: 500px;
+  font-size: 1rem;
 }
 
 .audio-cell {
@@ -659,7 +612,7 @@ const playAudio = (audioId) => {
   
   .characters-table th,
   .characters-table td {
-    padding: 0.75rem 0.5rem;
+    padding: 0.5rem;
   }
   
   .character-image {
@@ -699,7 +652,7 @@ const playAudio = (audioId) => {
   
   .characters-table th,
   .characters-table td {
-    padding: 0.5rem 0.25rem;
+    padding: 0.5rem;
   }
   
   .character-desc {

@@ -123,7 +123,7 @@ import Footer from '@/components/Footer.vue'
 }
 
 .page-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 2rem;

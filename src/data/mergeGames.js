@@ -18,12 +18,12 @@ export const mergeGamesData = {
       isFella: true, // 是否显示在合并游戏页面
       isDetails: false, // 是否显示在详情页面
       detailsHtml: `
-  <h3>Brainrot Clicker – The Ultimate Meme Idle Game</h3>
+  <h2>Brainrot Clicker – The Ultimate Meme Idle Game</h2>
   <p>
     <strong>Brainrot Clicker</strong> is the chaotic, hilarious clicker game that blends idle mechanics with brain-melting meme energy. In Brainrot Clicker, you tap to generate madness—literally. Every click spawns strange internet content, absurd characters, and ridiculous evolutions, making it the most unpredictable idle experience on the web.
   </p>
 
-  <h3>How to Play Brainrot Clicker</h3>
+  <h2>How to Play Brainrot Clicker</h2>
   <p>
     Playing Brainrot Clicker is easy and addictive. Just click the main object to generate points—then spend those points to unlock weirder and wilder upgrades. From Italian-sounding nonsense phrases to bizarre 3D characters like flying pizzas, angry cats, and coffee-powered old ladies, Brainrot Clicker never stops surprising you.
   </p>
@@ -34,7 +34,7 @@ export const mergeGamesData = {
     <li>Prestige to reset and gain permanent boosts</li>
   </ul>
 
-  <h3>Features of Brainrot Clicker</h3>
+  <h2>Features of Brainrot Clicker</h2>
   <ul>
     <li><strong>Absurd Visuals:</strong> Characters and objects inspired by meme culture, AI humor, and Gen Alpha chaos</li>
     <li><strong>Idle Progression:</strong> Automate your brainrot empire and earn points even when not clicking</li>
@@ -43,12 +43,12 @@ export const mergeGamesData = {
     <li><strong>Instant Fun:</strong> No installs, just instant tapping madness</li>
   </ul>
 
-  <h3>Why Players Love Brainrot Clicker</h3>
+  <h2>Why Players Love Brainrot Clicker</h2>
   <p>
     Brainrot Clicker combines the simplicity of idle games with the humor of viral TikToks and weird AI content. It's a perfect boredom-breaker, a stress reliever, and a funny way to test how long you can endure digital chaos. The more you play Brainrot Clicker, the weirder it gets—and that's exactly why players keep coming back.
   </p>
 
-  <h3>Tips for Success in Brainrot Clicker</h3>
+  <h2>Tips for Success in Brainrot Clicker</h2>
   <ol>
     <li><strong>Click Fast Early:</strong> Manual clicking boosts your early income significantly.</li>
     <li><strong>Invest in Automation:</strong> Get autoclickers and generators as soon as possible.</li>
@@ -56,17 +56,17 @@ export const mergeGamesData = {
     <li><strong>Use Prestige Wisely:</strong> Resetting gives you permanent boosts that help you progress faster.</li>
   </ol>
 
-  <h3>FAQs About Brainrot Clicker</h3>
-  <h4>What is Brainrot Clicker?</h4>
+  <h2>FAQs About Brainrot Clicker</h2>
+  <h3>What is Brainrot Clicker?</h3>
   <p>Brainrot Clicker is a free, browser-based idle game full of absurd humor, memes, and chaotic upgrades.</p>
 
-  <h4>Can I play Brainrot Clicker on mobile?</h4>
+  <h3>Can I play Brainrot Clicker on mobile?</h3>
   <p>Yes! Brainrot Clicker is optimized for mobile browsers—no downloads required.</p>
 
-  <h4>Does Brainrot Clicker save my progress?</h4>
+  <h3>Does Brainrot Clicker save my progress?</h3>
   <p>Yes, your progress is saved locally in your browser so you can continue your brainrot empire anytime.</p>
 
-  <h4>Is Brainrot Clicker free?</h4>
+  <h3>Is Brainrot Clicker free?</h3>
   <p>Absolutely! Brainrot Clicker is 100% free to play and doesn't require any registration.</p>
       `,
     },
@@ -89,17 +89,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Merge Brainrot – Dive Into the Ultimate Meme Merge Game</h3>
+      <h2>Merge Brainrot – Dive Into the Ultimate Meme Merge Game</h2>
       <p>
         <strong>Merge Brainrot</strong> is not your average puzzle game. It's a chaotic fusion of strategy, meme culture, and clicker madness. In <strong>Merge Brainrot</strong>, your goal is simple: merge, evolve, and conquer the board with brain-melting memes. But behind its silly graphics and absurd humor lies a surprisingly deep gameplay loop. Whether you're a fan of merge games, idle games, or just love brainrot-infused content, <strong>Merge Brainrot</strong> is the perfect mix of comedy and challenge.
       </p>
     
-      <h3>What Makes Merge Brainrot So Unique?</h3>
+      <h2>What Makes Merge Brainrot So Unique?</h2>
       <p>
         Unlike traditional merge games, <strong>Merge Brainrot</strong> constantly evolves. As you merge identical meme units, you unlock newer, weirder characters—like a spaghetti-powered AI toaster or a pigeon with laser eyes. Every level of <strong>Merge Brainrot</strong> pushes the limits of creativity and absurdity, offering players a fresh experience with every session. It's a brainrot-fueled journey that rewards experimentation, chaos, and humor.
       </p>
     
-      <h3>How to Play Merge Brainrot</h3>
+      <h2>How to Play Merge Brainrot</h2>
       <p>
         Playing <strong>Merge Brainrot</strong> is incredibly easy but dangerously addictive. You start with a blank board and basic meme units. Merge two identical units to create a stronger one. As you progress in <strong>Merge Brainrot</strong>, your units become more bizarre and powerful. The higher the merge level, the more brainrot energy you generate. This energy allows you to unlock even more insane meme upgrades.
       </p>
@@ -110,7 +110,7 @@ export const mergeGamesData = {
         <li>Trigger meme chain reactions for massive combos</li>
       </ul>
     
-      <h3>Merge Brainrot Features</h3>
+      <h2>Merge Brainrot Features</h2>
       <ul>
         <li><strong>Absurd Units:</strong> Only in <strong>Merge Brainrot</strong> will you find a breakdancing cow with a PhD in nonsense</li>
         <li><strong>Idle + Merge Mechanics:</strong> <strong>Merge Brainrot</strong> continues generating energy while you're offline</li>
@@ -119,12 +119,12 @@ export const mergeGamesData = {
         <li><strong>No Downloads:</strong> <strong>Merge Brainrot</strong> is 100% browser-based and mobile-optimized</li>
       </ul>
     
-      <h3>Why People Can't Stop Playing Merge Brainrot</h3>
+      <h2>Why People Can't Stop Playing Merge Brainrot</h2>
       <p>
         <strong>Merge Brainrot</strong> has taken the idle and merge community by storm. It's not just the memes—it's the dopamine. The game delivers a constant sense of reward with every merge. Players love how <strong>Merge Brainrot</strong> balances pure chaos with real progression. You're not just merging items—you're building a meme empire. Each session of <strong>Merge Brainrot</strong> gets funnier, faster, and more unpredictable.
       </p>
     
-      <h3>Merge Brainrot Strategy Tips</h3>
+      <h2>Merge Brainrot Strategy Tips</h2>
       <ol>
         <li><strong>Merge Quickly:</strong> In <strong>Merge Brainrot</strong>, speed means more energy and more chaos.</li>
         <li><strong>Manage Your Board:</strong> Avoid clutter by keeping merges organized in <strong>Merge Brainrot</strong>.</li>
@@ -133,28 +133,28 @@ export const mergeGamesData = {
         <li><strong>Prestige Often:</strong> Resetting in <strong>Merge Brainrot</strong> gives permanent upgrades and unlocks.</li>
       </ol>
     
-      <h3>Merge Brainrot for Mobile and Desktop</h3>
+      <h2>Merge Brainrot for Mobile and Desktop</h2>
       <p>
         Whether you're at your desk or in line at the store, <strong>Merge Brainrot</strong> goes with you. It's fully responsive and mobile-optimized. Play <strong>Merge Brainrot</strong> in any modern browser without downloading anything. Your progress is saved locally, and you can come back anytime to continue your journey into meme madness. <strong>Merge Brainrot</strong> is the perfect pick-up-and-play game for chaos lovers on the go.
       </p>
     
-      <h3>Merge Brainrot FAQs</h3>
-      <h4>What is Merge Brainrot?</h4>
+      <h2>Merge Brainrot FAQs</h2>
+      <h3>What is Merge Brainrot?</h3>
       <p><strong>Merge Brainrot</strong> is a free, browser-based meme merge game where you combine absurd units to evolve and generate brainrot energy.</p>
     
-      <h4>Is Merge Brainrot a mobile game?</h4>
+      <h3>Is Merge Brainrot a mobile game?</h3>
       <p>Yes, <strong>Merge Brainrot</strong> is optimized for both mobile and desktop browsers—no app required.</p>
     
-      <h4>How do I save progress in Merge Brainrot?</h4>
+      <h3>How do I save progress in Merge Brainrot?</h3>
       <p>Your <strong>Merge Brainrot</strong> progress is automatically saved in your browser using local storage.</p>
     
-      <h4>Is Merge Brainrot free?</h4>
+      <h3>Is Merge Brainrot free?</h3>
       <p>Yes! <strong>Merge Brainrot</strong> is 100% free to play with no registration or download needed.</p>
     
-      <h4>Can I play Merge Brainrot offline?</h4>
+      <h3>Can I play Merge Brainrot offline?</h3>
       <p>While <strong>Merge Brainrot</strong> is browser-based, it may require an internet connection for first load. After that, some features may work offline depending on your browser.</p>
     
-      <h3>Start Playing Merge Brainrot Now</h3>
+      <h2>Start Playing Merge Brainrot Now</h2>
       <p>
         If you're looking for a wild, weird, and wonderful puzzle experience, look no further than <strong>Merge Brainrot</strong>. It's strategic. It's silly. It's pure brainrot. Start merging now and see how far down the meme rabbit hole you can go. <strong>Merge Brainrot</strong> is more than a game—it's a state of mind.
       </p>
@@ -179,17 +179,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: false,
       detailsHtml: `
-      <h3>Merge Fellas Italian Brainrot – Pasta-Powered Merge Insanity</h3>
+      <h2>Merge Fellas Italian Brainrot – Pasta-Powered Merge Insanity</h2>
       <p>
         <strong>Merge Fellas Italian Brainrot</strong> isn't just a game—it's an operatic explosion of chaos. Merge meme fellas, evolve your grid, and dive headfirst into the most chaotic Italian experience ever coded. Whether you're summoning espresso ghosts or merging flying meatballs, <strong>Merge Fellas Italian Brainrot</strong> delivers nonstop meme energy with every tap.
       </p>
     
-      <h3>What Is Merge Fellas Italian Brainrot?</h3>
+      <h2>What Is Merge Fellas Italian Brainrot?</h2>
       <p>
         <strong>Merge Fellas Italian Brainrot</strong> is a free, browser-based puzzle game where Italian memes collide with merge mechanics. Start with two mustachioed fellas, merge them into animated Nonnas, upgrade to yelling opera uncles, and eventually summon the final boss: Gigaziti Nonno. <strong>Merge Fellas Italian Brainrot</strong> turns every move into a melodramatic opera of brainrot glory.
       </p>
     
-      <h3>How to Play Merge Fellas Italian Brainrot</h3>
+      <h2>How to Play Merge Fellas Italian Brainrot</h2>
       <p>
         Playing <strong>Merge Fellas Italian Brainrot</strong> is easy: drag and merge matching fellas to create stronger, stranger units. Watch your board spiral into chaos as you unlock new layers of absurdity, all while collecting pasta coins and espresso energy. Strategic merges trigger random events—from tomato avalanches to disco mopeds.
       </p>
@@ -200,7 +200,7 @@ export const mergeGamesData = {
         <li>Prestige to enter "Roman Mode" and reset with multipliers</li>
       </ul>
     
-      <h3>Merge Fellas Italian Brainrot Features</h3>
+      <h2>Merge Fellas Italian Brainrot Features</h2>
       <ul>
         <li><strong>True Brainrot Design:</strong> <strong>Merge Fellas Italian Brainrot</strong> delivers maximum absurdity per square pixel</li>
         <li><strong>Over 50 Merge Levels:</strong> From carbonara cats to espresso-powered AI scooters</li>
@@ -209,12 +209,12 @@ export const mergeGamesData = {
         <li><strong>No Login Needed:</strong> Instant meme. Instant madness. Instant fella.</li>
       </ul>
     
-      <h3>Why Players Love Merge Fellas Italian Brainrot</h3>
+      <h2>Why Players Love Merge Fellas Italian Brainrot</h2>
       <p>
         <strong>Merge Fellas Italian Brainrot</strong> blends meme humor, idle gameplay, and pure brainrot into one perfect dish. Players return for the madness—unexpected upgrades, random Italian phrases, and that one unit that just screams "Mamma Mia!" every few seconds. It's the kind of game that defies logic but satisfies your dopamine craving.
       </p>
     
-      <h3>Merge Fellas Italian Brainrot Pro Tips</h3>
+      <h2>Merge Fellas Italian Brainrot Pro Tips</h2>
       <ol>
         <li><strong>Merge Smart:</strong> Fill your board with high-tier fellas early</li>
         <li><strong>Upgrade Nonna Boosts:</strong> They give massive pasta production in <strong>Merge Fellas Italian Brainrot</strong></li>
@@ -223,20 +223,20 @@ export const mergeGamesData = {
         <li><strong>Turn On Sound:</strong> It's half the experience in <strong>Merge Fellas Italian Brainrot</strong></li>
       </ol>
     
-      <h3>Merge Fellas Italian Brainrot FAQs</h3>
-      <h4>Is Merge Fellas Italian Brainrot free?</h4>
+      <h2>Merge Fellas Italian Brainrot FAQs</h2>
+      <h3>Is Merge Fellas Italian Brainrot free?</h3>
       <p>Yes! <strong>Merge Fellas Italian Brainrot</strong> is 100% free to play in your browser. No downloads. No paywalls. Just chaos.</p>
     
-      <h4>Can I play Merge Fellas Italian Brainrot on mobile?</h4>
+      <h3>Can I play Merge Fellas Italian Brainrot on mobile?</h3>
       <p>Absolutely. <strong>Merge Fellas Italian Brainrot</strong> works on any modern device with a browser.</p>
     
-      <h4>Does the game save my progress?</h4>
+      <h3>Does the game save my progress?</h3>
       <p>Yes. <strong>Merge Fellas Italian Brainrot</strong> saves your game locally, so you can continue your pasta-powered journey anytime.</p>
     
-      <h4>Is Merge Fellas Italian Brainrot family-friendly?</h4>
+      <h3>Is Merge Fellas Italian Brainrot family-friendly?</h3>
       <p>Technically yes, but it's got loud noises, chaotic visuals, and screaming digital Nonnas. You've been warned.</p>
     
-      <h3>Play Merge Fellas Italian Brainrot Now</h3>
+      <h2>Play Merge Fellas Italian Brainrot Now</h2>
       <p>
         Ready to enter the chaotic fella-verse? <strong>Merge Fellas Italian Brainrot</strong> is waiting. Tap, merge, scream, and laugh your way through the loudest, proudest, and most brainrotted merge game ever made. Mamma Mia, what are you waiting for? Start your journey in <strong>Merge Fellas Italian Brainrot</strong> today!
       </p>
@@ -261,17 +261,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: false,
       detailsHtml: `
-      <h3>Merge Fruit – A Sweet, Juicy Merge Puzzle Game</h3>
+      <h2>Merge Fruit – A Sweet, Juicy Merge Puzzle Game</h2>
       <p>
         <strong>Merge Fruit</strong> is a delightful and addictive puzzle game where you combine juicy fruits to create even juicier fruits. With each successful merge, you'll unlock new fruit varieties and build your own sweet empire. It's a game that's both relaxing and satisfying, with every fruit combo offering a small burst of joy. Whether you're a fan of casual puzzle games or just love fruits, <strong>Merge Fruit</strong> will keep you hooked.
       </p>
     
-      <h3>What is Merge Fruit?</h3>
+      <h2>What is Merge Fruit?</h2>
       <p>
         <strong>Merge Fruit</strong> is an easy-to-play game where you start with simple fruits like apples and oranges and merge them to create more complex fruit combinations like mangoes, pineapples, and more. Each merge unlocks a new level, and the further you progress, the more exotic and rare fruits you'll discover. The game combines simple mechanics with fun fruit-themed visuals and sounds, making it a perfect casual game to unwind with.
       </p>
     
-      <h3>How to Play Merge Fruit</h3>
+      <h2>How to Play Merge Fruit</h2>
       <p>
         Playing <strong>Merge Fruit</strong> is super simple! Drag and drop two matching fruits to combine them into a new, upgraded fruit. The more you merge, the more you unlock. As you progress, you'll face new challenges and obstacles that will require strategic thinking and planning. But don't worry, the game's easy pace and colorful, refreshing graphics will make sure you never get bored.
       </p>
@@ -282,7 +282,7 @@ export const mergeGamesData = {
         <li>Strategize to keep your fruit grid organized and ready for more merges</li>
       </ul>
     
-      <h3>Merge Fruit Features</h3>
+      <h2>Merge Fruit Features</h2>
       <ul>
         <li><strong>Relaxing Gameplay:</strong> Merge fruits at your own pace without the pressure of timers or complicated mechanics</li>
         <li><strong>Colorful Graphics:</strong> Enjoy beautiful, vibrant fruit visuals that are pleasing to the eyes</li>
@@ -291,12 +291,12 @@ export const mergeGamesData = {
         <li><strong>No Downloads:</strong> <strong>Merge Fruit</strong> is playable directly in your browser—no downloads required!</li>
       </ul>
     
-      <h3>Why Players Love Merge Fruit</h3>
+      <h2>Why Players Love Merge Fruit</h2>
       <p>
         <strong>Merge Fruit</strong> is perfect for anyone who loves casual, relaxing games with simple mechanics and a lot of rewards. It's a low-stress way to enjoy a fruit-filled adventure. The satisfaction of creating the perfect fruit combo is unmatched, and with endless opportunities for merging and unlocking new fruits, <strong>Merge Fruit</strong> keeps you coming back for more. The game's soothing pace makes it perfect for playing during breaks or whenever you need a moment of relaxation.
       </p>
     
-      <h3>Merge Fruit Tips and Tricks</h3>
+      <h2>Merge Fruit Tips and Tricks</h2>
       <ol>
         <li><strong>Plan Your Merges:</strong> The more you plan ahead, the faster you'll progress. Try to organize your fruit grid!</li>
         <li><strong>Don't Rush:</strong> Enjoy the process! There's no need to hurry—take your time to figure out the best merges.</li>
@@ -305,23 +305,23 @@ export const mergeGamesData = {
         <li><strong>Refresh the Grid:</strong> If you're stuck, refreshing the grid can give you new opportunities to combine fruits.</li>
       </ol>
     
-      <h3>Merge Fruit FAQ</h3>
-      <h4>What is Merge Fruit?</h4>
+      <h2>Merge Fruit FAQ</h2>
+      <h3>What is Merge Fruit?</h3>
       <p><strong>Merge Fruit</strong> is a fun and casual merge game where you combine different fruits to create new, upgraded varieties and unlock exotic fruits.</p>
     
-      <h4>Is Merge Fruit free to play?</h4>
+      <h3>Is Merge Fruit free to play?</h3>
       <p>Yes! <strong>Merge Fruit</strong> is free to play in your browser with no downloads or registrations required.</p>
     
-      <h4>Can I play Merge Fruit on mobile?</h4>
+      <h3>Can I play Merge Fruit on mobile?</h3>
       <p>Absolutely! <strong>Merge Fruit</strong> is optimized for both mobile and desktop browsers, making it easy to play on any device.</p>
     
-      <h4>How do I save progress in Merge Fruit?</h4>
+      <h3>How do I save progress in Merge Fruit?</h3>
       <p>Your progress is saved automatically in your browser. Just return to the game anytime, and pick up where you left off.</p>
     
-      <h4>Is Merge Fruit a multiplayer game?</h4>
+      <h3>Is Merge Fruit a multiplayer game?</h3>
       <p>Currently, <strong>Merge Fruit</strong> is a single-player experience, but you can compete against your own best scores and achievements.</p>
     
-      <h3>Play Merge Fruit Now</h3>
+      <h2>Play Merge Fruit Now</h2>
       <p>
         Don't wait—start playing <strong>Merge Fruit</strong> today and begin your sweet fruit adventure! Merge, unlock, and discover new fruits as you create the juiciest fruit empire in the game. It's a fun, relaxing game that you can enjoy at your own pace. Ready to become the master of fruit combos? Play now!
       </p>
@@ -346,17 +346,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: false,
       detailsHtml: `
-      <h3>Merge Brainrot – The Ultimate Meme Merge Game</h3>
+      <h2>Merge Brainrot – The Ultimate Meme Merge Game</h2>
       <p>
         <strong>Merge Brainrot</strong> is not for the faint of heart. It's a chaotic, brain-busting, meme-fueled merge game where every combination leads you deeper into absurdity. In <strong>Merge Brainrot</strong>, you don't just play—you surrender to madness. Merge units, create horrifying meme creatures, and watch your screen devolve into glorious, senseless chaos.
       </p>
     
-      <h3>What is Merge Brainrot?</h3>
+      <h2>What is Merge Brainrot?</h2>
       <p>
         <strong>Merge Brainrot</strong> is a browser-based puzzle idle game where the main mechanic is merging similar meme entities to unlock stronger and stranger ones. From a banana with AI eyes to a dancing printer powered by anxiety, <strong>Merge Brainrot</strong> throws logic out the window and invites you to embrace the nonsense. It's the digital embodiment of "What if TikTok and DALL·E had a baby?"
       </p>
     
-      <h3>How to Play Merge Brainrot</h3>
+      <h2>How to Play Merge Brainrot</h2>
       <p>
         Playing <strong>Merge Brainrot</strong> is as easy as tapping and dragging. Just match identical meme units to combine them into higher-level chaos. The more you merge, the faster your brainrot score climbs. New units appear with ridiculous animations, sound effects, and bizarre power-ups.
       </p>
@@ -367,7 +367,7 @@ export const mergeGamesData = {
         <li>Use boosters to increase merge speed and summon mega-fusion events</li>
       </ul>
     
-      <h3>Merge Brainrot Features</h3>
+      <h2>Merge Brainrot Features</h2>
       <ul>
         <li><strong>Meme Mayhem:</strong> Each unit in <strong>Merge Brainrot</strong> is handcrafted from pure internet nonsense</li>
         <li><strong>Infinite Merge Levels:</strong> Keep merging and evolving—there's no final form</li>
@@ -376,12 +376,12 @@ export const mergeGamesData = {
         <li><strong>Instant Fun:</strong> No downloads, no logins, just you and the memes</li>
       </ul>
     
-      <h3>Why People Love Merge Brainrot</h3>
+      <h2>Why People Love Merge Brainrot</h2>
       <p>
         <strong>Merge Brainrot</strong> isn't just a game—it's a vibe. Players love the nonstop weirdness, the dopamine-heavy merge combos, and the way the game never takes itself seriously. Every minute brings a new surprise, from exploding donuts to AI frogs that quote Shakespeare backwards. If you love memes, clickers, and a little bit of chaos, <strong>Merge Brainrot</strong> is your new obsession.
       </p>
     
-      <h3>Merge Brainrot Tips and Tricks</h3>
+      <h2>Merge Brainrot Tips and Tricks</h2>
       <ol>
         <li><strong>Merge Fast, Merge Often:</strong> More merges = more brainrot score</li>
         <li><strong>Watch Your Grid:</strong> Don't let it overflow—keep combining to stay efficient</li>
@@ -390,23 +390,23 @@ export const mergeGamesData = {
         <li><strong>Embrace the Madness:</strong> There is no strategy. Only memes.</li>
       </ol>
     
-      <h3>Merge Brainrot FAQ</h3>
-      <h4>What is Merge Brainrot?</h4>
+      <h2>Merge Brainrot FAQ</h2>
+      <h3>What is Merge Brainrot?</h3>
       <p><strong>Merge Brainrot</strong> is a free browser merge game where memes meet madness in an infinite puzzle of chaos.</p>
     
-      <h4>Is Merge Brainrot free?</h4>
+      <h3>Is Merge Brainrot free?</h3>
       <p>Yes! <strong>Merge Brainrot</strong> is completely free to play and doesn't require any installation or login.</p>
     
-      <h4>Does Merge Brainrot save progress?</h4>
+      <h3>Does Merge Brainrot save progress?</h3>
       <p>Yes, your brainrot is safely stored in local storage, ready to return whenever you are.</p>
     
-      <h4>Can I play Merge Brainrot on my phone?</h4>
+      <h3>Can I play Merge Brainrot on my phone?</h3>
       <p>Absolutely. <strong>Merge Brainrot</strong> is fully mobile-compatible and plays great on any modern browser.</p>
     
-      <h4>Why does Merge Brainrot feel like a fever dream?</h4>
+      <h3>Why does Merge Brainrot feel like a fever dream?</h3>
       <p>Because it is. And that's why you love it.</p>
     
-      <h3>Start Your Merge Brainrot Journey</h3>
+      <h2>Start Your Merge Brainrot Journey</h2>
       <p>
         You're one tap away from the most absurd gaming experience on the internet. <strong>Merge Brainrot</strong> is here to fill your screen (and your brain) with unrelenting digital madness. Play now, merge faster, and become the king of brainrot. Let the memes guide you.
       </p>
@@ -431,17 +431,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Watermelon Game – A Fresh and Juicy Merge Puzzle</h3>
+      <h2>Watermelon Game – A Fresh and Juicy Merge Puzzle</h2>
       <p>
         <strong>Watermelon Game</strong> is the internet’s favorite relaxing merge puzzle. Drop fruits into a container and merge matching ones to discover new, bigger, and juicier fruits—until you create the ultimate reward: the watermelon. <strong>Watermelon Game</strong> is easy to play, beautifully designed, and full of fruity fun. Whether you're aiming for the perfect watermelon or just want to unwind with satisfying merges, <strong>Watermelon Game</strong> is the perfect companion.
       </p>
     
-      <h3>What Is Watermelon Game?</h3>
+      <h2>What Is Watermelon Game?</h2>
       <p>
         <strong>Watermelon Game</strong> is a physics-based puzzle game where fruits fall into a container. When two of the same kind collide, they merge into the next fruit in the chain. The goal is to keep combining fruits until you unlock the elusive watermelon—the biggest and juiciest fruit of all. Simple, cute, and endlessly addictive, <strong>Watermelon Game</strong> is all about timing, space, and sweet satisfaction.
       </p>
     
-      <h3>How to Play Watermelon Game</h3>
+      <h2>How to Play Watermelon Game</h2>
       <p>
         Playing <strong>Watermelon Game</strong> is as easy as dropping fruit—but mastering it takes skill. Use the following tips to build your ultimate watermelon combo:
       </p>
@@ -452,7 +452,7 @@ export const mergeGamesData = {
         <li>Keep the fruit below the top line—once you overflow, it’s game over!</li>
       </ul>
     
-      <h3>Watermelon Game Features</h3>
+      <h2>Watermelon Game Features</h2>
       <ul>
         <li><strong>Relaxing Gameplay:</strong> <strong>Watermelon Game</strong> is perfect for a chill break or casual gaming session</li>
         <li><strong>Beautiful Design:</strong> Soft colors, smooth animations, and cute fruit faces make each moment delightful</li>
@@ -461,12 +461,12 @@ export const mergeGamesData = {
         <li><strong>Endless Challenge:</strong> See how many watermelons you can create before running out of space!</li>
       </ul>
     
-      <h3>Why Everyone Loves Watermelon Game</h3>
+      <h2>Why Everyone Loves Watermelon Game</h2>
       <p>
         The charm of <strong>Watermelon Game</strong> lies in its simplicity. It requires no instructions, but quickly becomes an obsession. Players love the mix of strategy and luck, the satisfaction of each perfect merge, and the joy of seeing a watermelon finally form. It’s relaxing, challenging, and a little bit adorable—all in one fruity package.
       </p>
     
-      <h3>Watermelon Game Tips and Tricks</h3>
+      <h2>Watermelon Game Tips and Tricks</h2>
       <ol>
         <li><strong>Drop Carefully:</strong> Avoid stacking too high too fast. Precision beats speed in <strong>Watermelon Game</strong>.</li>
         <li><strong>Create Chain Reactions:</strong> Try to merge fruits near each other to cause combos.</li>
@@ -475,23 +475,23 @@ export const mergeGamesData = {
         <li><strong>Watch for Wobble:</strong> The physics system in <strong>Watermelon Game</strong> can surprise you—stay balanced!</li>
       </ol>
     
-      <h3>Watermelon Game FAQ</h3>
-      <h4>What is the goal of Watermelon Game?</h4>
+      <h2>Watermelon Game FAQ</h2>
+      <h3>What is the goal of Watermelon Game?</h3>
       <p>The main goal in <strong>Watermelon Game</strong> is to merge fruits and create a watermelon—the largest fruit in the game.</p>
     
-      <h4>Is Watermelon Game free to play?</h4>
+      <h3>Is Watermelon Game free to play?</h3>
       <p>Yes! <strong>Watermelon Game</strong> is completely free to play in your browser—no downloads or installs required.</p>
     
-      <h4>Can I play Watermelon Game on mobile?</h4>
+      <h3>Can I play Watermelon Game on mobile?</h3>
       <p>Absolutely. <strong>Watermelon Game</strong> is fully responsive and works great on mobile phones and tablets.</p>
     
-      <h4>How is Watermelon Game different from other merge games?</h4>
+      <h3>How is Watermelon Game different from other merge games?</h3>
       <p><strong>Watermelon Game</strong> combines physics, merging, and casual puzzle mechanics in a uniquely fun way.</p>
     
-      <h4>Is Watermelon Game hard?</h4>
+      <h3>Is Watermelon Game hard?</h3>
       <p><strong>Watermelon Game</strong> is easy to pick up but challenging to master. Perfect for players of all skill levels.</p>
     
-      <h3>Start Playing Watermelon Game Today</h3>
+      <h2>Start Playing Watermelon Game Today</h2>
       <p>
         Ready to experience the most satisfying fruit merge ever? <strong>Watermelon Game</strong> is waiting! Relax, tap, and enjoy as apples become oranges, oranges become pineapples, and eventually you reach the juicy goal: the watermelon. Start your fruity journey now and fall in love with the charm of <strong>Watermelon Game</strong>.
       </p>
@@ -516,17 +516,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Funny Cubes 2048 – Hilarious Cubes, Serious Merges</h3>
+      <h2>Funny Cubes 2048 – Hilarious Cubes, Serious Merges</h2>
       <p>
         <strong>Funny Cubes 2048</strong> is your new favorite merge puzzle packed with attitude and cubes that have way too much personality. It’s the classic 2048 mechanic, but reimagined with bouncing, giggling, grumpy, and absolutely ridiculous cubes. If you’ve ever wanted your number blocks to have a little more sass, <strong>Funny Cubes 2048</strong> delivers with every swipe.
       </p>
     
-      <h3>What is Funny Cubes 2048?</h3>
+      <h2>What is Funny Cubes 2048?</h2>
       <p>
         <strong>Funny Cubes 2048</strong> takes the beloved 2048 formula and adds a dash of meme magic. Slide your funny cubes around the board, merging identical numbers until you reach the legendary 2048 cube—and beyond. Each cube has its own goofy animation and quirky face, from smug 2s to terrified 1024s. It’s the funniest way to sharpen your brain.
       </p>
     
-      <h3>How to Play Funny Cubes 2048</h3>
+      <h2>How to Play Funny Cubes 2048</h2>
       <p>
         Playing <strong>Funny Cubes 2048</strong> is easy, but mastering it? That’s a challenge worthy of a 2048 overlord. Swipe the board in any direction—left, right, up, or down. When two cubes with the same number touch, they merge into one. But don’t let the board fill up, or your cube dreams come crashing down.
       </p>
@@ -537,7 +537,7 @@ export const mergeGamesData = {
         <li>Laugh at every cube’s reaction—it’s all part of the fun</li>
       </ul>
     
-      <h3>Funny Cubes 2048 Features</h3>
+      <h2>Funny Cubes 2048 Features</h2>
       <ul>
         <li><strong>Hilarious Cube Characters:</strong> Every cube has a unique face, voice, or reaction</li>
         <li><strong>Classic 2048 Mechanics:</strong> Swipe, merge, and aim for the magic number</li>
@@ -546,12 +546,12 @@ export const mergeGamesData = {
         <li><strong>Casual but Addictive:</strong> Easy to start, impossible to put down</li>
       </ul>
     
-      <h3>Why Players Love Funny Cubes 2048</h3>
+      <h2>Why Players Love Funny Cubes 2048</h2>
       <p>
         <strong>Funny Cubes 2048</strong> offers more than numbers—it’s personality-packed, brain-tickling, and full of unexpected laughs. Whether you're a puzzle pro or a casual gamer, the absurdity of cubes yelling “Ouch!” or “Bro!” when merging adds a delightful twist. It’s math meets meme, logic meets LOLs, all wrapped up in a brightly colored cube grid.
       </p>
     
-      <h3>Funny Cubes 2048 Tips and Tricks</h3>
+      <h2>Funny Cubes 2048 Tips and Tricks</h2>
       <ol>
         <li><strong>Think Before You Swipe:</strong> Don’t waste moves—plan ahead to keep the board clear</li>
         <li><strong>Stick to One Direction:</strong> Try merging in a consistent pattern to control cube flow</li>
@@ -560,23 +560,23 @@ export const mergeGamesData = {
         <li><strong>Enjoy the Chaos:</strong> It’s OK to laugh when the 128 cube screams “Why me?!”</li>
       </ol>
     
-      <h3>Funny Cubes 2048 FAQ</h3>
-      <h4>What is Funny Cubes 2048?</h4>
+      <h2>Funny Cubes 2048 FAQ</h2>
+      <h3>What is Funny Cubes 2048?</h3>
       <p><strong>Funny Cubes 2048</strong> is a humor-infused version of the 2048 puzzle game, featuring hilarious animated number cubes with personality.</p>
     
-      <h4>Is Funny Cubes 2048 free to play?</h4>
+      <h3>Is Funny Cubes 2048 free to play?</h3>
       <p>Yes! <strong>Funny Cubes 2048</strong> is free to play online with no registration or downloads needed.</p>
     
-      <h4>Can I play Funny Cubes 2048 on mobile?</h4>
+      <h3>Can I play Funny Cubes 2048 on mobile?</h3>
       <p>Absolutely! <strong>Funny Cubes 2048</strong> is fully mobile-responsive and works great on phones and tablets.</p>
     
-      <h4>Does Funny Cubes 2048 save my progress?</h4>
+      <h3>Does Funny Cubes 2048 save my progress?</h3>
       <p>Your progress is saved in your browser, so you can pick up where you left off anytime.</p>
     
-      <h4>Is Funny Cubes 2048 suitable for all ages?</h4>
+      <h3>Is Funny Cubes 2048 suitable for all ages?</h3>
       <p>Yes, <strong>Funny Cubes 2048</strong> is family-friendly and safe for all players—unless you’re allergic to laughter.</p>
     
-      <h3>Play Funny Cubes 2048 Now</h3>
+      <h2>Play Funny Cubes 2048 Now</h2>
       <p>
         Ready to laugh your way to 2048? Dive into <strong>Funny Cubes 2048</strong> and experience puzzle gaming like never before. Slide, merge, giggle, repeat. Whether you make it to 2048 or just enjoy the ride, <strong>Funny Cubes 2048</strong> guarantees brainy fun with a silly twist.
       </p>
@@ -601,17 +601,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Number Merge – The Ultimate Number Puzzle Challenge</h3>
+      <h2>Number Merge – The Ultimate Number Puzzle Challenge</h2>
       <p>
         <strong>Number Merge</strong> is a beautifully simple yet endlessly addictive puzzle game where logic meets numbers in the most satisfying way. Just swipe, merge, and grow your digits to reach the highest possible score. Whether you’re a casual swiper or a number ninja, <strong>Number Merge</strong> offers brainy entertainment with every move.
       </p>
     
-      <h3>What is Number Merge?</h3>
+      <h2>What is Number Merge?</h2>
       <p>
         <strong>Number Merge</strong> is a tile-based merging game where identical numbers combine to create larger values. Start with small numbers and keep merging to grow your total. Sounds easy? Wait until your board fills up and every swipe counts! <strong>Number Merge</strong> turns number puzzles into an engaging game of strategy, patience, and pattern recognition.
       </p>
     
-      <h3>How to Play Number Merge</h3>
+      <h2>How to Play Number Merge</h2>
       <p>
         Playing <strong>Number Merge</strong> is intuitive and fun. Just swipe in any direction—left, right, up, or down. Whenever two tiles with the same number collide, they merge into one tile with a doubled value. Keep combining to reach new highs!
       </p>
@@ -622,7 +622,7 @@ export const mergeGamesData = {
         <li>Score as high as you can—then try to beat it!</li>
       </ul>
     
-      <h3>Number Merge Features</h3>
+      <h2>Number Merge Features</h2>
       <ul>
         <li><strong>Classic Number Mechanics:</strong> Easy to learn, tough to master merge rules</li>
         <li><strong>Minimalist Design:</strong> Clean, modern interface with smooth animations</li>
@@ -631,12 +631,12 @@ export const mergeGamesData = {
         <li><strong>Cross-Device Play:</strong> Works perfectly on desktop and mobile browsers</li>
       </ul>
     
-      <h3>Why You’ll Love Number Merge</h3>
+      <h2>Why You’ll Love Number Merge</h2>
       <p>
         <strong>Number Merge</strong> isn’t just about numbers—it’s about flow, rhythm, and finding your perfect merging groove. Every satisfying combination gives you that brain-tingling reward feeling. Whether you're passing time or deeply strategizing, <strong>Number Merge</strong> is the number game that sticks with you.
       </p>
     
-      <h3>Tips & Tricks for Number Merge</h3>
+      <h2>Tips & Tricks for Number Merge</h2>
       <ol>
         <li><strong>Corner Strategy:</strong> Try to keep your highest tile in a corner for better control</li>
         <li><strong>Think Ahead:</strong> Every move matters—anticipate what comes next</li>
@@ -645,23 +645,23 @@ export const mergeGamesData = {
         <li><strong>Practice Makes Perfect:</strong> The more you play, the better you plan</li>
       </ol>
     
-      <h3>Number Merge FAQ</h3>
-      <h4>What is Number Merge?</h4>
+      <h2>Number Merge FAQ</h2>
+      <h3>What is Number Merge?</h3>
       <p><strong>Number Merge</strong> is a tile-sliding puzzle game where players combine matching numbers to form larger ones, aiming to score as high as possible.</p>
     
-      <h4>Is Number Merge free to play?</h4>
+      <h3>Is Number Merge free to play?</h3>
       <p>Yes! <strong>Number Merge</strong> is entirely free to play online—no downloads, no installs.</p>
     
-      <h4>Can I play Number Merge on my phone?</h4>
+      <h3>Can I play Number Merge on my phone?</h3>
       <p>Definitely. <strong>Number Merge</strong> is fully responsive and optimized for both desktop and mobile browsers.</p>
     
-      <h4>Does Number Merge save my score?</h4>
+      <h3>Does Number Merge save my score?</h3>
       <p>Yes, your high scores are saved in your browser so you can challenge yourself anytime.</p>
     
-      <h4>Is Number Merge good for kids?</h4>
+      <h3>Is Number Merge good for kids?</h3>
       <p>Absolutely! <strong>Number Merge</strong> is a family-friendly game that’s great for developing logic and math skills.</p>
     
-      <h3>Play Number Merge Now</h3>
+      <h2>Play Number Merge Now</h2>
       <p>
         Ready to join the number fusion frenzy? Try <strong>Number Merge</strong> today and discover the joy of combining tiles, beating scores, and mastering the grid. Whether you're chasing the elusive 2048 or just enjoying the smooth gameplay, <strong>Number Merge</strong> is your new go-to puzzle obsession.
       </p>
@@ -686,17 +686,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>2048 Italian Brainrot – Quando la matematica incontra il dramma</h3>
+      <h2>2048 Italian Brainrot – Quando la matematica incontra il dramma</h2>
       <p>
         <strong>2048 Italian Brainrot</strong> is not just a game—it's an *experience*. It’s you, a grid, numbers, and the ghost of a melodramatic nonna whispering “merge faster, ragazzo!” in your ear. In <strong>2048 Italian Brainrot</strong>, logic meets chaos, and every swipe is a passionate act of destiny.
       </p>
     
-      <h3>What is 2048 Italian Brainrot?</h3>
+      <h2>What is 2048 Italian Brainrot?</h2>
       <p>
         <strong>2048 Italian Brainrot</strong> takes the classic 2048 puzzle and marinates it in full Italian brainrot sauce. You merge numbers, sì, but you're also navigating a storm of espresso-fueled tension, opera-level emotion, and pasta-fueled dreams. Every 2 that meets a 2 becomes a dramatic reunion. Every 1024 merge is like a family screaming at dinner.
       </p>
     
-      <h3>How to Play 2048 Italian Brainrot</h3>
+      <h2>How to Play 2048 Italian Brainrot</h2>
       <p>
         The rules? Same as classic 2048, but the *flavor* is different. Swipe to move all tiles. Merge matching numbers. Reach 2048—or lose yourself in a frenzy of irrational decisions and sudden plot twists.
       </p>
@@ -707,7 +707,7 @@ export const mergeGamesData = {
         <li>Try to reach the fated number: <strong>2048</strong> (or beyond, per Dio!)</li>
       </ul>
     
-      <h3>Features of 2048 Italian Brainrot</h3>
+      <h2>Features of 2048 Italian Brainrot</h2>
       <ul>
         <li><strong>Dramatic Merges:</strong> Every move feels like a betrayal or a passionate kiss</li>
         <li><strong>Chaotic Energy:</strong> UI and sound effects designed to overwhelm (in a good way)</li>
@@ -716,12 +716,12 @@ export const mergeGamesData = {
         <li><strong>Pure Madness:</strong> It's <strong>2048 Italian Brainrot</strong>. What did you expect? Stability?</li>
       </ul>
     
-      <h3>Why You'll Love 2048 Italian Brainrot</h3>
+      <h2>Why You'll Love 2048 Italian Brainrot</h2>
       <p>
         If regular 2048 is a math class, <strong>2048 Italian Brainrot</strong> is an opera on fire. You’ll laugh. You’ll cry. You’ll shout “Mamma mia!” as you accidentally merge your 512 into oblivion. It’s ridiculous. It’s brilliant. It’s <strong>2048 Italian Brainrot</strong>.
       </p>
     
-      <h3>Tips & Tricks for 2048 Italian Brainrot</h3>
+      <h2>Tips & Tricks for 2048 Italian Brainrot</h2>
       <ol>
         <li><strong>Embrace the chaos:</strong> Strategy is optional. Drama is not.</li>
         <li><strong>Corner your highest tile:</strong> Like hiding the family secret behind the wine rack</li>
@@ -730,23 +730,23 @@ export const mergeGamesData = {
         <li><strong>Play with sound on:</strong> The music slaps harder than Nonna’s wooden spoon</li>
       </ol>
     
-      <h3>2048 Italian Brainrot FAQ</h3>
-      <h4>What is 2048 Italian Brainrot?</h4>
+      <h2>2048 Italian Brainrot FAQ</h2>
+      <h3>What is 2048 Italian Brainrot?</h3>
       <p><strong>2048 Italian Brainrot</strong> is a chaotic and dramatic twist on the classic 2048 number puzzle game, loaded with memes, flair, and pasta-fueled logic.</p>
     
-      <h4>Is 2048 Italian Brainrot free?</h4>
+      <h3>Is 2048 Italian Brainrot free?</h3>
       <p>Yes! It’s as free as the advice from your loudest Italian uncle.</p>
     
-      <h4>Can I play 2048 Italian Brainrot on my phone?</h4>
+      <h3>Can I play 2048 Italian Brainrot on my phone?</h3>
       <p>Of course. Play it on the train, in bed, or while waiting for your espresso to finish brewing.</p>
     
-      <h4>Is this just 2048 with drama?</h4>
+      <h3>Is this just 2048 with drama?</h3>
       <p>It’s 2048 with <strong>dramma</strong>. That’s a whole different category.</p>
     
-      <h4>Will I survive the brainrot?</h4>
+      <h3>Will I survive the brainrot?</h3>
       <p>Unlikely. But you’ll enjoy every over-the-top, absurd second of it.</p>
     
-      <h3>Play 2048 Italian Brainrot Now</h3>
+      <h2>Play 2048 Italian Brainrot Now</h2>
       <p>
         Step into the grid where numbers collide and emotions erupt. Play <strong>2048 Italian Brainrot</strong> now and discover a puzzle experience drenched in passion, confusion, and nonsensical beauty. It’s logic... but make it Italian.
       </p>
@@ -772,17 +772,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Fish Eat Getting Big – Eat, Grow, and Survive!</h3>
+      <h2>Fish Eat Getting Big – Eat, Grow, and Survive!</h2>
       <p>
         Dive into the deep blue with <strong>Fish Eat Getting Big</strong>, the underwater survival game where size means everything. Start as a tiny fish, eat smaller sea creatures, and grow bigger with every bite. But beware—bigger fish are out there, and they’re hungry too! In <strong>Fish Eat Getting Big</strong>, only the smartest and fastest survive.
       </p>
     
-      <h3>What is Fish Eat Getting Big?</h3>
+      <h2>What is Fish Eat Getting Big?</h2>
       <p>
         <strong>Fish Eat Getting Big</strong> is an action-packed ocean game where your goal is simple: eat or be eaten. Control your fish, dodge predators, and gobble up smaller prey to increase your size. The bigger you get, the more you dominate the sea. It’s survival of the fittest in this dynamic fish-eat-fish world!
       </p>
     
-      <h3>How to Play Fish Eat Getting Big</h3>
+      <h2>How to Play Fish Eat Getting Big</h2>
       <p>
         Playing <strong>Fish Eat Getting Big</strong> is both simple and addictive. Navigate your fish around the ocean using easy controls, target smaller fish, and avoid bigger threats. Grow fast, evolve, and become the top predator!
       </p>
@@ -793,7 +793,7 @@ export const mergeGamesData = {
         <li>Survive as long as possible and reach mega-fish status</li>
       </ul>
     
-      <h3>Fish Eat Getting Big Features</h3>
+      <h2>Fish Eat Getting Big Features</h2>
       <ul>
         <li><strong>Fun Growth Gameplay:</strong> Start small and evolve into a sea giant</li>
         <li><strong>Colorful Ocean World:</strong> Vibrant underwater graphics and lively creatures</li>
@@ -802,12 +802,12 @@ export const mergeGamesData = {
         <li><strong>Cross-Platform Play:</strong> <strong>Fish Eat Getting Big</strong> runs smoothly on mobile and desktop</li>
       </ul>
     
-      <h3>Why You'll Love Fish Eat Getting Big</h3>
+      <h2>Why You'll Love Fish Eat Getting Big</h2>
       <p>
         <strong>Fish Eat Getting Big</strong> is pure arcade joy. It’s simple, fast, and rewarding. There's nothing like that moment when you go from snack-sized to sea monster. Whether you're looking to kill a few minutes or chase a high score, <strong>Fish Eat Getting Big</strong> delivers bite-sized fun that’s hard to put down.
       </p>
     
-      <h3>Tips & Tricks for Fish Eat Getting Big</h3>
+      <h2>Tips & Tricks for Fish Eat Getting Big</h2>
       <ol>
         <li><strong>Stay Safe at First:</strong> Stick to the edges and eat small fish early on</li>
         <li><strong>Watch for Shadows:</strong> Bigger fish often sneak up—be ready to flee</li>
@@ -816,23 +816,23 @@ export const mergeGamesData = {
         <li><strong>Keep Moving:</strong> Don’t stay in one place too long—it’s a feeding ground!</li>
       </ol>
     
-      <h3>Fish Eat Getting Big FAQ</h3>
-      <h4>What is Fish Eat Getting Big?</h4>
+      <h2>Fish Eat Getting Big FAQ</h2>
+      <h3>What is Fish Eat Getting Big?</h3>
       <p><strong>Fish Eat Getting Big</strong> is a survival game where you play as a fish in the ocean, eating smaller fish to grow while avoiding larger predators.</p>
     
-      <h4>Is Fish Eat Getting Big free to play?</h4>
+      <h3>Is Fish Eat Getting Big free to play?</h3>
       <p>Yes! <strong>Fish Eat Getting Big</strong> is totally free to play online with no downloads required.</p>
     
-      <h4>Can I play Fish Eat Getting Big on mobile?</h4>
+      <h3>Can I play Fish Eat Getting Big on mobile?</h3>
       <p>Absolutely. <strong>Fish Eat Getting Big</strong> is mobile-friendly and works great on all devices.</p>
     
-      <h4>Does the game have levels or goals?</h4>
+      <h3>Does the game have levels or goals?</h3>
       <p>No specific levels—your goal in <strong>Fish Eat Getting Big</strong> is to survive, grow, and become the biggest fish in the sea.</p>
     
-      <h4>Is Fish Eat Getting Big suitable for kids?</h4>
+      <h3>Is Fish Eat Getting Big suitable for kids?</h3>
       <p>Yes! <strong>Fish Eat Getting Big</strong> is kid-friendly, fun, and great for developing quick reflexes and awareness.</p>
     
-      <h3>Play Fish Eat Getting Big Now</h3>
+      <h2>Play Fish Eat Getting Big Now</h2>
       <p>
         Ready to dive in and rule the reef? Start your underwater journey in <strong>Fish Eat Getting Big</strong> and grow your way to the top of the food chain. It’s fish vs. fish—are you ready to become the biggest?
       </p>
@@ -857,17 +857,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Merge Combo – Explosive Tile-Merging Fun</h3>
+      <h2>Merge Combo – Explosive Tile-Merging Fun</h2>
       <p>
         Welcome to <strong>Merge Combo</strong>, the game that takes classic number merging and turns up the intensity! Build massive chains of combos as you match and merge tiles to reach ever-higher scores. With every successful move, <strong>Merge Combo</strong> gives you that sweet combo rush that puzzle fans love.
       </p>
     
-      <h3>What is Merge Combo?</h3>
+      <h2>What is Merge Combo?</h2>
       <p>
         <strong>Merge Combo</strong> is a tile-based puzzle game where your goal is to merge identical numbers and create larger tiles. But here's the twist—combos matter! The more merges you make in a row, the bigger your score boost. <strong>Merge Combo</strong> blends strategic planning with satisfying chain reactions in a way that keeps you coming back.
       </p>
     
-      <h3>How to Play Merge Combo</h3>
+      <h2>How to Play Merge Combo</h2>
       <p>
         Playing <strong>Merge Combo</strong> is quick to learn and endlessly fun. Tap or click tiles to place them on the grid. When three or more matching numbers touch, they merge into a bigger one. Keep the combos flowing for huge point explosions!
       </p>
@@ -878,7 +878,7 @@ export const mergeGamesData = {
         <li>Beat your high score by thinking several moves ahead</li>
       </ul>
     
-      <h3>Merge Combo Features</h3>
+      <h2>Merge Combo Features</h2>
       <ul>
         <li><strong>Combo-Based Gameplay:</strong> Keep the merges going for satisfying chain reactions</li>
         <li><strong>Strategic Placement:</strong> Every tile matters—plan carefully</li>
@@ -887,12 +887,12 @@ export const mergeGamesData = {
         <li><strong>Playable Anywhere:</strong> Works great on desktop, tablet, or phone</li>
       </ul>
     
-      <h3>Why You’ll Love Merge Combo</h3>
+      <h2>Why You’ll Love Merge Combo</h2>
       <p>
         <strong>Merge Combo</strong> is more than a merge game—it’s a rhythm, a flow, and a puzzle that rewards both quick thinking and long-term strategy. Every combo feels like a small victory, and watching your board light up with merges never gets old. Whether you’re chasing scores or relaxing with casual play, <strong>Merge Combo</strong> hits the sweet spot.
       </p>
     
-      <h3>Tips & Tricks for Merge Combo</h3>
+      <h2>Tips & Tricks for Merge Combo</h2>
       <ol>
         <li><strong>Think Ahead:</strong> Don’t just place a tile—plan your next 2-3 moves</li>
         <li><strong>Build Combos:</strong> Focus on creating chain reactions instead of single merges</li>
@@ -901,23 +901,23 @@ export const mergeGamesData = {
         <li><strong>Practice the Flow:</strong> The more you play, the smoother your merges get</li>
       </ol>
     
-      <h3>Merge Combo FAQ</h3>
-      <h4>What is Merge Combo?</h4>
+      <h2>Merge Combo FAQ</h2>
+      <h3>What is Merge Combo?</h3>
       <p><strong>Merge Combo</strong> is a puzzle game where you merge matching numbers to trigger combo chains and increase your score.</p>
     
-      <h4>Is Merge Combo free to play?</h4>
+      <h3>Is Merge Combo free to play?</h3>
       <p>Yes! <strong>Merge Combo</strong> is 100% free to play online with no sign-up or download required.</p>
     
-      <h4>Can I play Merge Combo on my phone?</h4>
+      <h3>Can I play Merge Combo on my phone?</h3>
       <p>Definitely. <strong>Merge Combo</strong> is fully optimized for mobile, tablet, and desktop browsers.</p>
     
-      <h4>What makes Merge Combo different from other 2048 games?</h4>
+      <h3>What makes Merge Combo different from other 2048 games?</h3>
       <p><strong>Merge Combo</strong> focuses on combo chains and multi-tile merges, offering faster, more dynamic gameplay than traditional 2048 puzzles.</p>
     
-      <h4>Is Merge Combo good for all ages?</h4>
+      <h3>Is Merge Combo good for all ages?</h3>
       <p>Absolutely. <strong>Merge Combo</strong> is fun, family-friendly, and great for improving logic and planning skills.</p>
     
-      <h3>Play Merge Combo Now</h3>
+      <h2>Play Merge Combo Now</h2>
       <p>
         Ready to merge, match, and combo your way to glory? Jump into <strong>Merge Combo</strong> and feel the rush of chaining huge merges, topping your score, and getting into the ultimate number puzzle flow. Play now and become the master of the combo!
       </p>
@@ -942,17 +942,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Italian Brainrot: Puzzle & Battle – Mamma Mia, It’s War!</h3>
+      <h2>Italian Brainrot: Puzzle & Battle – Mamma Mia, It’s War!</h2>
       <p>
         <strong>Italian Brainrot: Puzzle & Battle</strong> is the game you didn’t know your chaotic soul needed. It’s puzzle. It’s battle. It’s full-blown operatic brainrot where every swipe is a scandal and every combo is a declaration of love *or* betrayal. Dive into this beautifully messy fusion of number-matching madness and turn-based drama.
       </p>
     
-      <h3>What is Italian Brainrot: Puzzle & Battle?</h3>
+      <h2>What is Italian Brainrot: Puzzle & Battle?</h2>
       <p>
         <strong>Italian Brainrot: Puzzle & Battle</strong> combines intense puzzle strategy with theatrical combat flair. Match tiles to charge dramatic attacks. Throw espresso-fueled insults. Summon your cousin Vinny as a support unit. Every decision could swing the tide of the most ridiculous war since Nonna banned pineapple pizza.
       </p>
     
-      <h3>How to Play Italian Brainrot: Puzzle & Battle</h3>
+      <h2>How to Play Italian Brainrot: Puzzle & Battle</h2>
       <p>
         Each round is a match-3 puzzle—every combo powers up your rage meter. Once charged, unleash Italian Brainrot powers ranging from “Scream in Opera” to “Slap with Breadstick.” The longer your combo, the more dramatic the attack. Can you outmatch your opponent *and* your emotions?
       </p>
@@ -963,7 +963,7 @@ export const mergeGamesData = {
         <li>Unlock meme-tier characters and espresso-fueled abilities</li>
       </ul>
     
-      <h3>Features of Italian Brainrot: Puzzle & Battle</h3>
+      <h2>Features of Italian Brainrot: Puzzle & Battle</h2>
       <ul>
         <li><strong>Chaotic Puzzle Battles:</strong> Every match is a storm of passion and nonsense</li>
         <li><strong>Iconic Characters:</strong> Play as the Pizza Priest, Opera Queen, or Buff Uncle Giovanni</li>
@@ -972,12 +972,12 @@ export const mergeGamesData = {
         <li><strong>Glorious Visuals:</strong> Pasta particles, tomato explosions, and pixel-perfect madness</li>
       </ul>
     
-      <h3>Why You’ll Love Italian Brainrot: Puzzle & Battle</h3>
+      <h2>Why You’ll Love Italian Brainrot: Puzzle & Battle</h2>
       <p>
         <strong>Italian Brainrot: Puzzle & Battle</strong> isn’t just a game—it’s an emotional journey wrapped in carbs, chaos, and comedy. It’s like 2048 married a telenovela during a wine festival and raised a battle game. Whether you're here for strategy or just here to scream “MAMMA MIA” while slapping someone with a parmesan blade—this is your home now.
       </p>
     
-      <h3>Tips & Tricks for Italian Brainrot: Puzzle & Battle</h3>
+      <h2>Tips & Tricks for Italian Brainrot: Puzzle & Battle</h2>
       <ol>
         <li><strong>Match Early, Rage Later:</strong> Stack power, then explode with style</li>
         <li><strong>Watch the Opponent:</strong> Use your brain *before* it rots</li>
@@ -986,23 +986,23 @@ export const mergeGamesData = {
         <li><strong>Play With Passion:</strong> Every swipe should feel like Shakespeare in Naples</li>
       </ol>
     
-      <h3>Italian Brainrot: Puzzle & Battle FAQ</h3>
-      <h4>What is Italian Brainrot: Puzzle & Battle?</h4>
+      <h2>Italian Brainrot: Puzzle & Battle FAQ</h2>
+      <h3>What is Italian Brainrot: Puzzle & Battle?</h3>
       <p><strong>Italian Brainrot: Puzzle & Battle</strong> is a hybrid puzzle-fighter drenched in Italian-style chaos, humor, and high-stakes emotion.</p>
     
-      <h4>Is this game free?</h4>
+      <h3>Is this game free?</h3>
       <p>Yes! <strong>Italian Brainrot: Puzzle & Battle</strong> is 100% free—just like unsolicited family opinions at dinner.</p>
     
-      <h4>Can I play it on mobile?</h4>
+      <h3>Can I play it on mobile?</h3>
       <p>Of course. <strong>Italian Brainrot: Puzzle & Battle</strong> is fully mobile-friendly, playable anywhere you can flail dramatically.</p>
     
-      <h4>Does the game have multiplayer?</h4>
+      <h3>Does the game have multiplayer?</h3>
       <p>Sì! Fight your friends, enemies, or mysterious mustachioed strangers online in full brainrot glory.</p>
     
-      <h4>Is it suitable for kids?</h4>
+      <h3>Is it suitable for kids?</h3>
       <p>If your child can handle aggressive lasagna-based attacks, they’ll be fine. It’s absurd, but safe.</p>
     
-      <h3>Play Italian Brainrot: Puzzle & Battle Now</h3>
+      <h2>Play Italian Brainrot: Puzzle & Battle Now</h2>
       <p>
         Logic? Strategy? Melodrama? <strong>Italian Brainrot: Puzzle & Battle</strong> has it all. Unleash your inner drama queen, match your way to victory, and become the most gloriously unstable tactician the grid has ever seen. Viva la brainrot!
       </p>
@@ -1027,17 +1027,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Italian Brainrot Bike Rush – Race Like a Drama Queen</h3>
+      <h2>Italian Brainrot Bike Rush – Race Like a Drama Queen</h2>
       <p>
         <strong>Italian Brainrot Bike Rush</strong> is not just a racing game. It’s a high-speed telenovela on two wheels. Burn rubber through cobblestone alleys, dodge airborne ravioli, scream "ANDIAMO!" at random intervals, and outrun betrayal, family feuds, and collapsing espresso machines. This is <strong>Italian Brainrot Bike Rush</strong>, where logic crashes into melodrama at 120 km/h.
       </p>
     
-      <h3>What is Italian Brainrot Bike Rush?</h3>
+      <h2>What is Italian Brainrot Bike Rush?</h2>
       <p>
         <strong>Italian Brainrot Bike Rush</strong> is an absurd meme-fueled bike racing game set in a hyper-Italian fever dream. You ride your moped, Vespa, or custom meme-bike through chaotic Italian cities while dodging pizza trucks, arguing nonnas, airborne meatballs, and your ex from episode 7. It’s fast, fabulous, and fried in parmesan logic.
       </p>
     
-      <h3>How to Play Italian Brainrot Bike Rush</h3>
+      <h2>How to Play Italian Brainrot Bike Rush</h2>
       <p>
         The rules are simple. The experience is not. Tap or hold to accelerate your brainrot-fueled ride, swipe to dodge obstacles, and collect espresso cups to boost your ego (and speed). The more dramatic your ride, the higher your score.
       </p>
@@ -1049,7 +1049,7 @@ export const mergeGamesData = {
         <li>Survive the route to Napoli’s underground brainrot circuit</li>
       </ul>
     
-      <h3>Features of Italian Brainrot Bike Rush</h3>
+      <h2>Features of Italian Brainrot Bike Rush</h2>
       <ul>
         <li><strong>Chaotic Meme Racing:</strong> Every level is faster, funnier, and more unpredictable</li>
         <li><strong>Iconic Power-Ups:</strong> Activate “Pasta Shield” or “Vespa Turbo Scream”</li>
@@ -1058,12 +1058,12 @@ export const mergeGamesData = {
         <li><strong>Mobile Friendly:</strong> Works on every device capable of processing unfiltered chaos</li>
       </ul>
     
-      <h3>Why You'll Love Italian Brainrot Bike Rush</h3>
+      <h2>Why You'll Love Italian Brainrot Bike Rush</h2>
       <p>
         <strong>Italian Brainrot Bike Rush</strong> is for players who think racing should come with opera background music, mid-game monologues, and the risk of emotional breakdowns caused by ravioli. It's high-speed nonsense with soul. If you're tired of serious racers and want a game where dodging a flying panettone is a valid mechanic—this one’s for you.
       </p>
     
-      <h3>Tips & Tricks for Italian Brainrot Bike Rush</h3>
+      <h2>Tips & Tricks for Italian Brainrot Bike Rush</h2>
       <ol>
         <li><strong>Always grab espresso:</strong> It fuels your speed and unlocks absurd quotes</li>
         <li><strong>Dodge aggressively:</strong> Don’t trust corners—there could be a cousin behind them</li>
@@ -1072,23 +1072,23 @@ export const mergeGamesData = {
         <li><strong>Lean into the brainrot:</strong> The more nonsense, the better you perform</li>
       </ol>
     
-      <h3>Italian Brainrot Bike Rush FAQ</h3>
-      <h4>What is Italian Brainrot Bike Rush?</h4>
+      <h2>Italian Brainrot Bike Rush FAQ</h2>
+      <h3>What is Italian Brainrot Bike Rush?</h3>
       <p><strong>Italian Brainrot Bike Rush</strong> is a meme-fueled chaotic racing game full of absurd Italian tropes, fast bikes, and unstoppable drama.</p>
     
-      <h4>Is it free?</h4>
+      <h3>Is it free?</h3>
       <p>Yes! It’s 100% free, just like unsolicited life advice from your nonna.</p>
     
-      <h4>Does it work on phones?</h4>
+      <h3>Does it work on phones?</h3>
       <p>Sì, it works beautifully on mobile, tablet, desktop—any device brave enough to contain brainrot.</p>
     
-      <h4>Are there different bikes?</h4>
+      <h3>Are there different bikes?</h3>
       <p>Yes. Unlock Vespas, pizza-bikes, cannoli-cycles, and more as you ride through chaos.</p>
     
-      <h4>Is this game serious?</h4>
+      <h3>Is this game serious?</h3>
       <p>Absolutely not. This is <strong>Italian Brainrot Bike Rush</strong>. Nothing serious survives here.</p>
     
-      <h3>Play Italian Brainrot Bike Rush Now</h3>
+      <h2>Play Italian Brainrot Bike Rush Now</h2>
       <p>
         Grab your helmet, rev that espresso-fueled engine, and scream into the void. <strong>Italian Brainrot Bike Rush</strong> is not just a race—it’s a lifestyle. Ride hard, shout harder, and brainrot forever. Viva la velocità!
       </p>
@@ -1113,17 +1113,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Italian Brainrot Quiz – Think Fast, Think Loud, Think Wrong</h3>
+      <h2>Italian Brainrot Quiz – Think Fast, Think Loud, Think Wrong</h2>
       <p>
         Welcome to <strong>Italian Brainrot Quiz</strong>, the only quiz game where getting the wrong answer might earn you more respect than the right one. This isn’t your average trivia challenge—it’s a chaotic espresso-fueled storm of nonsense, memes, loud opinions, and suspiciously Italian logic.
       </p>
     
-      <h3>What is Italian Brainrot Quiz?</h3>
+      <h2>What is Italian Brainrot Quiz?</h2>
       <p>
         <strong>Italian Brainrot Quiz</strong> is a fast-paced, high-drama trivia game where questions range from pop culture to pizza theory, from opera memes to what Nonna would disapprove of. The answers? Half-correct. The vibe? Full brainrot. It's trivia with the energy of a family argument at Sunday lunch.
       </p>
     
-      <h3>How to Play Italian Brainrot Quiz</h3>
+      <h2>How to Play Italian Brainrot Quiz</h2>
       <p>
         Playing <strong>Italian Brainrot Quiz</strong> is beautifully simple and wildly confusing. You’ll be presented with absurd, dramatic, or oddly insightful multiple-choice questions. Choose quickly before the timer or your internal monologue explodes. The faster your answer, the higher your score—or shame.
       </p>
@@ -1134,7 +1134,7 @@ export const mergeGamesData = {
         <li>Unlock titles like “Spaghetti Oracle” or “Olive Oil Outlaw”</li>
       </ul>
     
-      <h3>Features of Italian Brainrot Quiz</h3>
+      <h2>Features of Italian Brainrot Quiz</h2>
       <ul>
         <li><strong>Unhinged Questions:</strong> From “Who invented espresso rage?” to “Which pasta is most vengeful?”</li>
         <li><strong>Dramatic Soundtrack:</strong> Answer questions to the sound of opera, yelling, and accordion breakdowns</li>
@@ -1143,12 +1143,12 @@ export const mergeGamesData = {
         <li><strong>Replayable Mayhem:</strong> Every quiz run is randomized and increasingly absurd</li>
       </ul>
     
-      <h3>Why You'll Love Italian Brainrot Quiz</h3>
+      <h2>Why You'll Love Italian Brainrot Quiz</h2>
       <p>
         <strong>Italian Brainrot Quiz</strong> is perfect for anyone who enjoys learning, arguing, laughing, and losing track of logic entirely. It’s the only game where being wrong can feel *so* right, and where trivia becomes a performance art. If you've ever answered a question with pure vibes—you belong here.
       </p>
     
-      <h3>Tips & Tricks for Italian Brainrot Quiz</h3>
+      <h2>Tips & Tricks for Italian Brainrot Quiz</h2>
       <ol>
         <li><strong>Follow Your Gut:</strong> Logic is optional. Emotion is everything.</li>
         <li><strong>Answer Quickly:</strong> The timer doesn’t wait for your inner philosopher</li>
@@ -1157,23 +1157,23 @@ export const mergeGamesData = {
         <li><strong>Play With Friends:</strong> Chaos is always better when shared</li>
       </ol>
     
-      <h3>Italian Brainrot Quiz FAQ</h3>
-      <h4>What is Italian Brainrot Quiz?</h4>
+      <h2>Italian Brainrot Quiz FAQ</h2>
+      <h3>What is Italian Brainrot Quiz?</h3>
       <p><strong>Italian Brainrot Quiz</strong> is a fast-paced, comedic trivia game filled with Italian-style brainrot, meme humor, and chaotic energy.</p>
     
-      <h4>Is the game free?</h4>
+      <h3>Is the game free?</h3>
       <p>Yes! <strong>Italian Brainrot Quiz</strong> is free, wild, and fueled by the spirit of free-range mozzarella.</p>
     
-      <h4>Is this game suitable for kids?</h4>
+      <h3>Is this game suitable for kids?</h3>
       <p>It’s all-ages friendly—if your kids can handle rapid nonsense, bad advice, and pasta-themed questions.</p>
     
-      <h4>Can I play this on mobile?</h4>
+      <h3>Can I play this on mobile?</h3>
       <p>Absolutely. Works great on mobile, just don’t play while cooking spaghetti.</p>
     
-      <h4>Do the answers make sense?</h4>
+      <h3>Do the answers make sense?</h3>
       <p>No. And that’s the point. This is <strong>Italian Brainrot Quiz</strong>.</p>
     
-      <h3>Play Italian Brainrot Quiz Now</h3>
+      <h2>Play Italian Brainrot Quiz Now</h2>
       <p>
         Ready to scream “MAMMA MIA” after answering “Who invented drama?” with “Napoleon’s Cousin with a Guitar”? Then <strong>Italian Brainrot Quiz</strong> is calling your name. Jump in, test your brain, and let it rot—beautifully.
       </p>
@@ -1198,17 +1198,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Italian Brainrot Obby Parkour – Run, Jump, Scream!</h3>
+      <h2>Italian Brainrot Obby Parkour – Run, Jump, Scream!</h2>
       <p>
         Welcome to <strong>Italian Brainrot Obby Parkour</strong>, the most unhinged obstacle course you’ll ever attempt. Leap across floating pizza slices, slide through rivers of marinara, and dodge flying parmesan wheels—all while your Nonna yells disapproval from the sidelines. This is parkour with a full shot of espresso and zero stability.
       </p>
     
-      <h3>What is Italian Brainrot Obby Parkour?</h3>
+      <h2>What is Italian Brainrot Obby Parkour?</h2>
       <p>
         <strong>Italian Brainrot Obby Parkour</strong> is a meme-fueled 3D obstacle running game with outrageous level design, chaotic physics, and passionate Italian flair. It’s not just about reaching the finish line—it’s about surviving the journey with dignity (which you won’t).
       </p>
     
-      <h3>How to Play Italian Brainrot Obby Parkour</h3>
+      <h2>How to Play Italian Brainrot Obby Parkour</h2>
       <p>
         Control your dramatically over-caffeinated character through obstacle-packed courses filled with dangerous ingredients and brainrot logic. Jump, dash, bounce—and most importantly—scream internally (and externally) as everything goes wrong.
       </p>
@@ -1219,7 +1219,7 @@ export const mergeGamesData = {
         <li>Reach the checkpoint before Nonna unleashes her slipper</li>
       </ul>
     
-      <h3>Features of Italian Brainrot Obby Parkour</h3>
+      <h2>Features of Italian Brainrot Obby Parkour</h2>
       <ul>
         <li><strong>Chaotic Level Design:</strong> Floating pizza, collapsing gnocchi bridges, and rotating wine bottles</li>
         <li><strong>Unpredictable Physics:</strong> Every jump is a gamble, every landing is a prayer</li>
@@ -1228,12 +1228,12 @@ export const mergeGamesData = {
         <li><strong>Nonna Commentary:</strong> Dramatic voiceovers judging your every mistake</li>
       </ul>
     
-      <h3>Why You’ll Love Italian Brainrot Obby Parkour</h3>
+      <h2>Why You’ll Love Italian Brainrot Obby Parkour</h2>
       <p>
         <strong>Italian Brainrot Obby Parkour</strong> is what happens when obstacle runners and Italian soap operas collide in a pizza oven. You’ll laugh. You’ll cry. You’ll yell “PERCHÉ?!” as you slip on ricotta platforms for the seventh time. But when you finally cross that finish line—covered in shame and tomato—you’ll feel truly alive.
       </p>
     
-      <h3>Tips & Tricks for Italian Brainrot Obby Parkour</h3>
+      <h2>Tips & Tricks for Italian Brainrot Obby Parkour</h2>
       <ol>
         <li><strong>Time Your Jumps:</strong> Especially when bouncing off salami springs</li>
         <li><strong>Don't Rush:</strong> Except when the espresso flood is behind you</li>
@@ -1242,23 +1242,23 @@ export const mergeGamesData = {
         <li><strong>Fail With Dignity:</strong> Or at least stylishly, mid-spin into a marinara pit</li>
       </ol>
     
-      <h3>Italian Brainrot Obby Parkour FAQ</h3>
-      <h4>What is Italian Brainrot Obby Parkour?</h4>
+      <h2>Italian Brainrot Obby Parkour FAQ</h2>
+      <h3>What is Italian Brainrot Obby Parkour?</h3>
       <p><strong>Italian Brainrot Obby Parkour</strong> is a meme-powered obstacle run game featuring ridiculous Italian-themed chaos and unpredictable physics fun.</p>
     
-      <h4>Is it free?</h4>
+      <h3>Is it free?</h3>
       <p>Of course! It’s free—like unsolicited life advice and Nonna’s meatballs.</p>
     
-      <h4>Does it work on mobile?</h4>
+      <h3>Does it work on mobile?</h3>
       <p>Sì! Fully optimized for phones, tablets, and any device that can handle emotional instability.</p>
     
-      <h4>Is this game hard?</h4>
+      <h3>Is this game hard?</h3>
       <p>Let’s just say... it’s like crossing a tightrope made of fettuccine while blindfolded. So yes.</p>
     
-      <h4>Can I play with friends?</h4>
+      <h3>Can I play with friends?</h3>
       <p>This version is solo, but you're encouraged to scream together in real life.</p>
     
-      <h3>Play Italian Brainrot Obby Parkour Now</h3>
+      <h2>Play Italian Brainrot Obby Parkour Now</h2>
       <p>
         Strap on your metaphorical helmet (and literal garlic necklace), and run into chaos! <strong>Italian Brainrot Obby Parkour</strong> is waiting for you with open arms and closed logic. Fall, scream, retry—and repeat. Viva il brainrot!
       </p>
@@ -1283,17 +1283,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Tung Tung Sahur Obby – Wake Up, It’s Parkour Time!</h3>
+      <h2>Tung Tung Sahur Obby – Wake Up, It’s Parkour Time!</h2>
       <p>
         <strong>Tung Tung Sahur Obby</strong> is the ultimate meme-based obstacle course inspired by the viral “Tung Tung” Sahur wake-up call from Southeast Asia. It’s wild, festive, and just the right amount of ridiculous. Run through hilarious maps full of loudspeakers, bouncing drums, and slippery sambal platforms—all while trying not to fall asleep mid-jump!
       </p>
     
-      <h3>What is Tung Tung Sahur Obby?</h3>
+      <h2>What is Tung Tung Sahur Obby?</h2>
       <p>
         <strong>Tung Tung Sahur Obby</strong> is a fast-paced, obstacle-based parkour game where your goal is to navigate chaotic Sahur-themed levels. Set in a festive neighborhood, you’ll run across rooftops, dodge crashing sound systems, and leap over spilled rendang pots to wake everyone up for pre-dawn breakfast.
       </p>
     
-      <h3>How to Play Tung Tung Sahur Obby</h3>
+      <h2>How to Play Tung Tung Sahur Obby</h2>
       <p>
         The controls are simple, but the timing isn’t! Use your keyboard or touchscreen to jump, dash, and maneuver through silly obstacles while “Tung Tung Sahur” chants echo in the background. It’s part reflex, part laughter, and fully meme-certified.
       </p>
@@ -1304,7 +1304,7 @@ export const mergeGamesData = {
         <li>Collect sahur items like dates, milk, and spicy sambal</li>
       </ul>
     
-      <h3>Features of Tung Tung Sahur Obby</h3>
+      <h2>Features of Tung Tung Sahur Obby</h2>
       <ul>
         <li><strong>Iconic Audio:</strong> Features meme-level “Tung Tung Sahur” chants</li>
         <li><strong>Funny Obstacles:</strong> Giant spoons, rolling speakers, and sambal geysers</li>
@@ -1313,12 +1313,12 @@ export const mergeGamesData = {
         <li><strong>All Ages Fun:</strong> Great for kids, teens, and meme-loving adults</li>
       </ul>
     
-      <h3>Why You’ll Love Tung Tung Sahur Obby</h3>
+      <h2>Why You’ll Love Tung Tung Sahur Obby</h2>
       <p>
         <strong>Tung Tung Sahur Obby</strong> isn’t just a game—it’s a vibe. Whether you’re observing Ramadan or just here for the memes, this game captures the hilarity and joy of Sahur wake-up culture. You’ll laugh, you’ll fall, and you’ll yell “TUNG TUNG!” every time you respawn.
       </p>
     
-      <h3>Tips & Tricks for Tung Tung Sahur Obby</h3>
+      <h2>Tips & Tricks for Tung Tung Sahur Obby</h2>
       <ol>
         <li><strong>Jump Early:</strong> Don’t wait until the last second—those drums are slippery</li>
         <li><strong>Watch for Hidden Traps:</strong> Some sambal puddles are deceptively spicy</li>
@@ -1327,23 +1327,23 @@ export const mergeGamesData = {
         <li><strong>Have Fun:</strong> It’s more about vibes than speedruns</li>
       </ol>
     
-      <h3>Tung Tung Sahur Obby FAQ</h3>
-      <h4>What is Tung Tung Sahur Obby?</h4>
+      <h2>Tung Tung Sahur Obby FAQ</h2>
+      <h3>What is Tung Tung Sahur Obby?</h3>
       <p><strong>Tung Tung Sahur Obby</strong> is a humorous obstacle course game inspired by viral Sahur wake-up memes and festive cultural moments.</p>
     
-      <h4>Is it free?</h4>
+      <h3>Is it free?</h3>
       <p>Yes! 100% free and 200% full of meme energy.</p>
     
-      <h4>Can I play it on mobile?</h4>
+      <h3>Can I play it on mobile?</h3>
       <p>Absolutely. It’s designed for mobile, desktop, and anything with a screen.</p>
     
-      <h4>Do I need to understand the meme to enjoy the game?</h4>
+      <h3>Do I need to understand the meme to enjoy the game?</h3>
       <p>Nope! But once you hear the chant, you’ll never forget it.</p>
     
-      <h4>Is it a religious game?</h4>
+      <h3>Is it a religious game?</h3>
       <p>It’s culturally inspired and festive, but not religious in tone. It’s made to celebrate with humor and respect.</p>
     
-      <h3>Play Tung Tung Sahur Obby Now</h3>
+      <h2>Play Tung Tung Sahur Obby Now</h2>
       <p>
         Whether you’re waking your neighbors or dodging falling rendang, <strong>Tung Tung Sahur Obby</strong> will keep you laughing through every jump. Play now and embrace the joy of chaos with every "Tung Tung!"
       </p>
@@ -1368,17 +1368,17 @@ export const mergeGamesData = {
       isFella: true,
       isDetails: true,
       detailsHtml: `
-      <h3>Tung Tung Sahur: Clicker – Wake the World with Every Tap!</h3>
+      <h2>Tung Tung Sahur: Clicker – Wake the World with Every Tap!</h2>
       <p>
         <strong>Tung Tung Sahur: Clicker</strong> is the ultimate meme clicker game inspired by the legendary Sahur wake-up chants. Your mission: click, tap, and slap your drum to wake up every sleepyhead in the neighborhood. It’s festive. It’s hilarious. It’s pure chaotic Ramadan energy—one click at a time.
       </p>
     
-      <h3>What is Tung Tung Sahur: Clicker?</h3>
+      <h2>What is Tung Tung Sahur: Clicker?</h2>
       <p>
         <strong>Tung Tung Sahur: Clicker</strong> is a fast-paced incremental clicker where every tap brings noise—and noise means progress. Start with a humble pot and spoon, then upgrade to megaphones, sound cannons, and mythic Sahur screamers. Can you reach ultimate volume before the sun rises?
       </p>
     
-      <h3>How to Play Tung Tung Sahur: Clicker</h3>
+      <h2>How to Play Tung Tung Sahur: Clicker</h2>
       <p>
         Tap the center drum to make noise and earn Sahur Points. Use those points to unlock louder tools, hire enthusiastic NPC screamers, and automate your noise empire. The louder your setup, the faster you progress—and the more neighbors you (lovingly) annoy.
       </p>
@@ -1389,7 +1389,7 @@ export const mergeGamesData = {
         <li>Level up noise gear to unlock exponential chaos</li>
       </ul>
     
-      <h3>Features of Tung Tung Sahur: Clicker</h3>
+      <h2>Features of Tung Tung Sahur: Clicker</h2>
       <ul>
         <li><strong>Viral Meme Energy:</strong> Based on the legendary “Tung Tung Sahur” meme</li>
         <li><strong>Funny Audio FX:</strong> Realistic sahur drums, screams, and neighborhood shouts</li>
@@ -1398,12 +1398,12 @@ export const mergeGamesData = {
         <li><strong>Playable Anywhere:</strong> Mobile and desktop friendly—click on the go!</li>
       </ul>
     
-      <h3>Why You’ll Love Tung Tung Sahur: Clicker</h3>
+      <h2>Why You’ll Love Tung Tung Sahur: Clicker</h2>
       <p>
         <strong>Tung Tung Sahur: Clicker</strong> is perfect for anyone who loves silly incremental games, Ramadan culture, or meme humor. Whether you're clicking solo or showing friends how ridiculous your Sahur rig has become, this game delivers fun, noise, and that sweet dopamine of seeing numbers rise with chaos.
       </p>
     
-      <h3>Tips & Tricks for Tung Tung Sahur: Clicker</h3>
+      <h2>Tips & Tricks for Tung Tung Sahur: Clicker</h2>
       <ol>
         <li><strong>Click Fast Early:</strong> Manual taps matter at the beginning</li>
         <li><strong>Upgrade ASAP:</strong> Focus on auto-clickers and multipliers</li>
@@ -1412,28 +1412,199 @@ export const mergeGamesData = {
         <li><strong>Check Back Often:</strong> Sahur Points accumulate even when you’re away</li>
       </ol>
     
-      <h3>Tung Tung Sahur: Clicker FAQ</h3>
-      <h4>What is Tung Tung Sahur: Clicker?</h4>
+      <h2>Tung Tung Sahur: Clicker FAQ</h2>
+      <h3>What is Tung Tung Sahur: Clicker?</h3>
       <p><strong>Tung Tung Sahur: Clicker</strong> is a meme-based incremental game where players tap to create Sahur wake-up noise and build a comically loud setup.</p>
     
-      <h4>Is the game free?</h4>
+      <h3>Is the game free?</h3>
       <p>Yes! 100% free, meme-filled, and sambal-certified!</p>
     
-      <h4>Can I play on mobile?</h4>
+      <h3>Can I play on mobile?</h3>
       <p>Absolutely. The game runs smoothly on phones, tablets, and PCs.</p>
     
-      <h4>Is this based on a real tradition?</h4>
+      <h3>Is this based on a real tradition?</h3>
       <p>Yes, it’s humorously inspired by real Sahur drumming customs across Southeast Asia, especially in Indonesia and Malaysia.</p>
     
-      <h4>Will this game teach me to actually wake up early?</h4>
+      <h3>Will this game teach me to actually wake up early?</h3>
       <p>Maybe. But mostly it will teach you how to virtually scream at the moon with joy.</p>
     
-      <h3>Play Tung Tung Sahur: Clicker Now</h3>
+      <h2>Play Tung Tung Sahur: Clicker Now</h2>
       <p>
         Tap. Scream. Upgrade. <strong>Tung Tung Sahur: Clicker</strong> is the funniest way to celebrate the Sahur spirit and make some digital noise. Wake the village (and your friends), and climb the leaderboard of chaos!
       </p>
     `
     },
+
+    {
+      id: 18,
+      title: 'Bombardino Crocodilo Clicker',
+      time: '2025-06-30',
+      addressBar: 'bombardino-crocodilo-clicker',
+      seo: {
+        title: 'Bombardino Crocodilo Clicker - Brainrot Clicker',
+        description: 'Play Bombardino Crocodilo Clicker, the absurdist Italian Brainrot game where you click, upgrade, and summon chaotic crocodile energy with every tap!',
+        keywords: 'bombardino crocodilo clicker, italian brainrot clicker, meme clicker game, crocodile clicker'
+      },
+      category: ['italian-brainrot-games'],
+      imageUrl: '/images/game-18.webp',
+      imageAlt: 'Bombardino Crocodilo Clicker',
+      iframeUrl: 'https://html5.gamedistribution.com/example-bombardino-clicker',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+        <h2>Bombardino Crocodilo Clicker – Unleash the Reptilian Chaos</h2>
+        <p>
+          <strong>Bombardino Crocodilo Clicker</strong> is a chaotic, meme-fueled clicker game where Italian energy collides with crocodile madness. Tap to summon “Bombardinos,” recruit crocodilian allies, and drown the screen in pure digital brainrot.
+        </p>
+    
+        <h2>What is Bombardino Crocodilo Clicker?</h2>
+        <p>
+          This is not your Nonna’s clicker game. <strong>Bombardino Crocodilo Clicker</strong> drops you into a fever dream of Mediterranean absurdity where each tap releases explosive “Bombardinos” and croco-carnage. Start with a silly slap, and escalate to napalm pasta blasters.
+        </p>
+    
+        <h2>How to Play Bombardino Crocodilo Clicker</h2>
+        <p>
+          Click the chaotic crocodile in the middle to generate Bombardino Points. Spend them to unlock louder, weirder, and more caffeinated tools of chaos. The more you click, the deeper you go into the swamp of Italian nonsense.
+        </p>
+        <ul>
+          <li>Click the crocodile to earn Bombardino Points</li>
+          <li>Unlock insane upgrades like “Opera Screams” and “Espresso Rockets”</li>
+          <li>Hire sidekicks like “Luigi the Lizard” and “Zio Dino”</li>
+          <li>Automate your reptilian empire with spaghetti-fueled machines</li>
+        </ul>
+    
+        <h2>Features of Bombardino Crocodilo Clicker</h2>
+        <ul>
+          <li><strong>Italian Brainrot Energy:</strong> Inspired by the most viral memes of 2025</li>
+          <li><strong>Wacky FX:</strong> Crocodile roars, meatball booms, and accordion explosions</li>
+          <li><strong>Endless Upgrades:</strong> From paninis to particle accelerators</li>
+          <li><strong>Offline Earnings:</strong> Your crocodiles never sleep—even if you do</li>
+          <li><strong>Cross-Platform:</strong> Play it on mobile, desktop, or inside your Nonna’s dreams</li>
+        </ul>
+    
+        <h2>Why You’ll Love Bombardino Crocodilo Clicker</h2>
+        <p>
+          This game is absurd. This game is glorious. <strong>Bombardino Crocodilo Clicker</strong> delivers that special blend of digital nonsense, serotonin hits, and loud lizard love. If you love memes, incremental chaos, and the unfiltered essence of Italian internet culture, this one’s for you.
+        </p>
+    
+        <h2>Tips & Tricks for Bombardino Crocodilo Clicker</h2>
+        <ol>
+          <li><strong>Click Like You Mean It:</strong> Fingers = faster bombardinos</li>
+          <li><strong>Invest in Auto-Crocs:</strong> Automation is key to mega-noise</li>
+          <li><strong>Upgrade Strategically:</strong> Some items unlock multipliers, others memes</li>
+          <li><strong>Watch for Events:</strong> “Gondola Rage” doubles your production</li>
+          <li><strong>Keep the Sound On:</strong> You’ll miss 80% of the chaos if you don’t</li>
+        </ol>
+    
+        <h2>Bombardino Crocodilo Clicker FAQ</h2>
+        <h3>What is Bombardino Crocodilo Clicker?</h3>
+        <p><strong>Bombardino Crocodilo Clicker</strong> is a meme-based incremental game full of chaotic clicking, absurd upgrades, and lizard energy from deep within the Mediterranean psyche.</p>
+    
+        <h3>Is this game a joke?</h3>
+        <p>Yes. And that’s exactly why it’s perfect.</p>
+    
+        <h3>Can I play it on mobile?</h3>
+        <p>Absolutely. Works great on phones, tablets, and interdimensional ovens.</p>
+    
+        <h3>Is this game educational?</h3>
+        <p>Only if your curriculum includes memes, reptiles, and pasta physics.</p>
+    
+        <h3>Why is there an opera-singing crocodile?</h3>
+        <p>Why not?</p>
+    
+        <h2>Play Bombardino Crocodilo Clicker Now</h2>
+        <p>
+          Get ready to click, roar, and explode spaghetti across the internet. <strong>Bombardino Crocodilo Clicker</strong> is waiting for you. Wake your inner lizard. Embrace the absurd. Become the Brainrot King.
+        </p>
+      `
+    },
+
+    {
+      id: 19,
+      title: '2048',
+      time: '2025-07-04',
+      addressBar: '2048',
+      seo: {
+        title: 'Play 2048 Game Online - Classic Number Puzzle & Brain Teaser',
+        description: 'Play the original 2048 game online for free! Slide, merge numbers, and reach the 2048 tile in this addictive math puzzle. Great for all ages & devices!',
+        keywords: '2048 game, number puzzle, sliding puzzle, play 2048, merge tiles, logic game, online 2048'
+      },
+      category: ['merge-games'],
+      imageUrl: '/images/game-19.webp',
+      imageAlt: '2048 Puzzle Game',
+      iframeUrl: 'https://azgames.io/2048.embed',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+        <h2>2048 – The Ultimate Number Puzzle Classic</h2>
+        <p>
+          <strong>2048</strong> is the original sliding tile puzzle game that took the world by storm. Merge matching numbers to reach the magical <strong>2048</strong> tile—and beyond! Simple to play, hard to master, and endlessly addictive.
+        </p>
+    
+        <h2>What is 2048?</h2>
+        <p>
+          Created by Gabriele Cirulli, <strong>2048</strong> is a minimalist puzzle game where you combine numbered tiles on a 4x4 grid. Every time you move, a new tile appears. Combine tiles with the same number to create higher values, working toward the goal of forming the 2048 tile.
+        </p>
+    
+        <h2>How to Play 2048</h2>
+        <p>
+          Use arrow keys or swipe (on mobile) to move tiles in four directions. When two tiles with the same number collide, they merge into one. The game ends when no more moves are possible—so plan ahead!
+        </p>
+        <ul>
+          <li>Use <strong>arrow keys</strong> (or swipe) to move tiles</li>
+          <li>Merge <strong>matching numbers</strong> (2+2, 4+4, etc.)</li>
+          <li>Reach the <strong>2048</strong> tile to win (or keep going!)</li>
+          <li>Play at your own pace with no time limits</li>
+        </ul>
+    
+        <h2>Features of 2048</h2>
+        <ul>
+          <li><strong>Simple Yet Addictive:</strong> Easy to learn, endlessly replayable</li>
+          <li><strong>No Downloads:</strong> Play instantly in your browser</li>
+          <li><strong>Perfect for All Ages:</strong> Great for kids, teens, and adults</li>
+          <li><strong>Free to Play:</strong> No sign-up, no cost, just numbers</li>
+          <li><strong>Works on Any Device:</strong> Mobile, tablet, and desktop supported</li>
+        </ul>
+    
+        <h2>Why 2048 is a Puzzle Legend</h2>
+        <p>
+          Whether you're a casual gamer or a strategy enthusiast, <strong>2048</strong> offers satisfying number logic in a clean, elegant package. It’s perfect for quick breaks or deep thinking sessions. One move can change everything—can you hit the winning tile?
+        </p>
+    
+        <h2>2048 Tips & Tricks</h2>
+        <ol>
+          <li><strong>Keep your highest tile in a corner</strong> for stability</li>
+          <li><strong>Don’t chase the 2048</strong>—focus on creating open space</li>
+          <li><strong>Use only two directions mostly</strong> (like left and down)</li>
+          <li><strong>Plan your moves</strong> and think ahead to avoid blocks</li>
+          <li><strong>Practice!</strong> 2048 is about strategy and patience</li>
+        </ol>
+    
+        <h2>2048 FAQ</h2>
+        <h3>Is 2048 free to play?</h3>
+        <p>Yes! You can play it anytime, anywhere, completely free.</p>
+    
+        <h3>Can I play 2048 on mobile?</h3>
+        <p>Absolutely. It’s touch-friendly and perfect for phones and tablets.</p>
+    
+        <h3>Is there an end to the game?</h3>
+        <p>The goal is to reach 2048, but you can keep going for higher scores!</p>
+    
+        <h3>Who created 2048?</h3>
+        <p>2048 was created in 2014 by Gabriele Cirulli as a web-based puzzle game.</p>
+    
+        <h2>Play 2048 Now</h2>
+        <p>
+          Ready to test your number skills? Swipe, merge, and strategize your way to victory in the legendary <strong>2048</strong> puzzle game. Start playing now and aim for the highest tile!
+        </p>
+      `
+    },
+    
+
+    
+    
     
     
     

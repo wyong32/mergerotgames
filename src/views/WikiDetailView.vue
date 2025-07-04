@@ -111,7 +111,7 @@ useHead(computed(() => {
 
 .page-title {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 900;
   background: linear-gradient(
     90deg,

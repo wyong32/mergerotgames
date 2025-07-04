@@ -5,10 +5,6 @@
 }
 
 .prose h2 {
-  font-size: 1.7rem;
-}
-
-.prose h3 {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0 0 1rem;
@@ -20,7 +16,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.prose h4 {
+.prose h3 {
   font-size: 1.3rem;
   font-weight: bold;
   margin: 0 0 0.8rem;

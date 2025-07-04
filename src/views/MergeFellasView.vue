@@ -3,6 +3,7 @@
     <Header />
     <main>
       <div class="page-wrapper container">
+        <h1 class="page-title">Merge Fellas</h1>
         <div class="home-layout">
           <!-- Main Content -->
           <div class="main-content">
@@ -49,6 +50,31 @@ const fellaGames = computed(() => {
 </script>
 
 <style scoped>
+/* Page Title Styles */
+.page-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  background: linear-gradient(
+    90deg,
+    #ff4081, /* Bright Pink */
+    #8e24aa, /* Purple */
+    #ff4081  /* Bright Pink */
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  background-size: 200% auto;
+  animation: text-shine 5s linear infinite;
+}
+
+@keyframes text-shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
 .home-layout {
   display: flex;
   gap: 1rem;
@@ -126,6 +152,11 @@ const fellaGames = computed(() => {
 }
 
 @media (max-width: 768px) {
+  .page-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
   .info-card, .sidebar {
     padding: 0.5rem; 
   }
