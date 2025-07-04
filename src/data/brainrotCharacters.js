@@ -169,7 +169,7 @@ export const brainrotCharactersData = {
       imageAlt: "Ta Ta Ta Ta Ta Ta Ta Sahur",
       description: "Ta Ta Ta Ta Ta Ta Ta Sahur is an Indonesian Brainrot character published on the 3rd of March, 2025 by user TikTok @__chenesac__. It is a large teapot with legs and a handle extending into an arm. It also has a face with wide-open blue eyes, and is shown in a night city environment.",
       audioUrl: "/audio/Ta Ta Ta Ta Sahur.MP3",
-      audioRef: "audio18"
+      audioRef: "audio19"
     },
     {
       id: 20,
@@ -187,7 +187,7 @@ export const brainrotCharactersData = {
       imageAlt: "Tralalero Tralala",
       description: "It has the appearance of a blue shark with elongated side fins creating legs. It also has a third leg on the back of its body. On its three feet, it wears blue Nike shoes. It appears in a beach setting, with sea waves and seagulls in the background. The original video with Tralalero Tralala also includes a repeated explosion effect.",
       audioUrl: "/audio/TralaleroTralala.MP3",
-      audioRef: "audio20"
+      audioRef: "audio21"
     }
   ]
 }; 
