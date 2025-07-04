@@ -557,7 +557,7 @@ const playAudio = (audioRef) => {
   color: var(--color-text);
   line-height: 1.4;
   width: 500px;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .audio-cell {

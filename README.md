@@ -47,4 +47,4 @@ npm run preview
 
 ---
 
-**Ready for Vercel deployment!** 🚀
+For more games, please visit "https://mergerotgames.vercel.app/"
