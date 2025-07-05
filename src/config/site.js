@@ -1,7 +1,8 @@
 // 网站基础配置
 export const SITE_CONFIG = {
   // 网站基础信息
-  DOMAIN: 'https://merge-rot.com', // 请根据实际域名修改
+  DOMAIN: 'https://mergerotgames.com', // 统一主域名
+  VERCEL_DOMAIN: 'https://mergerotgames.vercel.app', // Vercel域名
   NAME: 'Merge Rot',
   TITLE: 'Merge Rot - The Ultimate Merging Game',
   DESCRIPTION: 'Welcome to Merge Rot, the ultimate merging game experience. Join the fun, merge items, and conquer the leaderboard.',
@@ -17,6 +18,21 @@ export const SITE_CONFIG = {
     OG_TYPE_WEBSITE: 'website',
     OG_TYPE_ARTICLE: 'article'
   }
+}
+
+// 动态获取当前环境的域名（修复版本）
+export function getCurrentDomain() {
+  // 检查是否在vite配置阶段
+  if (typeof import.meta === 'undefined' || !import.meta.env) {
+    // 在vite配置阶段，默认使用Vercel域名
+    return SITE_CONFIG.VERCEL_DOMAIN
+  }
+  
+  // 运行时环境判断
+  if (import.meta.env.PROD && import.meta.env.VITE_CUSTOM_DOMAIN === 'true') {
+    return SITE_CONFIG.DOMAIN
+  }
+  return SITE_CONFIG.VERCEL_DOMAIN
 }
 
 // 工具函数：生成完整URL

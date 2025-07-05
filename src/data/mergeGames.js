@@ -84,7 +84,7 @@ export const mergeGamesData = {
       category: ['merge-games', 'italian-brainrot-games'],
       imageUrl: '/images/game-02.webp',
       imageAlt: 'Merge Brainrot',
-      iframeUrl: 'https://1games.io/game/merge-brainrot/',
+      iframeUrl: 'https://d2511kxt8bbh0c.cloudfront.net/',
       isHome: true,
       isFella: true,
       isDetails: true,

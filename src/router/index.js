@@ -57,8 +57,8 @@ const router = createRouter({
       }
     },
     {
-      path: '/brainrot-wiki',
-      name: 'brainrot-wiki',
+      path: '/italian-brainrot-wiki',
+      name: 'italian-brainrot-wiki',
       component: () => import('../views/BrainrotWikiView.vue'),
       meta: {
         seo: {
@@ -69,7 +69,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/brainrot-wiki/:slug',
+      path: '/italian-brainrot-wiki/:slug',
       name: 'wiki-detail',
       component: () => import('../views/WikiDetailView.vue')
     },

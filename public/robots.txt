@@ -1,16 +1,39 @@
 User-agent: *
 Allow: /
 
+# 优化爬取规则
 # 禁止爬取管理员目录
 Disallow: /admin/
 Disallow: /private/
+Disallow: /_admin/
 
-# 禁止爬取某些文件类型
+# 禁止爬取某些文件类型和目录
 Disallow: /*.json$
 Disallow: /src/
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /.git/
+Disallow: /.vscode/
 
-# 站点地图位置
-Sitemap: https://merge-rot.com/sitemap.xml
+# 允许爬取重要资源
+Allow: /images/
+Allow: /audio/
+Allow: /assets/
+Allow: /public/
 
-# 爬取延迟（可选）
+# 站点地图位置（动态配置）
+Sitemap: https://mergerotgames.com/sitemap.xml
+Sitemap: https://mergerotgames.vercel.app/sitemap.xml
+
+# 优化爬取延迟
+Crawl-delay: 1
+
+# 特定搜索引擎优化
+User-agent: Googlebot
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Crawl-delay: 1
+
+User-agent: Slurp
 Crawl-delay: 1 

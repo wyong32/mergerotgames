@@ -11,18 +11,18 @@ export const brainrotCharactersData = {
     },
     {
       id: 2,
-      name: "Cappucino assasino",
+      name: "Cappuccino Assassino",
       imageUrl: "/images/brainrot/brainrot_02.webp",
-      imageAlt: "Cappucino assasino",
+      imageAlt: "Cappuccino Assassino",
       description: "1.5m, Country of Origin: ltalyElement: Cappuccino, Assassin, Samurai, NarutoPlace of Live: Dojo, KonohaFamily: Ballerina Cappucina (wife)Background Music: Suspense Horror Piano and Music Box",
       audioUrl: "/audio/Cappucino assasino.MP3",
       audioRef: "audio2"
     },
     {
       id: 3,
-      name: "Burbaloli Lulilolli",
+      name: "Burbaloni Lulliloli",
       imageUrl: "/images/brainrot/brainrot_03.webp",
-      imageAlt: "Burbaloli Lulilolli",
+      imageAlt: "Burbaloni Lulliloli",
       description: "1m, Country of Origin: ltalyElement: Capybara, CoconutHabitat: Near BeachBackground Music: The Sound of Your Fear",
       audioUrl: "/audio/Burbaloli Lulilolli.MP3",
       audioRef: "audio3"
@@ -38,9 +38,9 @@ export const brainrotCharactersData = {
     },
     {
       id: 5,
-      name: "Boneka ambalabu",
+      name: "Boneca Ambalabu",
       imageUrl: "/images/brainrot/brainrot_05.webp",
-      imageAlt: "Boneka ambalabu",
+      imageAlt: "Boneca Ambalabu",
       description: "1.8m, Country of Origin: IndonesiaElement: Frog, Tire, HumanPlace of Live: StreetBackground Music: Darkest Child",
       audioUrl: "/audio/Boneka ambalabu.MP3",
       audioRef: "audio5"
@@ -101,9 +101,9 @@ export const brainrotCharactersData = {
     },
     {
       id: 12,
-      name: "Ballerina cappuchina",
+      name: "Ballerina Cappuccina",
       imageUrl: "/images/brainrot/brainrot_12.webp",
-      imageAlt: "Ballerina cappuchina",
+      imageAlt: "Ballerina Cappuccina",
       description: "1.6m, Country of Origin: ltalyElement: Ballerina, CappuccinoPlace of Live: Ballet StudioFamily: Cappuccino Assassino (Husband)Background Music: Unser Letzter Waiser .Franz Gordon",
       audioUrl: "/audio/Ballerina cappuchina.MP3",
       audioRef: "audio12"
@@ -128,9 +128,9 @@ export const brainrotCharactersData = {
     },
     {
       id: 15,
-      name: "Udin Din Din Din DunMa Din Din Din Dun",
+      name: "U Din Din Din Din Dun Ma Din Din Din Dun",
       imageUrl: "/images/brainrot/brainrot_15.webp",
-      imageAlt: "Udin Din Din Din DunMa Din Din Din Dun",
+      imageAlt: "U Din Din Din Din Dun Ma Din Din Din Dun",
       description: "2.2m, Country of Origin: IndonesiaElement: Orange, Body Builder, Shoes、Place of Live: GymBackground Music: Suspense Horror Piano & Music Box",
       audioUrl: "/audio/Udin Din Din Din DunMa Din Din Din Dun.MP3",
       audioRef: "audio15"
@@ -146,9 +146,9 @@ export const brainrotCharactersData = {
     },
     {
       id: 17,
-      name: "Garamararamararaman",
+      name: "Garamararambraramanmararaman dan Madudungdung tak tuntung perkuntung",
       imageUrl: "/images/brainrot/brainrot_17.webp",
-      imageAlt: "Garamararamararaman",
+      imageAlt: "Garamararambraramanmararaman dan Madudungdung tak tuntung perkuntung",
       description: "80cm, Country of Origin: Indonesia,Element: Salt (Garam), Honey (Madu), LegsLocation: Kitchen",
       audioUrl: "/audio/Garamararamararaman.MP3",
       audioRef: "audio17"

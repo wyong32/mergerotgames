@@ -15,13 +15,13 @@
           
           <!-- Back Link Section -->
           <section class="back-link-section">
-            <RouterLink to="/brainrot-wiki" class="back-link">&larr; Back to Wiki</RouterLink>
+            <RouterLink to="/italian-brainrot-wiki" class="back-link">&larr; Back to Wiki</RouterLink>
           </section>
         </div>
         <div v-else class="not-found">
           <h1 class="page-title">Entry Not Found</h1>
           <p>Sorry, we couldn't find the wiki entry you're looking for.</p>
-          <RouterLink to="/brainrot-wiki" class="back-link">Back to Wiki</RouterLink>
+          <RouterLink to="/italian-brainrot-wiki" class="back-link">Back to Wiki</RouterLink>
         </div>
       </div>
     </main>
@@ -53,7 +53,7 @@ const formattedDate = computed(() => {
 })
 
 // 配置网站基础信息
-const SITE_URL = 'https://merge-rot.com'; // 根据实际域名修改
+const SITE_URL = 'https://mergerotgames.com'; // 根据实际域名修改
 
 // Set SEO meta tags
 useHead(computed(() => {

@@ -30,7 +30,7 @@
               <li><RouterLink to="/merge-fellas">Merge Fellas</RouterLink></li>
               <li><RouterLink to="/merge-games">Merge Games</RouterLink></li>
               <li><RouterLink to="/italian-brainrot-games">Italian Brainrot Games</RouterLink></li>
-              <li><RouterLink to="/brainrot-wiki">Brainrot Wiki</RouterLink></li>
+              <li><RouterLink to="/italian-brainrot-wiki">Brainrot Wiki</RouterLink></li>
               <li><RouterLink to="/blog">Blog</RouterLink></li>
               <li><a href="#" target="_blank" rel="noopener noreferrer">Discord</a></li>
             </ul>

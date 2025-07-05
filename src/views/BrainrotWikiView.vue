@@ -3,7 +3,7 @@
     <Header />
     <main>
       <div class="page-wrapper container">
-        <h1 class="page-title">Brainrot Wiki</h1>
+        <h1 class="page-title">Italian Brainrot Wiki</h1>
         <div class="wiki-layout">
           <!-- Right Panel: Main Content -->
           <section class="info-card">
@@ -26,6 +26,49 @@
               Before you start digging too deep, we'll tell you right now:
               <strong>do not overthink it</strong>.
             </p>
+
+            <!-- Brainrot Characters Table -->
+            <div class="characters-table-section">
+              <h3>Popular Italian Brainrot Characters</h3>
+              <div class="table-wrapper">
+                <table class="characters-table">
+                  <thead>
+                    <tr>
+                      <th>Character</th>
+                      <th>Name</th>
+                      <th>Description</th>
+                      <th>Audio</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="character in characters" :key="character.id">
+                      <td class="character-image">
+                        <img :src="character.imageUrl" :alt="character.imageAlt" class="character-img">
+                      </td>
+                      <td class="character-name">{{ character.name }}</td>
+                      <td class="character-desc">{{ character.description }}</td>
+                      <td class="audio-cell">
+                        <button 
+                          @click="playAudio(character.audioRef)" 
+                          class="audio-btn"
+                          :class="{ 'playing': currentPlaying === character.audioRef }"
+                        >
+                          <svg v-if="currentPlaying !== character.audioRef" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M8 5v14l11-7z" fill="currentColor"/>
+                          </svg>
+                          <svg v-else width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 19h4V5H6v14zM14 5v14h4V5h-4z" fill="currentColor"/>
+                          </svg>
+                        </button>
+                        <audio :ref="el => audioRefs[character.audioRef] = el" preload="none">
+                          <source :src="character.audioUrl" type="audio/mpeg">
+                        </audio>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
 
             <h3>The Origins of Italian Brainrot</h3>
             <p>
@@ -133,48 +176,7 @@
             <p>But whatever you do, remember the golden rule:</p>
             <p><strong>Do. Not. Overthink. It.</strong></p>
 
-            <!-- Brainrot Characters Table -->
-            <div class="characters-table-section">
-              <h3>Popular Italian Brainrot Characters</h3>
-              <div class="table-wrapper">
-                <table class="characters-table">
-                  <thead>
-                    <tr>
-                      <th>Character</th>
-                      <th>Name</th>
-                      <th>Description</th>
-                      <th>Audio</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr v-for="character in characters" :key="character.id">
-                      <td class="character-image">
-                        <img :src="character.imageUrl" :alt="character.imageAlt" class="character-img">
-                      </td>
-                      <td class="character-name">{{ character.name }}</td>
-                      <td class="character-desc">{{ character.description }}</td>
-                      <td class="audio-cell">
-                        <button 
-                          @click="playAudio(character.audioRef)" 
-                          class="audio-btn"
-                          :class="{ 'playing': currentPlaying === character.audioRef }"
-                        >
-                          <svg v-if="currentPlaying !== character.audioRef" width="20" height="20" viewBox="0 0 24 24" fill="none">
-                            <path d="M8 5v14l11-7z" fill="currentColor"/>
-                          </svg>
-                          <svg v-else width="20" height="20" viewBox="0 0 24 24" fill="none">
-                            <path d="M6 19h4V5H6v14zM14 5v14h4V5h-4z" fill="currentColor"/>
-                          </svg>
-                        </button>
-                        <audio :ref="el => audioRefs[character.audioRef] = el" preload="none">
-                          <source :src="character.audioUrl" type="audio/mpeg">
-                        </audio>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
+            
           </section>
 
           <!-- Left Panel: Entry List (如果需要的话可以添加) -->
@@ -184,7 +186,7 @@
                              <RouterLink
                  v-for="entry in wikiData.entries"
                  :key="entry.id"
-                 :to="`/brainrot-wiki/${entry.addressBar}`"
+                 :to="`/italian-brainrot-wiki/${entry.addressBar}`"
                  class="post-card"
                >
                 <img :src="entry.imageUrl" :alt="entry.imageAlt" class="post-image" />
@@ -344,8 +346,7 @@ const playAudio = (audioRef) => {
 }
 
 .post-title {
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 0.8rem;
   color: var(--color-text);
   margin-bottom: 0.5rem;
   line-height: 1.3;

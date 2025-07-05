@@ -78,7 +78,7 @@ const formattedDate = computed(() => {
 })
 
 // 配置网站基础信息
-const SITE_URL = 'https://merge-rot.com'; // 根据实际域名修改
+const SITE_URL = 'https://mergerotgames.com'; // 根据实际域名修改
 
 // Set SEO meta tags
 useHead(

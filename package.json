@@ -10,8 +10,12 @@
     "test:unit": "vitest",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "verify-sitemap": "node scripts/verify-sitemap.js",
-    "seo-check": "node scripts/seo-check.js"
+    "verify-sitemap": "node scripts/verify-sitemap-unified.js",
+    "sitemap:verify": "node scripts/verify-sitemap-unified.js",
+    "sitemap:build-verify": "npm run build && npm run sitemap:verify",
+    "seo-check": "node scripts/seo-check.js",
+    "build:sitemap": "npm run build && npm run sitemap:verify",
+    "test:sitemap": "npm run build:sitemap && echo '✅ 站点地图测试完成！'"
   },
   "dependencies": {
     "@vueuse/head": "^2.0.0",

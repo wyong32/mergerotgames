@@ -5,44 +5,14 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import sitemap from 'vite-plugin-sitemap'
-import { mergeGamesData } from './src/data/mergeGames.js'
-import { brainrotWikiData } from './src/data/brainrotWiki.js'
-import { blogData } from './src/data/blogPosts.js'
-// import { sitemapPlugin } from './src/plugins/sitemapPlugin.js' // 自定义插件备选
+import { getCurrentDomain } from './src/config/site.js'
+import { generateSitemapData } from './src/utils/sitemapManager.js'
 
-// 静态路由配置
-const staticRoutes = [
-  '/',
-  '/merge-fellas',
-  '/merge-games', 
-  '/italian-brainrot-games',
-  '/brainrot-wiki',
-  '/blog',
-  '/privacy-policy',
-  '/terms-of-use',
-  '/copyright',
-  '/about-us',
-  '/contact-us',
-]
-
-// 生成动态路由
-const dynamicGameRoutes = mergeGamesData.gamesList.map((game) => {
-  // 根据游戏分类生成不同的路由
-  const routes = []
-  if (game.category.includes('merge-games')) {
-    routes.push(`/merge-games/${game.addressBar}`)
-  }
-  if (game.category.includes('italian-brainrot-games')) {
-    routes.push(`/italian-brainrot-games/${game.addressBar}`)
-  }
-  return routes
-}).flat()
-
-const dynamicWikiRoutes = brainrotWikiData.entries.map((entry) => `/brainrot-wiki/${entry.addressBar}`)
-const dynamicBlogRoutes = blogData.posts.map((post) => `/blog/${post.addressBar}`)
-
-// 合并所有路由
-const allRoutes = [...staticRoutes, ...dynamicGameRoutes, ...dynamicWikiRoutes, ...dynamicBlogRoutes]
+// 生成所有路由（使用统一管理器）
+function getAllRoutes() {
+  const sitemapData = generateSitemapData()
+  return sitemapData.map(item => new URL(item.url).pathname)
+}
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => {
@@ -54,12 +24,19 @@ export default defineConfig(({ command }) => {
 
   // 只在生产构建时使用sitemap插件
   if (command === 'build') {
+    const hostname = getCurrentDomain()
+    console.log(`🌐 构建站点地图使用域名: ${hostname}`)
+    
     plugins.push(
       sitemap({
-        hostname: 'https://mergerotgames.vercel.app', // 请根据实际域名修改 (与 src/config/site.js 保持一致)
-        dynamicRoutes: allRoutes,
-        // 不自动生成robots.txt，我们已在public目录下创建
-        generateRobotsTxt: false,
+        hostname,
+        dynamicRoutes: getAllRoutes(),
+        generateRobotsTxt: false, // 使用public目录下的robots.txt
+        exclude: ['/404'], // 排除404页面
+        // 优化XML格式
+        changefreq: 'weekly',
+        priority: 0.5,
+        lastmod: new Date().toISOString(),
       })
     )
   }
@@ -92,6 +69,10 @@ export default defineConfig(({ command }) => {
     server: {
       // 在开发模式下也处理SPA路由
       historyApiFallback: true,
+    },
+    // 环境变量配置
+    define: {
+      // 可在此处定义全局环境变量
     }
   }
 })
