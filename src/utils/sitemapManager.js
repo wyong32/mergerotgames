@@ -9,8 +9,10 @@ import { blogData } from '../data/blogPosts.js'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-// 获取项目最后更新时间（用于静态页面）
-const PROJECT_LAST_MODIFIED = '2025-01-06T00:00:00.000Z'
+// 动态获取当前时间（用于静态页面）
+function getCurrentTimestamp() {
+  return new Date().toISOString()
+}
 
 // 页面分类逻辑（统一函数）
 function categorizeUrl(url) {
@@ -54,90 +56,98 @@ function generateUrlStats(urls) {
   return stats
 }
 
-// 静态页面配置
-const STATIC_PAGES = [
-  {
-    path: '/',
-    changefreq: 'daily',
-    priority: '1.0',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: '网站首页 - 最重要的页面'
-  },
-  {
-    path: '/merge-fellas',
-    changefreq: 'weekly',
-    priority: '0.9',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: 'Merge Fellas角色展示页面'
-  },
-  {
-    path: '/merge-games',
-    changefreq: 'daily',
-    priority: '0.9',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: '合并游戏主页 - 核心功能页面'
-  },
-  {
-    path: '/italian-brainrot-games',
-    changefreq: 'daily',
-    priority: '0.8',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: '意大利Brainrot游戏分类页面'
-  },
-  {
-    path: '/italian-brainrot-wiki',
-    changefreq: 'weekly',
-    priority: '0.8',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: 'Brainrot Wiki主页'
-  },
-  {
-    path: '/blog',
-    changefreq: 'daily',
-    priority: '0.8',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: '博客主页'
-  },
-  // 法律页面 - SEO重要
-  {
-    path: '/privacy-policy',
-    changefreq: 'yearly',
-    priority: '0.3',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: '隐私政策'
-  },
-  {
-    path: '/terms-of-use',
-    changefreq: 'yearly',
-    priority: '0.3',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: '使用条款'
-  },
-  {
-    path: '/copyright',
-    changefreq: 'yearly',
-    priority: '0.3',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: '版权信息'
-  },
-  {
-    path: '/about-us',
-    changefreq: 'monthly',
-    priority: '0.5',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: '关于我们'
-  },
-  {
-    path: '/contact-us',
-    changefreq: 'monthly',
-    priority: '0.5',
-    lastmod: PROJECT_LAST_MODIFIED,
-    description: '联系我们'
-  }
-]
+// 静态页面配置（使用动态时间）
+function getStaticPages() {
+  const currentTime = getCurrentTimestamp()
+  
+  return [
+    {
+      path: '/',
+      changefreq: 'daily',
+      priority: '1.0',
+      lastmod: currentTime,
+      description: '网站首页 - 最重要的页面'
+    },
+    {
+      path: '/merge-fellas',
+      changefreq: 'weekly',
+      priority: '0.9',
+      lastmod: currentTime,
+      description: 'Merge Fellas角色展示页面'
+    },
+    {
+      path: '/merge-games',
+      changefreq: 'daily',
+      priority: '0.9',
+      lastmod: currentTime,
+      description: '合并游戏主页 - 核心功能页面'
+    },
+    {
+      path: '/italian-brainrot-games',
+      changefreq: 'daily',
+      priority: '0.8',
+      lastmod: currentTime,
+      description: '意大利Brainrot游戏分类页面'
+    },
+    {
+      path: '/italian-brainrot-wiki',
+      changefreq: 'weekly',
+      priority: '0.8',
+      lastmod: currentTime,
+      description: 'Brainrot Wiki主页'
+    },
+    {
+      path: '/blog',
+      changefreq: 'daily',
+      priority: '0.8',
+      lastmod: currentTime,
+      description: '博客主页'
+    },
+    // 法律页面 - SEO重要
+    {
+      path: '/privacy-policy',
+      changefreq: 'yearly',
+      priority: '0.3',
+      lastmod: currentTime,
+      description: '隐私政策'
+    },
+    {
+      path: '/terms-of-use',
+      changefreq: 'yearly',
+      priority: '0.3',
+      lastmod: currentTime,
+      description: '使用条款'
+    },
+    {
+      path: '/copyright',
+      changefreq: 'yearly',
+      priority: '0.3',
+      lastmod: currentTime,
+      description: '版权信息'
+    },
+    {
+      path: '/about-us',
+      changefreq: 'monthly',
+      priority: '0.5',
+      lastmod: currentTime,
+      description: '关于我们'
+    },
+    {
+      path: '/contact-us',
+      changefreq: 'monthly',
+      priority: '0.5',
+      lastmod: currentTime,
+      description: '联系我们'
+    }
+  ]
+}
 
-// 优化的时间戳解析函数
-function parseLastModified(dateString, fallback = PROJECT_LAST_MODIFIED) {
+// 优化的时间戳解析函数（使用当前时间作为默认值）
+function parseLastModified(dateString, fallback = null) {
+  if (!fallback) {
+    fallback = getCurrentTimestamp()
+  }
+  
   if (!dateString) return fallback
   
   try {
@@ -145,7 +155,7 @@ function parseLastModified(dateString, fallback = PROJECT_LAST_MODIFIED) {
     if (isNaN(date.getTime())) return fallback
     return date.toISOString()
   } catch (error) {
-    console.warn(`Invalid date format: ${dateString}, using fallback`)
+    console.warn(`Invalid date format: ${dateString}, using current time`)
     return fallback
   }
 }
@@ -212,7 +222,7 @@ function generateDynamicPages() {
 // 站点地图管理器类
 class SitemapManager {
   constructor() {
-    this.staticPages = STATIC_PAGES
+    this.staticPages = getStaticPages()
     this.dynamicPages = generateDynamicPages()
   }
 
@@ -500,4 +510,4 @@ export function verifySitemap(options) {
 
 // 导出管理器和配置
 export { SitemapManager, sitemapManager as default }
-export { STATIC_PAGES, PROJECT_LAST_MODIFIED } 
+export { getStaticPages, getCurrentTimestamp } 
