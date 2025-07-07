@@ -10,7 +10,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="sr-only">{{ isMenuOpen ? 'Close menu' : 'Open menu' }}</span>
+        <span class="sr-only">Menu</span>
       </button>
       <nav class="main-nav" :class="{ 'is-open': isMenuOpen }">
         <ul @click="closeMenu">
@@ -129,6 +129,7 @@ const closeMenu = () => {
   cursor: pointer;
   padding: 0.5rem;
   z-index: 1001;
+  text-align: center;
 }
 
 .mobile-nav-toggle .icon-bar {
@@ -136,7 +137,7 @@ const closeMenu = () => {
   width: 25px;
   height: 3px;
   background-color: var(--color-text);
-  margin: 5px 0;
+  margin: 3px auto;
   transition: transform 0.3s ease;
 }
 
@@ -183,14 +184,6 @@ const closeMenu = () => {
 
 /* Screen reader only text for accessibility */
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+  font-size: 0.8rem;
 }
 </style> 
