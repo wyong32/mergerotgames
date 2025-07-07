@@ -12,7 +12,7 @@
             <p class="release-date">Published: {{ formattedDate }}</p>
             
             <!-- Video Section -->
-            <div v-if="entry && entry.videoIframeSrc" class="video-section">
+            <div v-if="entry && entry.videoIframeSrc && entry.videoIframeSrc !== null" class="video-section">
               <div class="video-wrapper">
                 <!-- Video Mask (shown when not loaded) -->
                 <div v-if="!videoLoaded" class="video-mask" @click="loadVideo">

@@ -79,7 +79,6 @@ export const brainrotWikiData = {
       "title": "Cappuccino Assassino: The Deadliest Coffee Cup of Italian Brainrot",
       "addressBar": "cappuccino-assassino",
       "time": "2025-07-04",
-      "videoIframeSrc": "https://www.youtube.com/embed/FObvoh4bLKQ",
       "imageUrl": "/images/brainrot/brainrot_02.webp",
       "imageAlt": "Cappuccino Assassino wielding fiery katanas under a full moon",
       "seo": {
@@ -149,9 +148,9 @@ Beware, coffee hater! If you don't drink a cup of cappuccino in the morning, you
       "title": "Burbaloni Luliloli: The Divine Coconut Capybara of Brainrot Lore",
       "addressBar": "burbaloni-luliloli",
       "time": "2025-07-04",
-      "videoIframeSrc": "https://www.youtube.com/embed/FObvoh4bLKQ",
       "imageUrl": "/images/brainrot/brainrot_03.webp",
       "imageAlt": "Burbaloni Luliloli sitting in a coconut on a beach at sunset",
+      "videoIframeSrc": "https://www.youtube.com/embed/eGmxslJJpjs",
       "seo": {
         "title": "Burbaloni Luliloli: Divine Coconut Capybara of Brainrot",
         "description": "Explore Burbaloni Luliloli, the capybara deity of Italian Brainrot. Discover its coconut lore, lyrics, divine beach origins, and viral internet fame.",
@@ -219,6 +218,7 @@ Beware, coffee hater! If you don't drink a cup of cappuccino in the morning, you
       "time": "2025-07-04",
       "imageUrl": "/images/brainrot/brainrot_04.webp",
       "imageAlt": "Chimpanzini Bananini jungle banana-monkey hybrid character",
+      "videoIframeSrc": "https://www.youtube.com/embed/59yY4BrfWsA",
       "seo": {
         "title": "Chimpanzini Bananini: Jungle Monkey of Italian Brainrot",
         "description": "Meet Chimpanzini Bananini, the banana-monkey hybrid of Italian Brainrot. Explore lyrics, characters, jungle fruit lore, and why this chimp meme went viral.",
@@ -290,6 +290,7 @@ Beware, coffee hater! If you don't drink a cup of cappuccino in the morning, you
       "time": "2025-07-04",
       "imageUrl": "/images/brainrot/brainrot_05.webp",
       "imageAlt": "Boneca Ambalabu in a city street with tire-body and frog-head",
+      "videoIframeSrc": "https://www.youtube.com/embed/XimfHirGwRY",
       "seo": {
         "title": "Boneca Ambalabu: Indonesian Brainrot's Tire-Frog Abomination",
         "description": "Explore Boneca Ambalabu, the frog-headed doll with a tire body from Indonesian Brainrot. Lyrics, lore, battle role, translations, and sinister trivia await.",
@@ -349,6 +350,7 @@ Boneca Ambalabu. L'entità malvagia che sta turbando la società, fa sì che gli
       "title": "Frigo Camelo: The Tragic Journey of the Fridge Camel",
       "addressBar": "frigo-camelo",
       "time": "2025-07-04",
+      "videoIframeSrc": "https://www.youtube.com/embed/XkIshcwPD8E",
       "imageUrl": "/images/brainrot/brainrot_06.webp",
       "imageAlt": "Frigo Camelo walking sadly with boots in a city",
       "seo": {
@@ -631,6 +633,7 @@ Frigo Camelo, submerged and lost, with his load, heads toward a painful destiny.
       "time": "2025-07-05",
       "imageUrl": "/images/brainrot/brainrot_10.webp",
       "imageAlt": "Bombardiro Crocodilo flying through clouds with a bomb",
+      "videoIframeSrc": "https://www.youtube.com/embed/atqb8YclV4U",
       "seo": {
         "title": "Bombardiro Crocodilo – The Nuclear Crocodile Bomber",
         "description": "Bombardiro Crocodilo is a viral Italian Brainrot character resembling a flying crocodile bomber. Discover his lyrics, controversies, and unmatched battle power.",
@@ -688,6 +691,7 @@ Bombardiro Crocodilo, a fucking flying alligator who bombs children in Gaza and 
       "time": "2025-07-05",
       "imageUrl": "/images/brainrot/brainrot_11.webp",
       "imageAlt": "Brr Brr Patapim standing in the forest with leaves on his body",
+      "videoIframeSrc": "https://www.youtube.com/embed/faPrhG-mLEQ",
       "seo": {
         "title": "Brr Brr Patapim – The Forest Giant of Italian Brainrot",
         "description": "Explore the legend of Brr Brr Patapim, the proboscis monkey-tree hybrid of Italian Brainrot. Read his story, lyrics, battles, and unique cultural impact.",
@@ -812,6 +816,7 @@ Slim flew with a big boom! Now Patapim dances in the wind.
       "time": "2025-07-05",
       "imageUrl": "/images/brainrot/brainrot_13.webp",
       "imageAlt": "Glorbo Fruttodrillo lurking in a swamp of sliced fruit",
+      "videoIframeSrc": "https://www.youtube.com/embed/APqTQw_PEfA",
       "seo": {
         "title": "Glorbo Fruttodrillo – The Italian Brainrot Fruit Alligator",
         "description": "Glorbo Fruttodrillo is a mythical Italian Brainrot character—half watermelon, half alligator. Explore his story, powers, and haunting swamp ballad.",
@@ -1129,6 +1134,7 @@ E o pântano voltou ao silêncio eterno.
       time: "2025-07-05",
       imageUrl: "/images/brainrot/brainrot_17.webp",
       imageAlt: "Garamararambraramanmararaman dan Madudungdung tak tuntung perkuntung muncul saat malam puasa",
+      videoIframeSrc: "https://www.youtube.com/embed/-PDi4coN7YY",
       seo: {
         title: "Garamararambraramanmararaman & Madudungdung Brainrot",
         description: "Discover the legend of Garamararambraramanmararaman & Madudungdung, a cursed duo from Indonesian Brainrot, tied to the song 'Garam dan Madu'.",
@@ -1394,6 +1400,7 @@ Pot Hotspot Prot Hotspot" ucap seorang anomali anak kucai yang tidak memiliki ku
       time: "2025-07-05",
       imageUrl: "/images/brainrot/brainrot_21.webp",
       imageAlt: "Tralalero Tralala, blue shark wearing Nike shoes on the beach",
+      videoIframeSrc: "https://www.youtube.com/embed/nroaG56b2og",
       seo: {
         title: "Tralalero Tralala – Iconic Italian Brainrot Shark Character",
         description: "Tralalero Tralala is a viral Italian Brainrot character: a blue shark in Nike shoes on the beach. Discover his lyrics, popularity, and meme legacy.",
