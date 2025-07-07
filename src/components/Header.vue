@@ -59,7 +59,7 @@ const closeMenu = () => {
 }
 
 .logo {
-  font-family: 'Titan One', cursive;
+  font-family: 'Impact', 'Arial Black', 'Helvetica', sans-serif;
   font-size: 2rem;
   display: flex;
   align-items: center;
