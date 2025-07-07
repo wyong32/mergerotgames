@@ -32,7 +32,7 @@
               <div class="video-wrapper">
                 <!-- Video Mask (shown when not loaded) -->
                 <div v-if="!videoLoaded" class="video-mask" @click="loadVideo">
-                  <img src="https://picsum.photos/800/600?1" alt="Video thumbnail" class="video-thumbnail" />
+                  <img src="/images/home-video.webp" alt="Video thumbnail" class="video-thumbnail" />
                   <div class="play-button">
                     <svg width="80" height="80" viewBox="0 0 24 24" fill="none">
                       <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />

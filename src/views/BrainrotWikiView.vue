@@ -30,6 +30,216 @@
             <!-- Brainrot Characters Table -->
             <div class="characters-table-section">
               <h3>Popular Italian Brainrot Characters</h3>
+
+              <h4>Burbaloni Lulliloli</h4>
+              <div class="video-container">
+                <!-- Video Mask (shown when not loaded) -->
+                <div v-if="!videoLoadedStates['burbaloni-video']" class="video-mask" @click="loadVideo('burbaloni-video')">
+                  <img src="/images/brainrot/brainrot_03.webp" alt="Burbaloni Lulliloli" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                
+                <!-- Actual iframe (shown when loaded) -->
+                <iframe
+                  v-if="videoLoadedStates['burbaloni-video']"
+                  class="video-iframe"
+                  src="https://www.youtube.com/embed/eGmxslJJpjs"
+                  title="Trippi Troppi Italian Brainrot"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                >
+                </iframe>
+              </div>
+              <p>
+                Burbaloni Luliloli, also known by the sacred name Capibarello Cocosini, is a rare
+                and divine capybara creature nested within a coconut. It is one of the most mythical
+                beings in the Italian Brainrot universe, first revealed to the world via a viral
+                TikTok posted by @alexey_pigeon on March 9th, 2025. Since then, Burbaloni Luliloli
+                has evolved from a digital enigma to a spiritual symbol of absurdity and calm.
+              </p>
+
+              <h4>Chimpanzini Bananini</h4>
+              <div class="video-container">
+                <!-- Video Mask (shown when not loaded) -->
+                <div v-if="!videoLoadedStates['chimpanzini-video']" class="video-mask" @click="loadVideo('chimpanzini-video')">
+                  <img src="/images/brainrot/brainrot_04.webp" alt="Chimpanzini Bananini" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                
+                <!-- Actual iframe (shown when loaded) -->
+                <iframe
+                  v-if="videoLoadedStates['chimpanzini-video']"
+                  class="video-iframe"
+                  src="https://www.youtube.com/embed/59yY4BrfWsA"
+                  title="Cappuccino Assassino Italian Brainrot"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                >
+                </iframe>
+              </div>
+              <p>
+                Chimpanzini Bananini is a surreal and chaotic character born from the world of
+                Italian Brainrot. First introduced on March 13th, 2025, in a TikTok video by
+                @alexey_pigeon, Chimpanzini Bananini is a fusion of a banana and a green chimpanzee.
+                But that’s just the beginning. The video also introduced an entire jungle of
+                fruit-chimp hybrids, each more absurd than the last.<br />
+                Among them, Chimpanzini Bananini quickly rose to stardom, thanks to its nonsensical
+                lyrics, catchy chants, and viral appeal. Whether it’s the screeching "Waa waa waa"
+                or the repeated chant of “monkey-monkey-monkey-ucci,” this character has carved out
+                a permanent place in the Brainrot hall of fame.
+              </p>
+
+              <h4>Boneca Ambalabu</h4>
+              <div class="video-container">
+                <!-- Video Mask (shown when not loaded) -->
+                <div v-if="!videoLoadedStates['boneca-video']" class="video-mask" @click="loadVideo('boneca-video')">
+                  <img src="/images/brainrot/brainrot_05.webp" alt="Boneca Ambalabu" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                
+                <!-- Actual iframe (shown when loaded) -->
+                <iframe
+                  v-if="videoLoadedStates['boneca-video']"
+                  class="video-iframe"
+                  src="https://www.youtube.com/embed/XimfHirGwRY"
+                  title="Tralalero Tralala Italian Brainrot"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                >
+                </iframe>
+              </div>
+              <p>
+                Boneca Ambalabu is one of the most enigmatic and haunting figures from the world of
+                Indonesian Brainrot. First emerging on February 2nd, 2025, Boneca Ambalabu was
+                introduced by TikTok user @ofuscabreno. Unlike typical meme characters, Boneca
+                Ambalabu has the head of a frog, human legs, and a large rubber car tire replacing
+                its torso. This bizarre form, combined with its eerie music and cityscape setting,
+                makes Boneca Ambalabu an unforgettable icon of absurd horror and chaos.
+              </p>
+
+              <h4>Frigo Camelo</h4>
+              <div class="video-container">
+                <!-- Video Mask (shown when not loaded) -->
+                <div v-if="!videoLoadedStates['frigo-video']" class="video-mask" @click="loadVideo('frigo-video')">
+                  <img src="/images/brainrot/brainrot_06.webp" alt="Frigo Camelo" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                
+                <!-- Actual iframe (shown when loaded) -->
+                <iframe
+                  v-if="videoLoadedStates['frigo-video']"
+                  class="video-iframe"
+                  src="https://www.youtube.com/embed/XkIshcwPD8E"
+                  title="Pipi Potato Italian Brainrot"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                >
+                </iframe>
+              </div>
+              <p>
+                The character Frigo Camelo made his debut in a short TikTok video. In it, Frigo
+                Camelo walks slowly through an urban landscape. The voiceover, paired with Max
+                Richter’s melancholic piece On the Nature of Daylight, reflects on his burdens and
+                exhaustion. The video features the now-iconic line: “Frigo Camelo, buffo fardello.”
+                From Rome to London, Frigo Camelo’s journey through Europe mirrors the burdened
+                emotional lives of modern users.<br />
+                Within two months of release, the original Frigo Camelo TikTok had garnered over 2.5
+                million views. Comments flooded in praising Frigo Camelo’s symbolic weight and
+                poetic sadness. Fans described Frigo Camelo as “tragically beautiful,” “my
+                depression in camel form,” and “the only man who gets me.”
+              </p>
+
+              <h4>Tralalero Tralala</h4>
+              <div class="video-container">
+                <!-- Video Mask (shown when not loaded) -->
+                <div v-if="!videoLoadedStates['tralalero-video']" class="video-mask" @click="loadVideo('tralalero-video')">
+                  <img src="/images/brainrot/brainrot_21.webp" alt="Tralalero Tralala" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                
+                <!-- Actual iframe (shown when loaded) -->
+                <iframe
+                  v-if="videoLoadedStates['tralalero-video']"
+                  class="video-iframe"
+                  src="https://www.youtube.com/embed/nroaG56b2og"
+                  title="Tralalero Tralala Italian Brainrot"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                >
+                </iframe>
+              </div>
+              <p>
+                Tralalero Tralala is one of the earliest and most iconic characters in the Italian
+                Brainrot universe. Debuting on January 13th, 2025, Tralalero Tralala is depicted as
+                a surreal blue shark standing on elongated side fins that resemble human legs,
+                wearing three bright blue Nike shoes. This bizarre design appears against a backdrop
+                of beach waves and seagulls.<br />
+                The look of Tralalero Tralala is both absurd and memorable. His shark body is marine
+                blue, his side fins extend unnaturally downwards to become legs, and he wears three
+                matching Nike trainers—an aesthetic both humorous and uncanny. The beach setting,
+                complete with explosions layered into the scene, makes Tralalero Tralala a visually
+                striking meme format.
+              </p>
+
+              <h4>Bombardiro Crocodilo</h4>
+              <div class="video-container">
+                <!-- Video Mask (shown when not loaded) -->
+                <div v-if="!videoLoadedStates['bombardiro-video']" class="video-mask" @click="loadVideo('bombardiro-video')">
+                  <img src="/images/brainrot/brainrot_10.webp" alt="Bombardiro Crocodilo" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                
+                <!-- Actual iframe (shown when loaded) -->
+                <iframe
+                  v-if="videoLoadedStates['bombardiro-video']"
+                  class="video-iframe"
+                  src="https://www.youtube.com/embed/atqb8YclV4U"
+                  title="Bombardiro Crocodilo Italian Brainrot"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                >
+                </iframe>
+              </div>
+              <p>
+                Bombardiro Crocodilo is a surreal, menacing character born from the Italian Brainrot universe. Created by TikTok user @armenhijharhanyan in February 2025, Bombardiro Crocodilo features the body of a World War II bomber plane and the head of a snarling crocodile. A nuclear bomb dangles from his undercarriage by a thin string as he soars through stormy skies. This unique, disturbing combination helped Bombardiro Crocodilo rise to fame almost instantly.
+              </p>
+
               <div class="table-wrapper">
                 <table class="characters-table">
                   <thead>
@@ -43,25 +253,35 @@
                   <tbody>
                     <tr v-for="character in characters" :key="character.id">
                       <td class="character-image">
-                        <img :src="character.imageUrl" :alt="character.imageAlt" class="character-img">
+                        <img
+                          :src="character.imageUrl"
+                          :alt="character.imageAlt"
+                          class="character-img"
+                        />
                       </td>
                       <td class="character-name">{{ character.name }}</td>
                       <td class="character-desc">{{ character.description }}</td>
                       <td class="audio-cell">
-                        <button 
-                          @click="playAudio(character.audioRef)" 
+                        <button
+                          @click="playAudio(character.audioRef)"
                           class="audio-btn"
-                          :class="{ 'playing': currentPlaying === character.audioRef }"
+                          :class="{ playing: currentPlaying === character.audioRef }"
                         >
-                          <svg v-if="currentPlaying !== character.audioRef" width="20" height="20" viewBox="0 0 24 24" fill="none">
-                            <path d="M8 5v14l11-7z" fill="currentColor"/>
+                          <svg
+                            v-if="currentPlaying !== character.audioRef"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                          >
+                            <path d="M8 5v14l11-7z" fill="currentColor" />
                           </svg>
                           <svg v-else width="20" height="20" viewBox="0 0 24 24" fill="none">
-                            <path d="M6 19h4V5H6v14zM14 5v14h4V5h-4z" fill="currentColor"/>
+                            <path d="M6 19h4V5H6v14zM14 5v14h4V5h-4z" fill="currentColor" />
                           </svg>
                         </button>
-                        <audio :ref="el => audioRefs[character.audioRef] = el" preload="none">
-                          <source :src="character.audioUrl" type="audio/mpeg">
+                        <audio :ref="(el) => (audioRefs[character.audioRef] = el)" preload="none">
+                          <source :src="character.audioUrl" type="audio/mpeg" />
                         </audio>
                       </td>
                     </tr>
@@ -175,20 +395,18 @@
 
             <p>But whatever you do, remember the golden rule:</p>
             <p><strong>Do. Not. Overthink. It.</strong></p>
-
-            
           </section>
 
           <!-- Left Panel: Entry List (如果需要的话可以添加) -->
           <aside class="left-panel">
             <h2 class="left-panel-title">Wiki Topics</h2>
             <div class="entry-list-panel">
-                             <RouterLink
-                 v-for="entry in wikiData.entries"
-                 :key="entry.id"
-                 :to="`/italian-brainrot-wiki/${entry.addressBar}`"
-                 class="post-card"
-               >
+              <RouterLink
+                v-for="entry in wikiData.entries"
+                :key="entry.id"
+                :to="`/italian-brainrot-wiki/${entry.addressBar}`"
+                class="post-card"
+              >
                 <img :src="entry.imageUrl" :alt="entry.imageAlt" class="post-image" />
                 <div class="post-content">
                   <h3 class="post-title">{{ entry.title }}</h3>
@@ -219,33 +437,48 @@ const characters = brainrotCharactersData.characters
 const currentPlaying = ref(null)
 const audioRefs = ref({})
 
+// 视频加载状态管理
+const videoLoadedStates = ref({
+  'burbaloni-video': false,
+  'chimpanzini-video': false,
+  'boneca-video': false,
+  'frigo-video': false,
+  'tralalero-video': false,
+  'bombardiro-video': false
+})
+
+// 加载特定视频函数
+const loadVideo = (videoId) => {
+  videoLoadedStates.value[videoId] = true
+}
+
 // 播放音频函数
 const playAudio = (audioRef) => {
   const audioElement = audioRefs.value[audioRef]
-  
+
   if (!audioElement) return
-  
+
   // 如果当前正在播放这个音频，则暂停
   if (currentPlaying.value === audioRef) {
     audioElement.pause()
     currentPlaying.value = null
     return
   }
-  
+
   // 暂停所有其他音频
-  Object.values(audioRefs.value).forEach(audio => {
+  Object.values(audioRefs.value).forEach((audio) => {
     if (audio && !audio.paused) {
       audio.pause()
     }
   })
-  
+
   // 播放选中的音频
   currentPlaying.value = audioRef
-  audioElement.play().catch(error => {
+  audioElement.play().catch((error) => {
     console.error('Audio playback failed:', error)
     currentPlaying.value = null
   })
-  
+
   // 监听音频结束事件
   audioElement.onended = () => {
     currentPlaying.value = null
@@ -254,6 +487,7 @@ const playAudio = (audioRef) => {
 </script>
 
 <style scoped>
+/* ===== 页面标题 ===== */
 .page-title {
   text-align: center;
   font-size: 3rem;
@@ -272,18 +506,14 @@ const playAudio = (audioRef) => {
   animation: text-shine 5s linear infinite;
 }
 
-@keyframes text-shine {
-  to {
-    background-position: 200% center;
-  }
-}
-
+/* ===== 布局容器 ===== */
 .wiki-layout {
   display: flex;
   gap: 1rem;
   align-items: flex-start;
 }
 
+/* ===== 左侧面板 ===== */
 .left-panel {
   flex: 1;
   order: 1;
@@ -360,6 +590,73 @@ const playAudio = (audioRef) => {
   margin-top: auto;
 }
 
+/* ===== 视频样式 ===== */
+.video-iframe {
+  width: 60%;
+  aspect-ratio: 12/9;
+}
+
+.video-container {
+  position: relative;
+  width: 60%;
+  aspect-ratio: 12/9;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px solid white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background: #000;
+}
+
+.video-container .video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.video-mask:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.video-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.play-button {
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
+  transition: all 0.3s ease;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+/* ===== 主内容卡片 ===== */
 .info-card {
   background-color: rgba(255, 255, 255, 0.7);
   border: 2px solid white;
@@ -393,6 +690,18 @@ const playAudio = (audioRef) => {
   -webkit-text-fill-color: transparent;
 }
 
+.info-card h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-secondary);
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .info-card p {
   color: var(--color-text);
   opacity: 0.8;
@@ -401,69 +710,7 @@ const playAudio = (audioRef) => {
   border-bottom: 1px dashed var(--color-primary-light);
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .wiki-layout {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  .left-panel,
-  .info-card {
-    order: initial;
-  }
-
-  .left-panel {
-    position: static;
-    width: 100%;
-  }
-
-  .entry-list-panel {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .page-title {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .info-card {
-    padding: 0.5rem;
-  }
-
-  .entry-list-panel {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  }
-
-  .info-card h2 {
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .info-card p {
-    font-size: 0.8rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .info-card h3 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    border-left: 2px solid var(--color-primary);
-  }
-
-  .left-panel {
-    padding: 1rem;
-  }
-
-  .left-panel-title {
-    font-size: 1.3rem;
-  }
-}
-
-/* Characters Table Styles */
+/* ===== 角色表格 ===== */
 .characters-table-section {
   margin-top: 2rem;
   padding-top: 2rem;
@@ -480,6 +727,27 @@ const playAudio = (audioRef) => {
   box-shadow: 0 4px 20px rgba(255, 128, 171, 0.15);
 }
 
+/* 表格专用滚动条样式 */
+.table-wrapper::-webkit-scrollbar {
+  height: 12px;
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #b388ff, #8c9eff);
+  box-shadow: 0 2px 5px rgba(255, 128, 171, 0.3);
+}
+
 .characters-table {
   width: 100%;
   border-collapse: separate;
@@ -488,6 +756,7 @@ const playAudio = (audioRef) => {
   border: 2px solid white;
   border-radius: 1rem;
   overflow: hidden;
+  table-layout: fixed;
 }
 
 .characters-table thead {
@@ -503,6 +772,11 @@ const playAudio = (audioRef) => {
   border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.characters-table th:nth-child(1) { width: 10%; } /* Character */
+.characters-table th:nth-child(2) { width: 20%; } /* Name */
+.characters-table th:nth-child(3) { width: 60%; } /* Description */
+.characters-table th:nth-child(4) { width: 10%; } /* Audio */
+
 .characters-table th:last-child {
   border-right: none;
 }
@@ -515,10 +789,6 @@ const playAudio = (audioRef) => {
   background-color: rgba(255, 128, 171, 0.1);
 }
 
-/* .characters-table tbody tr:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.5);
-} */
-
 .characters-table td {
   padding: 0.5rem;
   border-bottom: 1px solid rgba(255, 128, 171, 0.2);
@@ -530,7 +800,7 @@ const playAudio = (audioRef) => {
 }
 
 .character-image {
-  width: 60px;
+  min-width: 60px;
   text-align: center;
 }
 
@@ -551,19 +821,20 @@ const playAudio = (audioRef) => {
   font-weight: bold;
   color: var(--color-primary);
   font-size: 1rem;
-  min-width: 120px;
+  min-width: 100px;
 }
 
 .character-desc {
   color: var(--color-text);
   line-height: 1.4;
-  width: 500px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .audio-cell {
   text-align: center;
-  width: 60px;
+  min-width: 60px;
 }
 
 .audio-btn {
@@ -591,8 +862,16 @@ const playAudio = (audioRef) => {
   animation: pulse 1.5s infinite;
 }
 
+/* ===== 动画 ===== */
+@keyframes text-shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {
@@ -600,76 +879,133 @@ const playAudio = (audioRef) => {
   }
 }
 
-/* Mobile Responsive for Table */
+/* ===== 响应式设计 ===== */
+@media (max-width: 1024px) {
+  .wiki-layout {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .left-panel,
+  .info-card {
+    order: initial;
+  }
+
+  .left-panel {
+    position: static;
+    width: 100%;
+  }
+
+  .entry-list-panel {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
+  /* 页面标题 */
+  .page-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  /* 左侧面板 */
+  .left-panel {
+    padding: 1rem;
+  }
+
+  .left-panel-title {
+    font-size: 1.3rem;
+  }
+
+  .entry-list-panel {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  /* 主内容卡片 */
+  .info-card {
+    padding: 0.5rem;
+  }
+
+  .info-card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .info-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid var(--color-primary);
+  }
+
+  .info-card h4 {
+    font-size: 0.9rem;
+    margin: 1rem 0 0.5rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--color-secondary);
+  }
+
+  .info-card p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* 角色表格 */
   .characters-table-section {
     margin-top: 1rem;
     padding-top: 1rem;
   }
-  
-  .characters-table {
-    font-size: 0.9rem;
-  }
-  
-  .characters-table th,
-  .characters-table td {
-    padding: 0.5rem;
-  }
-  
-  .character-image {
-    width: 60px;
-  }
-  
-  .character-img {
-    width: 45px;
-    height: 45px;
-  }
-  
-  .character-name {
-    font-size: 1rem;
-    min-width: 100px;
-  }
-  
-  .character-desc {
-    font-size: 0.85rem;
-    max-width: 200px;
-  }
-  
-  .audio-btn {
-    width: 35px;
-    height: 35px;
-  }
-  
-  .audio-btn svg {
-    width: 16px;
-    height: 16px;
-  }
-}
 
-@media (max-width: 480px) {
   .table-wrapper {
     margin: 0 -0.5rem;
   }
-  
-  .characters-table th,
-  .characters-table td {
-    padding: 0.5rem;
-  }
-  
-  .character-desc {
-    max-width: 150px;
+
+  .characters-table {
     font-size: 0.8rem;
   }
-  
-  .audio-cell {
-    width: 50px;
+
+  .characters-table th,
+  .characters-table td {
+    padding: 0.5rem 0.3rem;
   }
-  
+
+  .characters-table th {
+    font-size: 0.8rem;
+  }
+
+  .character-image {
+    width: 15%;
+    min-width: 35px;
+  }
+
+  .character-img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .character-name {
+    font-size: 0.8rem;
+    width: 25%;
+    min-width: 60px;
+    max-width: 100px;
+  }
+
+  .character-desc {
+    width: 50%;
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+
+  .audio-cell {
+    width: 10%;
+    min-width: 35px;
+  }
+
   .audio-btn {
     width: 30px;
     height: 30px;
   }
-  
+
   .audio-btn svg {
     width: 14px;
     height: 14px;

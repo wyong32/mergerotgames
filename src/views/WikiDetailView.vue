@@ -10,6 +10,35 @@
           <!-- Wiki Entry Section -->
           <section class="entry-section info-card">
             <p class="release-date">Published: {{ formattedDate }}</p>
+            
+            <!-- Video Section -->
+            <div v-if="entry && entry.videoIframeSrc" class="video-section">
+              <div class="video-wrapper">
+                <!-- Video Mask (shown when not loaded) -->
+                <div v-if="!videoLoaded" class="video-mask" @click="loadVideo">
+                  <img :src="entry.imageUrl" :alt="entry.imageAlt" class="video-thumbnail" />
+                  <div class="play-button">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none">
+                      <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
+                      <polygon points="10,8 16,12 10,16" fill="#ff4757" />
+                    </svg>
+                  </div>
+                </div>
+                
+                <!-- Actual iframe (shown when loaded) -->
+                <iframe
+                  v-if="videoLoaded"
+                  class="video-iframe"
+                  :src="entry.videoIframeSrc"
+                  title="Video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                >
+                </iframe>
+              </div>
+            </div>
+            
             <div v-html="entry.htmlContent" class="prose"></div>
           </section>
           
@@ -30,7 +59,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import { useRoute, RouterLink } from 'vue-router';
 import { useHead } from '@vueuse/head';
 import Header from '@/components/Header.vue';
@@ -51,6 +80,14 @@ const formattedDate = computed(() => {
   const options = { year: 'numeric', month: 'long', day: 'numeric' }
   return date.toLocaleDateString('en-US', options)
 })
+
+// 视频加载状态
+const videoLoaded = ref(false)
+
+// 加载视频函数
+const loadVideo = () => {
+  videoLoaded.value = true
+}
 
 // 配置网站基础信息
 const SITE_URL = 'https://mergerotgames.com'; // 根据实际域名修改
@@ -198,7 +235,72 @@ useHead(computed(() => {
 }
 .not-found .page-title {
   margin-bottom: 2rem;
-  -webkit-text-fill-color: initial;
+}
+
+/* Video Section Styles */
+.video-section {
+  margin-bottom: 2rem;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px solid white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background: #000;
+}
+
+.video-wrapper .video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Video Mask Styles */
+.video-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.video-mask:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.video-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.play-button {
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
+  transition: all 0.3s ease;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
 }
 .not-found p {
   margin-bottom: 2rem;

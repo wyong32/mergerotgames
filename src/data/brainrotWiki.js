@@ -7,6 +7,7 @@ export const brainrotWikiData = {
       "time": "2025-07-01",
       "imageUrl": "/images/brainrot/brainrot_01.webp",
       "imageAlt": "Trippi Troppi - Tie-Dye Shrimp of Chaos Culture",
+      "videoIframeSrc": "https://www.youtube.com/embed/FObvoh4bLKQ",
       "seo": {
         "title": "Trippi Troppi: Chaos Culture’s Tie-Dye Shrimp Mascot",
         "description": "Explore Trippi Troppi, the surreal shrimp icon of brainrot chaos culture. Discover his origin, Italian lyrics, meme impact, and aesthetic absurdism.",
@@ -78,6 +79,7 @@ export const brainrotWikiData = {
       "title": "Cappuccino Assassino: The Deadliest Coffee Cup of Italian Brainrot",
       "addressBar": "cappuccino-assassino",
       "time": "2025-07-04",
+      "videoIframeSrc": "https://www.youtube.com/embed/FObvoh4bLKQ",
       "imageUrl": "/images/brainrot/brainrot_02.webp",
       "imageAlt": "Cappuccino Assassino wielding fiery katanas under a full moon",
       "seo": {
@@ -147,6 +149,7 @@ Beware, coffee hater! If you don't drink a cup of cappuccino in the morning, you
       "title": "Burbaloni Luliloli: The Divine Coconut Capybara of Brainrot Lore",
       "addressBar": "burbaloni-luliloli",
       "time": "2025-07-04",
+      "videoIframeSrc": "https://www.youtube.com/embed/FObvoh4bLKQ",
       "imageUrl": "/images/brainrot/brainrot_03.webp",
       "imageAlt": "Burbaloni Luliloli sitting in a coconut on a beach at sunset",
       "seo": {
