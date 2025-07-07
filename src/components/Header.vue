@@ -6,10 +6,11 @@
         <span class="logo-merge">Merge</span>
         <span class="logo-rot">Rot</span>
       </RouterLink>
-      <button @click="toggleMenu" class="mobile-nav-toggle" aria-controls="main-nav" :aria-expanded="isMenuOpen">
+      <button @click="toggleMenu" class="mobile-nav-toggle" aria-controls="main-nav" :aria-expanded="isMenuOpen" aria-label="Toggle navigation menu">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+        <span class="sr-only">{{ isMenuOpen ? 'Close menu' : 'Open menu' }}</span>
       </button>
       <nav class="main-nav" :class="{ 'is-open': isMenuOpen }">
         <ul @click="closeMenu">
@@ -178,5 +179,18 @@ const closeMenu = () => {
   .main-nav a {
     font-size: 1rem;
   }
+}
+
+/* Screen reader only text for accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 </style> 
