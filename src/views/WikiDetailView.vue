@@ -16,7 +16,7 @@
               <div class="video-wrapper">
                 <!-- Video Mask (shown when not loaded) -->
                 <div v-if="!videoLoaded" class="video-mask" @click="loadVideo">
-                  <img :src="entry.imageUrl" :alt="entry.imageAlt" class="video-thumbnail" />
+                  <img :src="entry.imageUrl" :alt="entry.imageAlt" class="video-thumbnail" loading="lazy" decoding="async" />
                   <div class="play-button">
                     <svg width="80" height="80" viewBox="0 0 24 24" fill="none">
                       <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />

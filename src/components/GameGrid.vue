@@ -6,7 +6,7 @@
       :to="`/merge-games/${game.addressBar}`"
       class="game-card"
     >
-      <img :src="game.imageUrl" :alt="game.imageAlt" />
+      <img :src="game.imageUrl" :alt="game.imageAlt" loading="lazy" decoding="async" />
       <div class="game-card-title">{{ game.title }}</div>
     </RouterLink>
   </div>

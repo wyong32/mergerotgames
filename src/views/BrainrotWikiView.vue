@@ -35,7 +35,7 @@
               <div class="video-container">
                 <!-- Video Mask (shown when not loaded) -->
                 <div v-if="!videoLoadedStates['burbaloni-video']" class="video-mask" @click="loadVideo('burbaloni-video')">
-                  <img src="/images/brainrot/brainrot_03.webp" alt="Burbaloni Lulliloli" class="video-thumbnail" />
+                  <img src="/images/brainrot/brainrot_03.webp" alt="Burbaloni Lulliloli" class="video-thumbnail" loading="lazy" decoding="async" />
                   <div class="play-button">
                     <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
                       <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
@@ -68,7 +68,7 @@
               <div class="video-container">
                 <!-- Video Mask (shown when not loaded) -->
                 <div v-if="!videoLoadedStates['chimpanzini-video']" class="video-mask" @click="loadVideo('chimpanzini-video')">
-                  <img src="/images/brainrot/brainrot_04.webp" alt="Chimpanzini Bananini" class="video-thumbnail" />
+                  <img src="/images/brainrot/brainrot_04.webp" alt="Chimpanzini Bananini" class="video-thumbnail" loading="lazy" decoding="async" />
                   <div class="play-button">
                     <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
                       <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
@@ -105,7 +105,7 @@
               <div class="video-container">
                 <!-- Video Mask (shown when not loaded) -->
                 <div v-if="!videoLoadedStates['boneca-video']" class="video-mask" @click="loadVideo('boneca-video')">
-                  <img src="/images/brainrot/brainrot_05.webp" alt="Boneca Ambalabu" class="video-thumbnail" />
+                  <img src="/images/brainrot/brainrot_05.webp" alt="Boneca Ambalabu" class="video-thumbnail" loading="lazy" decoding="async" />
                   <div class="play-button">
                     <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
                       <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
@@ -139,7 +139,7 @@
               <div class="video-container">
                 <!-- Video Mask (shown when not loaded) -->
                 <div v-if="!videoLoadedStates['frigo-video']" class="video-mask" @click="loadVideo('frigo-video')">
-                  <img src="/images/brainrot/brainrot_06.webp" alt="Frigo Camelo" class="video-thumbnail" />
+                  <img src="/images/brainrot/brainrot_06.webp" alt="Frigo Camelo" class="video-thumbnail" loading="lazy" decoding="async" />
                   <div class="play-button">
                     <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
                       <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
@@ -177,7 +177,7 @@
               <div class="video-container">
                 <!-- Video Mask (shown when not loaded) -->
                 <div v-if="!videoLoadedStates['tralalero-video']" class="video-mask" @click="loadVideo('tralalero-video')">
-                  <img src="/images/brainrot/brainrot_21.webp" alt="Tralalero Tralala" class="video-thumbnail" />
+                  <img src="/images/brainrot/brainrot_21.webp" alt="Tralalero Tralala" class="video-thumbnail" loading="lazy" decoding="async" />
                   <div class="play-button">
                     <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
                       <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
@@ -215,7 +215,7 @@
               <div class="video-container">
                 <!-- Video Mask (shown when not loaded) -->
                 <div v-if="!videoLoadedStates['bombardiro-video']" class="video-mask" @click="loadVideo('bombardiro-video')">
-                  <img src="/images/brainrot/brainrot_10.webp" alt="Bombardiro Crocodilo" class="video-thumbnail" />
+                  <img src="/images/brainrot/brainrot_10.webp" alt="Bombardiro Crocodilo" class="video-thumbnail" loading="lazy" decoding="async" />
                   <div class="play-button">
                     <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
                       <circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255, 0.9)" />
@@ -257,6 +257,8 @@
                           :src="character.imageUrl"
                           :alt="character.imageAlt"
                           class="character-img"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </td>
                       <td class="character-name">{{ character.name }}</td>
@@ -407,7 +409,7 @@
                 :to="`/italian-brainrot-wiki/${entry.addressBar}`"
                 class="post-card"
               >
-                <img :src="entry.imageUrl" :alt="entry.imageAlt" class="post-image" />
+                <img :src="entry.imageUrl" :alt="entry.imageAlt" class="post-image" loading="lazy" decoding="async" />
                 <div class="post-content">
                   <h3 class="post-title">{{ entry.title }}</h3>
                   <span class="read-more">Read More</span>

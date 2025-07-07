@@ -16,7 +16,7 @@
             :to="`/merge-games/${game.addressBar}`"
             class="game-card"
           >
-            <img :src="game.imageUrl" :alt="game.imageAlt" class="game-image" />
+                          <img :src="game.imageUrl" :alt="game.imageAlt" class="game-image" loading="lazy" decoding="async" />
             <div class="game-info">
               <h2 class="game-title">{{ game.title }}</h2>
             </div>

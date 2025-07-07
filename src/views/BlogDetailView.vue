@@ -6,7 +6,7 @@
         <div class="main-content">
           <h1 class="post-title">{{ post.title }}</h1>
           <section class="post-card info-card">
-            <img :src="post.imageUrl" :alt="post.imageAlt" class="featured-image" />
+            <img :src="post.imageUrl" :alt="post.imageAlt" class="featured-image" loading="lazy" decoding="async" />
             <div class="post-meta">
               <span>{{ formattedDate }}</span>
             </div>

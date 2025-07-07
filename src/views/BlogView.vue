@@ -15,7 +15,7 @@
             :to="`/blog/${post.addressBar}`"
             class="game-card"
           >
-            <img :src="post.imageUrl" :alt="post.imageAlt" class="game-image" />
+                          <img :src="post.imageUrl" :alt="post.imageAlt" class="game-image" loading="lazy" decoding="async" />
             <div class="game-info">
               <h2 class="game-title">{{ post.title }}</h2>
               <p class="game-excerpt">{{ post.excerpt }}</p>
