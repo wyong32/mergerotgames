@@ -47,4 +47,4 @@ npm run preview
 
 ---
 
-For more games, please visit "https://mergerotgames.vercel.app/"
+For more games, please visit "https://https://mergerotgames.com/"

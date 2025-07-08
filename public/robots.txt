@@ -23,7 +23,7 @@ Allow: /public/
 
 # 站点地图位置（动态配置）
 Sitemap: https://mergerotgames.com/sitemap.xml
-Sitemap: https://mergerotgames.vercel.app/sitemap.xml
+Sitemap: https://mergerotgames.com//sitemap.xml
 
 # 优化爬取延迟
 Crawl-delay: 1
