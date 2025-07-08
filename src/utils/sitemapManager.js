@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url'
 import { mergeGamesData } from '../data/mergeGames.js'
 import { brainrotWikiData } from '../data/brainrotWiki.js'
 import { blogData } from '../data/blogPosts.js'
+import { SITE_CONFIG } from '../config/site.js'
 
 // 获取当前文件路径
 const __filename = fileURLToPath(import.meta.url)
@@ -227,7 +228,7 @@ class SitemapManager {
   }
 
   // 生成完整的站点地图数据
-  generateSitemapData(hostname = 'https://mergerotgames.com') {
+  generateSitemapData(hostname = SITE_CONFIG.DOMAIN) {
     console.log(`📍 正在为域名 ${hostname} 生成站点地图数据...`)
     
     const staticPages = this.staticPages.map(page => ({
@@ -471,7 +472,7 @@ class SitemapManager {
   }
 
   // 综合工具：生成并验证
-  async buildAndVerify(hostname = 'https://mergerotgames.com') {
+  async buildAndVerify(hostname = SITE_CONFIG.DOMAIN) {
     console.log('🚀 开始站点地图生成和验证流程...')
     
     // 生成站点地图数据
