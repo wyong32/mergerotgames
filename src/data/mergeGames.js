@@ -171,7 +171,7 @@ export const mergeGamesData = {
         description: 'Play Merge Fellas Italian Brainrot, the absurdly chaotic puzzle game where you merge meme fellas in the heart of Italian brainrot energy. Tap, merge, and explode with pasta-fueled chaos.',
         keywords: 'merge fellas italian brainrot, italian merge game, meme puzzle, brainrot merge, chaotic idle game, funny merge puzzle'
       },
-      category: ['merge-games','italian-brainrot-games'],
+      category: ['merge-games', 'italian-brainrot-games'],
       imageUrl: '/images/game-03.webp',
       imageAlt: 'Merge Fellas Italian Brainrot – Pasta-Powered Merge Insanity',
       iframeUrl: 'https://1games.io/game/merge-fellas-italian-brainrot/',
@@ -412,7 +412,7 @@ export const mergeGamesData = {
       </p>
       `
     },
-    
+
     {
       id: 6,
       title: 'Watermelon Game',
@@ -752,7 +752,7 @@ export const mergeGamesData = {
       </p>
     `
     },
-    
+
 
     {
       id: 10,
@@ -1264,7 +1264,7 @@ export const mergeGamesData = {
       </p>
     `
     },
-    
+
     {
       id: 16,
       title: 'Tung Tung Sahur Obby',
@@ -1949,32 +1949,382 @@ export const mergeGamesData = {
           Get ready to blast some bricks! Jump into <strong>Bricky Break</strong> and enjoy a classic arcade game with a modern touch. It’s fast, it’s fun, and it’s free. Play <strong>Bricky Break</strong> now and see how many levels you can clear!
         </p>
       `
+    },
+
+    {
+      id: 24,
+      title: 'Tralalero Tralala Clicker',
+      time: '2025-07-08',
+      addressBar: 'tralalero-tralala-clicker',
+      seo: {
+        title: 'Tralalero Tralala Clicker - Blue Shark Click Game Online',
+        description: 'Play Tralalero Tralala Clicker, the chaotic clicker game starring the blue shark with Nikes. Click to dance, sing, and unleash pure Italian Brainrot!',
+        keywords: 'Tralalero Tralala Clicker, brainrot clicker, blue shark game, meme clicker, tralala click'
+      },
+      category: ['italian-brainrot-games'],
+      imageUrl: '/images/game-24.webp',
+      imageAlt: 'Tralalero Tralala Clicker – Meme Shark Clicker Chaos',
+      iframeUrl: 'https://azgames.io/tralalero-tralala-clicker.embed',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+        <h2>Tralalero Tralala Clicker – The Meme Shark Has Awakened</h2>
+        <p>
+          Say hello to chaos in sneakers. <strong>Tralalero Tralala Clicker</strong> is the meme-powered clicker game you didn’t know you needed. Starring the infamous blue shark in Nikes, this Italian Brainrot icon now has his own game—and he’s ready to trill, twirl, and sing nonsense every time you click. Dive into <strong>Tralalero Tralala Clicker</strong> and experience one of the most delightfully brain-dead clicker games ever created.
+        </p>
+    
+        <h2>What is Tralalero Tralala Clicker?</h2>
+        <p>
+          <strong>Tralalero Tralala Clicker</strong> is a chaotic idle clicker where each click triggers a new “tralalala” sound, dance movement, or sudden burst of absurd visual effects. Built entirely around the viral Brainrot character Tralalero Tralala, this game celebrates nonsense, repetition, and absurd joy. The more you click, the more bizarre the shark becomes. Unlock outfits, background music, side characters, and more—all through pure, relentless tapping.
+        </p>
+    
+        <h2>How to Play Tralalero Tralala Clicker</h2>
+        <p>
+          <strong>Tralalero Tralala Clicker</strong> is simple: click, watch, upgrade, repeat. The shark will dance, shout, spin, and multiply as your click count rises. Collect coins, unlock shark variants, and drown in a wave of tralalero energy.
+        </p>
+        <ul>
+          <li>Click anywhere to earn “Tralala Energy”</li>
+          <li>Use energy to unlock dances, skins, and sound effects</li>
+          <li>Activate “Blue Shark Frenzy” mode for multipliers</li>
+          <li>Level up your shark to become the true Tralala Overlord</li>
+        </ul>
+    
+        <h2>Features of Tralalero Tralala Clicker</h2>
+        <ul>
+          <li><strong>Pure Meme Energy:</strong> 100% Italian Brainrot aesthetics</li>
+          <li><strong>Sound-Based Feedback:</strong> Every click sings or screams</li>
+          <li><strong>Upgradable Characters:</strong> Unlock costumes, speed boosts, echo effects</li>
+          <li><strong>Idle Gains:</strong> Earn energy even when AFK</li>
+          <li><strong>Mobile-Friendly:</strong> Works perfectly on phones and tablets</li>
+          <li><strong>Free Forever:</strong> No payments, only pain (and joy)</li>
+        </ul>
+    
+        <h2>Why Play Tralalero Tralala Clicker?</h2>
+        <p>
+          Because logic is dead. <strong>Tralalero Tralala Clicker</strong> is not about winning—it's about committing to the bit. The longer you play, the louder it gets. The louder it gets, the better it becomes. And just when you think you’ve seen it all, Tralalero Tralala will spin upside down and say “tralalalalalalaaaa” in nine octaves of pain.
+        </p>
+    
+        <p>
+          If you're a fan of brainrot culture, absurd humor, or clicking things until your screen explodes with blue fish energy, <strong>Tralalero Tralala Clicker</strong> is your calling.
+        </p>
+    
+        <h2>Unlockables in Tralalero Tralala Clicker</h2>
+        <ul>
+          <li><strong>Spinning Shark Mode™</strong> – Shark spins wildly every 10 clicks</li>
+          <li><strong>Shoe Buff</strong> – Unlock red, green, or golden Nikes</li>
+          <li><strong>Tralala Choir</strong> – Add background singers for more chaos</li>
+          <li><strong>Frigo Camelo Cameo</strong> – Surprise fridge-camel jumps in randomly</li>
+          <li><strong>Nightcore Mode</strong> – All sounds speed up and pitch-shift</li>
+        </ul>
+    
+        <h2>Tips to Master Tralalero Tralala Clicker</h2>
+        <ol>
+          <li><strong>Click with rhythm</strong> to sync with music</li>
+          <li><strong>Save energy</strong> for big burst upgrades</li>
+          <li><strong>Don’t mute the game</strong>—you’ll miss half the fun</li>
+          <li><strong>Try long sessions</strong> to unlock secret cutscenes</li>
+          <li><strong>Enable autofrenzy</strong> if you want hands-free madness</li>
+        </ol>
+    
+        <h2>Play Tralalero Tralala Clicker Now</h2>
+        <p>
+          Are you ready to enter the clicker void? Ready to scream “tralalero tralala” into the spaghetti-stained sky? Then click “Start” and become one with the shark. <strong>Tralalero Tralala Clicker</strong> awaits. No context required.
+        </p>
+      `
+    },
+
+    {
+      id: 25,
+      title: 'Tung Sahur Clicker',
+      time: '2025-07-08',
+      addressBar: 'tung-sahur-clicker',
+      seo: {
+        title: 'Tung Sahur Clicker - Play the Loudest Sahur Meme Game Online',
+        description: 'Play Tung Sahur Clicker, the chaotic clicker game where every tap echoes “TUNG!” across the night. Wake the whole neighborhood in this viral Brainrot classic.',
+        keywords: 'Tung Sahur Clicker, sahur clicker game, Indonesian brainrot, meme clicker, tung tung tung game'
+      },
+      category: ['italian-brainrot-games'],
+      imageUrl: '/images/game-25.webp',
+      imageAlt: 'Tung Sahur Clicker – Sahur Meme Game Chaos',
+      iframeUrl: 'https://azgames.io/tung-sahur-clicker.embed',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+        <h2>What is Tung Sahur Clicker?</h2>
+<p>
+  <strong>Tung Sahur Clicker</strong> is a viral brainrot clicker game that transforms the iconic Indonesian sahur call into a full-blown chaotic gameplay experience. In <strong>Tung Sahur Clicker</strong>, you play as the legendary sahur drummer whose mission is to wake up the neighborhood by spamming “TUNG!” at ungodly hours. Every tap earns you points, unlocks new upgrades, and fills your screen with increasingly absurd animations.
+</p>
+
+<h2>How to Play Tung Sahur Clicker</h2>
+<p>
+  The gameplay of <strong>Tung Sahur Clicker</strong> is deceptively simple. You click to generate “TUNG!” energy. With each click, your sahur noise grows louder. Spend your sahur points to unlock new drums, megaphones, loudspeakers, and brainrot icons. Whether you’re using a phone or desktop, <strong>Tung Sahur Clicker</strong> works flawlessly across all devices.
+</p>
+
+<ul>
+  <li>Tap the drum to shout “TUNG!”</li>
+  <li>Earn sahur energy and noise points</li>
+  <li>Unlock new gear, characters, and effects</li>
+  <li>Activate Auto-Tung to go full idle</li>
+  <li>Watch the chaos unfold in <strong>Tung Sahur Clicker</strong></li>
+</ul>
+
+<h2>Why Everyone Is Playing Tung Sahur Clicker</h2>
+<p>
+  <strong>Tung Sahur Clicker</strong> isn’t just a clicker—it’s a meme. The rhythmic “tung tung tung sahur” chant is already famous, but <strong>Tung Sahur Clicker</strong> elevates it into a visual and auditory spectacle. It’s ridiculously fun, utterly pointless, and yet you can’t stop clicking. What begins as innocent tapping turns into an obsession. That’s the magic of <strong>Tung Sahur Clicker</strong>.
+</p>
+
+<h2>Key Features of Tung Sahur Clicker</h2>
+<ul>
+  <li><strong>Audio Chaos:</strong> Every click in <strong>Tung Sahur Clicker</strong> triggers a layered “TUNG!”</li>
+  <li><strong>Insane Upgrades:</strong> Turn your drum into a bass cannon</li>
+  <li><strong>Brainrot Cameos:</strong> Guest appearances from Boneca, U Din Din Dun, and more</li>
+  <li><strong>Idle Progression:</strong> Let <strong>Tung Sahur Clicker</strong> play itself while you sleep (ironically)</li>
+  <li><strong>Visual Madness:</strong> Explosions, text spam, glitchy effects galore</li>
+</ul>
+
+<h2>Who Should Play Tung Sahur Clicker?</h2>
+<p>
+  If you love meme games, Indonesian brainrot, or simply clicking without purpose, <strong>Tung Sahur Clicker</strong> is for you. The experience is both addictive and cathartic. Whether you’re a student needing a break or a sahur veteran nostalgic for the banging of pre-dawn drums, <strong>Tung Sahur Clicker</strong> delivers exactly what you didn’t know you needed.
+</p>
+
+<h2>Characters in Tung Sahur Clicker</h2>
+<ul>
+  <li><strong>Boneca Ambalabu:</strong> Every fifth tap adds chaotic toy sound</li>
+  <li><strong>U Din Din Din Dun:</strong> Adds extra echo to your drum</li>
+  <li><strong>Sahur Megaphone:</strong> Multiplies your clicks by 3x</li>
+  <li><strong>Drum Army:</strong> Summon 10 clones to spam “TUNG!” together</li>
+</ul>
+
+<h2>Tips to Master Tung Sahur Clicker</h2>
+<ol>
+  <li>Use two fingers to tap faster in <strong>Tung Sahur Clicker</strong></li>
+  <li>Prioritize upgrades that increase click multipliers</li>
+  <li>Mute if needed—but you’ll miss the best part of <strong>Tung Sahur Clicker</strong></li>
+  <li>Enable Auto-Tung and combine with boosters</li>
+  <li>Play at night for full immersion into the sahur experience</li>
+</ol>
+
+<h2>The Soundtrack of Tung Sahur Clicker</h2>
+<p>
+  The sound design in <strong>Tung Sahur Clicker</strong> is half the fun. Each tap brings thunderous joy, especially when layered with upgrades like megaphones, reverb FX, and distorted sahur voices. <strong>Tung Sahur Clicker</strong> evolves into a concert of nonsense the longer you play.
+</p>
+
+<h2>Play Tung Sahur Clicker Now</h2>
+<p>
+  Are you ready to turn your taps into TUNGs? Click below to launch <strong>Tung Sahur Clicker</strong> and embrace the absurdity. Wake the world. Tap for glory. Become the legend of sahur. <strong>Tung Sahur Clicker</strong> isn’t just a game—it’s a cultural revolution with a drumstick.
+</p>
+      `
+    },
+
+    {
+      id: 26,
+      title: 'Tung Sahur Horror',
+      time: '2025-07-08',
+      addressBar: 'tung-sahur-horror',
+      seo: {
+        title: 'Tung Sahur Horror - Play the Scariest Sahur Game Online Free',
+        description: 'Enter Tung Sahur Horror, a terrifying indie game where the familiar sahur call becomes your worst nightmare. Survive the drums. Escape the darkness.',
+        keywords: 'Tung Sahur Horror, sahur horror game, brainrot horror, Indonesian horror meme, sahur nightmare'
+      },
+      category: ['italian-brainrot-games'],
+      imageUrl: '/images/game-26.webp',
+      imageAlt: 'Tung Sahur Horror – Sahur Turns to Terror',
+      iframeUrl: 'https://azgames.io/tung-sahur-horror.embed',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+        <h2>Tung Sahur Horror – When Sahur Becomes a Nightmare</h2>
+        <p>
+          You’ve heard the call. “Tung… Tung… Tung… Sahur…”  
+          But what if that call didn’t come from a cheerful neighborhood drummer—but something else?
+        </p>
+        <p>
+          <strong>Tung Sahur Horror</strong> is a psychological horror game that twists the beloved Indonesian sahur meme into something truly sinister. Set in a dark alleyway in the early morning hours, <strong>Tung Sahur Horror</strong> asks one terrifying question: what if the sound of the sahur drum didn’t wake you—but followed you?
+        </p>
+    
+        <h2>What is Tung Sahur Horror?</h2>
+        <p>
+          <strong>Tung Sahur Horror</strong> is an indie first-person horror game inspired by brainrot aesthetics, Indonesian folklore, and meme culture. You play as a sleeper who awakens in the dead of night, only to realize the sahur drums are… wrong. You must explore your haunted neighborhood, solve environmental puzzles, avoid the Sahur Entity, and uncover the true origin of the “Tung” that echoes endlessly.
+        </p>
+    
+        <h2>Gameplay of Tung Sahur Horror</h2>
+        <p>
+          In <strong>Tung Sahur Horror</strong>, exploration and survival are key. Every round of drums might bring comfort—or death. The Sahur Entity will stalk you by sound. You must hide, listen, and run to survive. The gameplay involves:
+        </p>
+        <ul>
+          <li>Exploring maze-like alleyways</li>
+          <li>Hiding from the Sahur Entity</li>
+          <li>Using audio clues from “Tung!” echoes to find safe paths</li>
+          <li>Solving sahur-themed puzzles under pressure</li>
+          <li>Managing flashlight and stamina in total darkness</li>
+        </ul>
+    
+        <h2>Tung Sahur Horror Features</h2>
+        <ul>
+          <li><strong>Immersive Sound Design:</strong> Realistic sahur echoes that grow distorted</li>
+          <li><strong>AI-Driven Enemy:</strong> The Sahur Entity learns how you hide</li>
+          <li><strong>Randomized Jumpscares:</strong> Every run of <strong>Tung Sahur Horror</strong> is different</li>
+          <li><strong>Brainrot Glitches:</strong> Visual bugs, flickers, and cursed overlays</li>
+          <li><strong>Multiple Endings:</strong> Can you escape the sahur cycle?</li>
+        </ul>
+    
+        <h2>Why Tung Sahur Horror Feels Real</h2>
+        <p>
+          <strong>Tung Sahur Horror</strong> builds dread slowly. Familiar sahur chants play softly at first, then begin to warp—stretching, distorting, multiplying. You start to question what you’re hearing. The shadow at the corner of your screen. The extra “Tung!” in the distance. Is it real? Or is it the game?
+        </p>
+        <p>
+          Inspired by regional tradition and the uniquely surreal tone of brainrot culture, <strong>Tung Sahur Horror</strong> feels both hilarious and terrifying. It’s a meme turned monster. And it works.
+        </p>
+    
+        <h2>How to Survive in Tung Sahur Horror</h2>
+        <ol>
+          <li><strong>Use headphones</strong>—sound is your best tool</li>
+          <li><strong>Don’t trust every “Tung”</strong>—some are lures</li>
+          <li><strong>Turn off your flashlight when hiding</strong></li>
+          <li><strong>Conserve stamina</strong>—you’ll need it to escape</li>
+          <li><strong>Watch the wall graffiti</strong>—clues are everywhere in <strong>Tung Sahur Horror</strong></li>
+        </ol>
+    
+        <h2>Characters in Tung Sahur Horror</h2>
+        <ul>
+          <li><strong>The Sahur Entity:</strong> Tall, cloaked, face hidden behind a broken loudspeaker</li>
+          <li><strong>The Player:</strong> A sleeper with fragmented memories of sahur</li>
+          <li><strong>Boneca's Echo:</strong> Sometimes her voice overlaps the drumbeats</li>
+          <li><strong>U Din Din Dun’s Shadow:</strong> Occasionally seen watching you from rooftops</li>
+        </ul>
+    
+        <h2>Is Tung Sahur Horror for You?</h2>
+        <p>
+          If you love horror games with cultural twists, meme-turned-terror plots, and truly unique soundscapes, <strong>Tung Sahur Horror</strong> is for you. It’s short, scary, re-playable, and deeply weird. Whether you laugh or scream, <strong>Tung Sahur Horror</strong> will leave a mark.
+        </p>
+    
+        <h2>Play Tung Sahur Horror Now</h2>
+        <p>
+          Dare to enter the night? Launch <strong>Tung Sahur Horror</strong> and face the distorted dawn. One “TUNG” could be your last.
+        </p>
+      `
+    },
+
+    {
+      id: 27,
+      title: 'Italian Brainrot: Neuro Beasts',
+      time: '2025-07-08',
+      addressBar: 'italian-brainrot-neuro-beasts',
+      seo: {
+        title: 'Italian Brainrot: Neuro Beasts - Glitch Beast Arena',
+        description: 'Play Italian Brainrot: Neuro Beasts, the chaotic brawler where mutant beasts and corrupted minds clash. Merge, evolve, and survive in glitch-ridden battles.',
+        keywords: 'Italian Brainrot: Neuro Beasts, brainrot beasts, glitch monster game, mutate merge, neuro arena'
+      },
+      category: ['italian-brainrot-games'],
+      imageUrl: '/images/game-27.webp',
+      imageAlt: 'Italian Brainrot: Neuro Beasts – Glitch Arena Madness',
+      iframeUrl: 'https://html5.gamedistribution.com/08f0d86ec4c04f3a97923c73cd98b753/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-neuro-beasts',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+      <h2>Enter the Arena of Italian Brainrot: Neuro Beasts</h2>
+<p>
+  Welcome to <strong>Italian Brainrot: Neuro Beasts</strong>, a surreal monster strategy game where mutated memes and espresso-charged beasts clash in a digital glitch dimension. <strong>Italian Brainrot: Neuro Beasts</strong> throws you into the heart of chaos—where every move could spawn a new beast, corrupt your screen, or trigger a MIDI overload.
+</p>
+
+<h2>What is Italian Brainrot: Neuro Beasts?</h2>
+<p>
+  <strong>Italian Brainrot: Neuro Beasts</strong> is a tactical creature battler born from the Italian Brainrot phenomenon. You collect bizarre monsters inspired by internet memes, cultural brainrot, and cursed soundbites. In <strong>Italian Brainrot: Neuro Beasts</strong>, each creature has evolved through glitches, audio loops, and forgotten pasta code.
+</p>
+
+<h2>How to Play Italian Brainrot: Neuro Beasts</h2>
+<p>
+  The core gameplay of <strong>Italian Brainrot: Neuro Beasts</strong> revolves around assembling and evolving your squad. Your goal is to survive arena battles by combining creatures, exploiting glitches, and triggering beast ultimates. In every round of <strong>Italian Brainrot: Neuro Beasts</strong>, unpredictable distortions reshape the fight.
+</p>
+
+<ul>
+  <li>Collect creatures across the Brainrot zones</li>
+  <li>Merge beasts to unlock corrupted evolutions</li>
+  <li>Use glitch tokens and espresso cores to power up</li>
+  <li>Battle online in real-time glitch arenas</li>
+</ul>
+
+<h2>Featured Beasts in Italian Brainrot: Neuro Beasts</h2>
+<ul>
+  <li><strong>Cappuccino Assassino:</strong> High-speed glitch type, enhanced by caffeine overload</li>
+  <li><strong>Lirili Larila Lure:</strong> Sound-based control beast from the MIDI wastelands</li>
+  <li><strong>Frigo Camelo Beta:</strong> Freezes enemy logic with cold storage code</li>
+  <li><strong>U Din Din Dun Shard:</strong> Summons echo attacks with random delays</li>
+</ul>
+
+<h2>Why Play Italian Brainrot: Neuro Beasts?</h2>
+<p>
+  <strong>Italian Brainrot: Neuro Beasts</strong> offers a brain-melting mix of tactical decisions and pure digital nonsense. Each match in <strong>Italian Brainrot: Neuro Beasts</strong> is different—thanks to random glitch events, corrupted terrain, and evolving AI logic. If you crave unpredictable gameplay, <strong>Italian Brainrot: Neuro Beasts</strong> is your arena.
+</p>
+
+<h2>Game Features</h2>
+<ul>
+  <li>Over 120 glitch creatures from the Italian Brainrot universe</li>
+  <li>Multi-stage evolutions in <strong>Italian Brainrot: Neuro Beasts</strong></li>
+  <li>Live PvP and AI brainrot bosses</li>
+  <li>Corrupted story mode with lore from <em>Tung Sahur</em>, <em>Burbaloni</em>, and more</li>
+  <li>Dynamic arenas that collapse mid-battle in <strong>Italian Brainrot: Neuro Beasts</strong></li>
+</ul>
+
+<h2>Tips for Surviving Italian Brainrot: Neuro Beasts</h2>
+<ol>
+  <li>Stick to one mutation type per squad</li>
+  <li>Use corner tiles—less glitch chance</li>
+  <li>Don’t overmerge early in <strong>Italian Brainrot: Neuro Beasts</strong></li>
+  <li>Always listen—MIDI cues warn of boss phase</li>
+</ol>
+
+<h2>The World of Italian Brainrot: Neuro Beasts</h2>
+<p>
+  Set after the collapse of the Espresso Circuit, <strong>Italian Brainrot: Neuro Beasts</strong> connects characters and events from the broader Italian Brainrot franchise. It’s a sequel, spin-off, and fever dream rolled into one. In <strong>Italian Brainrot: Neuro Beasts</strong>, you’ll face corrupted echoes of past heroes, like Matteo’s Beastform or Boneca’s glitchling.
+</p>
+
+<h2>Start Playing Italian Brainrot: Neuro Beasts</h2>
+<p>
+  Dive into the fractured code, summon your inner beast, and tap into the chaos. <strong>Italian Brainrot: Neuro Beasts</strong> is calling. The arena opens every hour. The monsters don’t wait. Will you survive <strong>Italian Brainrot: Neuro Beasts</strong>?
+</p>
+      `
     }
     
-    
-    
-    
-    
+
+
 
     
-    
-    
-    
-    
-    
-    
 
-    
-      
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   ]
 }; 
