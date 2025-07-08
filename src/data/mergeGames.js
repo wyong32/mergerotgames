@@ -1601,6 +1601,271 @@ export const mergeGamesData = {
         </p>
       `
     },
+
+    {
+      id: 20,
+      title: '2048 Drop',
+      time: '2025-07-08',
+      addressBar: '2048-drop',
+      seo: {
+        title: '2048 Drop - Play the Falling Number Puzzle Online for Free',
+        description: 'Play 2048 Drop, a gravity-based twist on the classic 2048 puzzle. Merge falling number tiles and build up your score. Addictive & free to play!',
+        keywords: '2048 Drop, falling number puzzle, gravity 2048, drop merge, number drop, play 2048 Drop'
+      },
+      category: ['merge-games'],
+      imageUrl: '/images/game-20.webp',
+      imageAlt: '2048 Drop – Gravity Number Puzzle Challenge',
+      iframeUrl: 'https://game.azgame.io/2048-drop/',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+        <h2>2048 Drop – Gravity-Based Number Puzzle Challenge</h2>
+        <p>
+          <strong>2048 Drop</strong> is a creative evolution of the iconic number puzzle game, introducing a new twist: gravity! Instead of sliding tiles across a grid, in <strong>2048 Drop</strong>, numbers fall from above like Tetris blocks. Merge matching numbers as they land and stack—your goal is still to reach that glorious <strong>2048 Drop</strong> tile, but how you get there is entirely different!
+        </p>
+    
+        <h2>What is 2048 Drop?</h2>
+        <p>
+          <strong>2048 Drop</strong> is a free-to-play online game that combines the strategic thinking of 2048 with the dynamic motion of falling block games. Numbered tiles drop from the top of the screen, and you must place them strategically to merge and reach the highest possible number. It’s a fresh, fast-paced take on the beloved formula—and once you start, it’s hard to stop.
+        </p>
+    
+        <h2>How to Play 2048 Drop</h2>
+        <p>
+          In <strong>2048 Drop</strong>, numbered tiles fall one at a time. Use your arrow keys or on-screen controls to move the tiles left or right before they land. When two tiles with the same number touch, they merge into one with a doubled value. The game continues until there is no space left to drop new tiles—so every placement counts.
+        </p>
+        <ul>
+          <li>Use <strong>left/right arrow keys</strong> to guide falling tiles</li>
+          <li>Merge tiles with the same number to increase value</li>
+          <li>Stack carefully to create space for future drops</li>
+          <li>Reach the <strong>2048 Drop</strong> tile—or go even further!</li>
+          <li>Game over if the stack reaches the top</li>
+        </ul>
+    
+        <h2>Features of 2048 Drop</h2>
+        <ul>
+          <li><strong>Gravity-Based Gameplay:</strong> A thrilling twist on classic 2048</li>
+          <li><strong>Strategic Depth:</strong> Think quickly, merge wisely</li>
+          <li><strong>Clean Design:</strong> Minimalist interface, smooth animations</li>
+          <li><strong>Cross-Platform:</strong> Works on mobile, tablet, and desktop</li>
+          <li><strong>No Downloads:</strong> Play <strong>2048 Drop</strong> online instantly</li>
+          <li><strong>Free Forever:</strong> No ads, no paywalls—just pure puzzle fun</li>
+        </ul>
+    
+        <h2>Why Play 2048 Drop?</h2>
+        <p>
+          <strong>2048 Drop</strong> offers the perfect balance of brain-teasing challenge and relaxing gameplay. It’s easy to learn but tricky to master, and every session presents new combinations and strategies. Whether you’re a longtime fan of number games or a newcomer looking for a fun brain teaser, <strong>2048 Drop</strong> delivers endless entertainment in short bursts or marathon sessions.
+        </p>
+    
+        <h2>Tips & Tricks for 2048 Drop</h2>
+        <ol>
+          <li><strong>Keep the center column low</strong> to avoid running out of space</li>
+          <li><strong>Plan your merges</strong>—don’t rush each drop</li>
+          <li><strong>Use walls to your advantage</strong> to set up merges</li>
+          <li><strong>Combine downward momentum</strong> with strategy to prevent pileups</li>
+          <li><strong>Stay calm under pressure</strong>—quick thinking leads to success</li>
+        </ol>
+    
+        <h2>2048 Drop vs Classic 2048</h2>
+        <p>
+          While both games share the same goal—merging numbers to reach the 2048 tile—the way you play <strong>2048 Drop</strong> is dramatically different. In the original 2048, you slide an entire grid; in <strong>2048 Drop</strong>, tiles fall one-by-one, and gravity takes control. This adds a new layer of difficulty and unpredictability, making <strong>2048 Drop</strong> a worthy successor and a standout among puzzle games.
+        </p>
+    
+        <h2>Frequently Asked Questions</h2>
+        <h3>Is 2048 Drop free to play?</h3>
+        <p>Yes! <strong>2048 Drop</strong> is completely free. No downloads, no subscriptions—just open your browser and start playing.</p>
+    
+        <h3>Can I play 2048 Drop on my phone?</h3>
+        <p>Absolutely. <strong>2048 Drop</strong> is optimized for all devices. Whether you're using iOS, Android, or desktop, it runs smoothly.</p>
+    
+        <h3>What makes 2048 Drop different from 2048?</h3>
+        <p>In <strong>2048 Drop</strong>, tiles fall from the top instead of sliding. This introduces physics-based gameplay and more complex merging strategies.</p>
+    
+        <h3>Who should play 2048 Drop?</h3>
+        <p>Anyone who loves puzzle games, number logic, or a fast-paced challenge. <strong>2048 Drop</strong> is fun for kids, adults, and everyone in between.</p>
+    
+        <h2>Play 2048 Drop Now</h2>
+        <p>
+          Ready to dive into the world of falling numbers and strategic merges? <strong>2048 Drop</strong> brings a thrilling new spin to the puzzle genre. Whether you’re here to kill a few minutes or to chase your next high score, <strong>2048 Drop</strong> will keep you hooked. Start playing now—can you conquer the <strong>2048 Drop</strong> challenge?
+        </p>
+      `
+    },
+
+    {
+      id: 21,
+      title: 'Merge to Million',
+      time: '2025-07-08',
+      addressBar: 'merge-to-million',
+      seo: {
+        title: 'Merge to Million - Fun & Free Online Number Puzzle Game',
+        description: 'Play Merge to Million, the free puzzle game where you combine numbers to build wealth. Easy to play, hard to master, and perfect for quick brain challenges.',
+        keywords: 'Merge to Million, number puzzle, merge tiles, logic game, tile merge, free puzzle, online merge game'
+      },
+      category: ['merge-games'],
+      imageUrl: '/images/game-21.webp',
+      imageAlt: 'Merge to Million – Stack Numbers and Get Rich!',
+      iframeUrl: 'https://games.crazygames.com/en_US/merge-to-million/index.html?czyBoltive_CZY_15200=disabled&czyDynamicPriceFloorVariantsCZY_14537=disabled&czyEPBPooling_CZY_14716=enabled&ssrDevice=desktop&isNewUser=false&v=1.335',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+        <h2>Merge to Million – Become a Puzzle Millionaire!</h2>
+        <p>
+          <strong>Merge to Million</strong> is the perfect blend of number matching, logic strategy, and satisfying progression. Start from humble 1s and 2s, merge identical numbers, and watch your bank grow as you climb toward that magical <strong>Merge to Million</strong> tile. It’s fun, fast, and totally free—your brain and wallet will thank you!
+        </p>
+    
+        <h2>What is Merge to Million?</h2>
+        <p>
+          <strong>Merge to Million</strong> is a casual online puzzle game where players combine matching numbered tiles to reach higher values, ultimately aiming to create the 1,000,000 tile. The game starts easy but quickly becomes a challenge in spatial awareness and logical decision-making. Think of it as 2048’s wealthier cousin—easy to play, tough to master.
+        </p>
+    
+        <h2>How to Play Merge to Million</h2>
+        <p>
+          In <strong>Merge to Million</strong>, you drop number tiles onto a grid. When two tiles with the same value touch, they merge into a single tile with double the value. Plan your drops carefully to avoid cluttering the board. The more you merge, the closer you get to becoming a digital millionaire!
+        </p>
+        <ul>
+          <li>Drag or tap to drop numbered tiles onto the grid</li>
+          <li>Merge same-number tiles to form bigger numbers</li>
+          <li>Keep merging until you hit the <strong>1,000,000</strong> tile</li>
+          <li>Game ends when the board fills up with no possible moves</li>
+        </ul>
+    
+        <h2>Merge to Million Features</h2>
+        <ul>
+          <li><strong>Addictive Gameplay:</strong> Simple mechanics, deep strategy</li>
+          <li><strong>Clean Visuals:</strong> Sleek, colorful, satisfying design</li>
+          <li><strong>Mobile-Friendly:</strong> Optimized for phones, tablets, and desktops</li>
+          <li><strong>Fast-Paced Fun:</strong> Quick rounds, instant gratification</li>
+          <li><strong>Free to Play:</strong> No downloads, no registration, just numbers</li>
+        </ul>
+    
+        <h2>Why Merge to Million is So Addictive</h2>
+        <p>
+          The magic of <strong>Merge to Million</strong> lies in its balance of simplicity and challenge. You don’t need a math degree to enjoy it—but you’ll feel clever every time a merge sets off a satisfying chain reaction. The joy of watching numbers double and triple is irresistible, and the journey to 1,000,000 feels like chasing digital treasure.
+        </p>
+        <p>
+          Whether you're a fan of number puzzles, idle games, or simply want a quick mental workout, <strong>Merge to Million</strong> keeps you engaged with that perfect “just one more move” appeal.
+        </p>
+    
+        <h2>Merge to Million Tips & Tricks</h2>
+        <ol>
+          <li><strong>Keep tiles low</strong>—avoid stacking too high near the top</li>
+          <li><strong>Set up chain merges</strong> by grouping similar tiles</li>
+          <li><strong>Merge from bottom-up</strong> to clear space more efficiently</li>
+          <li><strong>Don’t rush drops</strong>—pause and plan your placement</li>
+          <li><strong>Use walls strategically</strong> to control tile movement</li>
+        </ol>
+    
+        <h2>Merge to Million vs 2048</h2>
+        <p>
+          While <strong>2048</strong> started the merge-number trend, <strong>Merge to Million</strong> raises the stakes with a flashier goal and more dynamic interface. Instead of swiping the whole board, you control where each tile drops. This small twist adds a huge layer of strategy. <strong>Merge to Million</strong> is all about wealth-building, momentum, and timing.
+        </p>
+    
+        <h2>Merge to Million: Frequently Asked Questions</h2>
+        <h3>Is Merge to Million free?</h3>
+        <p>Yes! <strong>Merge to Million</strong> is 100% free. No hidden fees, no downloads—just play instantly in your browser.</p>
+    
+        <h3>Can I play Merge to Million on mobile?</h3>
+        <p>Absolutely. <strong>Merge to Million</strong> is fully optimized for mobile devices, tablets, and desktops alike.</p>
+    
+        <h3>What’s the highest tile in Merge to Million?</h3>
+        <p>The ultimate goal is to merge your way to the <strong>1,000,000</strong> tile. But you can keep playing for higher scores!</p>
+    
+        <h3>Who should play Merge to Million?</h3>
+        <p>Anyone who enjoys brain-teasing puzzles, merge mechanics, and satisfying progression. <strong>Merge to Million</strong> is ideal for players of all ages.</p>
+    
+        <h2>Play Merge to Million Now</h2>
+        <p>
+          Ready to climb your way to a digital fortune? Dive into <strong>Merge to Million</strong> and start stacking those numbers! With smooth gameplay, vibrant design, and endless replay value, <strong>Merge to Million</strong> is your next favorite puzzle obsession. Start merging today—because a million is just a few smart moves away.
+        </p>
+      `
+    },
+
+    {
+      id: 22,
+      title: 'Block Blast 3D',
+      time: '2025-07-08',
+      addressBar: 'block-blast-3d',
+      seo: {
+        title: 'Block Blast 3D - Play Free 3D Block Puzzle Game Online',
+        description: 'Play Block Blast 3D, a thrilling 3D block puzzle game where you rotate, drop, and blast colorful blocks. Fun, addictive, and totally free online!',
+        keywords: 'Block Blast 3D, 3D block game, block puzzle, play Block Blast 3D, block blasting'
+      },
+      category: ['merge-games'],
+      imageUrl: '/images/game-22.webp',
+      imageAlt: 'Block Blast 3D – Explosive Puzzle Challenge in 3D',
+      iframeUrl: 'https://game.azgame.io/block-blast-3d/',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+        <h2>Block Blast 3D – Explosive Puzzle Challenge in 3D</h2>
+        <p>
+          <strong>Block Blast 3D</strong> is a dynamic and addictive 3D puzzle game that puts your spatial skills to the test! Rotate, drop, and blast colorful blocks in a fully immersive 3D arena. With fast-paced gameplay, vibrant visuals, and brain-teasing challenges, <strong>Block Blast 3D</strong> delivers nonstop fun for puzzle fans of all ages.
+        </p>
+    
+        <h2>What is Block Blast 3D?</h2>
+        <p>
+          <strong>Block Blast 3D</strong> is a free-to-play online puzzle game where players stack and destroy blocks in a three-dimensional grid. Inspired by classics like Tetris and modern physics games, <strong>Block Blast 3D</strong> takes the block-matching concept into a new dimension—literally. You'll rotate the arena, align shapes, and trigger massive blasts to clear levels and beat high scores.
+        </p>
+    
+        <h2>How to Play Block Blast 3D</h2>
+        <p>
+          Playing <strong>Block Blast 3D</strong> is easy to learn but hard to put down. Blocks of different shapes fall into a 3D arena. Your job is to rotate the view, position the blocks correctly, and create full lines or layers to blast them away. The more lines you clear in one move, the bigger the blast!
+        </p>
+        <ul>
+          <li>Use <strong>arrow keys</strong> or swipe to rotate the 3D arena</li>
+          <li>Drag or click to drop blocks in place</li>
+          <li>Clear full horizontal or vertical layers to blast blocks</li>
+          <li>Avoid filling up the arena—space is limited!</li>
+        </ul>
+    
+        <h2>Block Blast 3D Game Features</h2>
+        <ul>
+          <li><strong>3D Puzzle Gameplay:</strong> Think beyond the 2D plane</li>
+          <li><strong>Colorful Visuals:</strong> Bright, vibrant block designs</li>
+          <li><strong>Responsive Controls:</strong> Rotate and drop with ease</li>
+          <li><strong>Free to Play:</strong> Instant access with no downloads</li>
+          <li><strong>Challenging Progression:</strong> Each level ramps up the intensity</li>
+          <li><strong>Universal Access:</strong> Play on mobile, desktop, or tablet</li>
+        </ul>
+    
+        <h2>Why Block Blast 3D is So Addictive</h2>
+        <p>
+          <strong>Block Blast 3D</strong> blends strategy, speed, and 3D visualization into one satisfying puzzle package. The rotating view lets you see the block arena from multiple angles, giving the game an extra layer of complexity and fun. Every blast feels rewarding, and every move can lead to a chain reaction of explosive combos.
+        </p>
+    
+        <h2>Tips to Master Block Blast 3D</h2>
+        <ol>
+          <li><strong>Plan your rotations</strong>—see all sides before dropping blocks</li>
+          <li><strong>Clear multiple layers</strong> for higher scores and combos</li>
+          <li><strong>Keep the center open</strong> to allow for complex placements</li>
+          <li><strong>Don’t rush</strong>—speed leads to misalignment</li>
+          <li><strong>Use previews</strong> to prepare for the next shape</li>
+        </ol>
+    
+        <h2>Block Blast 3D FAQ</h2>
+        <h3>Is Block Blast 3D free?</h3>
+        <p>Yes! <strong>Block Blast 3D</strong> is completely free to play online. No downloads, no subscriptions.</p>
+    
+        <h3>Can I play Block Blast 3D on mobile?</h3>
+        <p>Definitely. <strong>Block Blast 3D</strong> is fully compatible with phones and tablets, as well as desktops.</p>
+    
+        <h3>How is Block Blast 3D different from Tetris?</h3>
+        <p><strong>Block Blast 3D</strong> adds a 3D twist to classic block games. Instead of a flat grid, you rotate and play in a cube-shaped arena, with full 3D placement.</p>
+    
+        <h3>Is Block Blast 3D suitable for kids?</h3>
+        <p>Yes! <strong>Block Blast 3D</strong> is family-friendly and great for children, teens, and adults alike.</p>
+    
+        <h2>Play Block Blast 3D Now</h2>
+        <p>
+          If you love puzzles with a twist, <strong>Block Blast 3D</strong> is your next obsession. Test your logic, master your rotations, and enjoy the thrill of watching blocks explode in a colorful 3D world. Start playing <strong>Block Blast 3D</strong> now and see how many blasts you can chain together!
+        </p>
+      `
+    }
+    
+    
+    
     
 
     

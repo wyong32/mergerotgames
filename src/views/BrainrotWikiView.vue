@@ -261,7 +261,16 @@
                           decoding="async"
                         />
                       </td>
-                      <td class="character-name">{{ character.name }}</td>
+                      <td class="character-name">
+                        <RouterLink 
+                          v-if="character.slug" 
+                          :to="`/italian-brainrot-wiki/${character.slug}`" 
+                          class="character-link"
+                        >
+                          {{ character.name }}
+                        </RouterLink>
+                        <span v-else class="character-text">{{ character.name }}</span>
+                      </td>
                       <td class="character-desc">{{ character.description }}</td>
                       <td class="audio-cell">
                         <button
@@ -401,20 +410,32 @@
 
           <!-- Left Panel: Entry List (如果需要的话可以添加) -->
           <aside class="left-panel">
-            <h2 class="left-panel-title">Wiki Topics</h2>
-            <div class="entry-list-panel">
-              <RouterLink
-                v-for="entry in wikiData.entries"
-                :key="entry.id"
-                :to="`/italian-brainrot-wiki/${entry.addressBar}`"
-                class="post-card"
-              >
-                <img :src="entry.imageUrl" :alt="entry.imageAlt" class="post-image" loading="lazy" decoding="async" />
-                <div class="post-content">
-                  <h3 class="post-title">{{ entry.title }}</h3>
-                  <span class="read-more">Read More</span>
-                </div>
-              </RouterLink>
+            <!-- 顶部图片展示区域 -->
+            <div class="top-section">
+              <h2 class="top-section-title">Italian Brainrot Gallery</h2>
+              <img class="side-image" src="/images/home-video.webp" alt="Italian Brainrot" loading="lazy" decoding="async" />
+              <p class="top-section-description">
+                Dive into the chaotic world of Italian Brainrot - where absurdity meets creativity in the most entertaining way possible.
+              </p>
+            </div>
+            
+            <!-- 底部导航功能区域 -->
+            <div class="bottom-section">
+              <h2 class="left-panel-title">Wiki Topics</h2>
+              <div class="entry-list-panel">
+                <RouterLink
+                  v-for="entry in wikiData.entries"
+                  :key="entry.id"
+                  :to="`/italian-brainrot-wiki/${entry.addressBar}`"
+                  class="post-card"
+                >
+                  <img :src="entry.imageUrl" :alt="entry.imageAlt" class="post-image" loading="lazy" decoding="async" />
+                  <div class="post-content">
+                    <h3 class="post-title">{{ entry.title }}</h3>
+                    <span class="read-more">Read More</span>
+                  </div>
+                </RouterLink>
+              </div>
             </div>
           </aside>
         </div>
@@ -527,6 +548,52 @@ const playAudio = (audioRef) => {
   border-radius: 1rem;
   padding: 1rem;
   box-shadow: 0 4px 20px rgba(255, 128, 171, 0.15);
+}
+
+/* ===== 顶部图片展示区域 ===== */
+.top-section {
+  background-color: rgba(224, 247, 250, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 12px rgba(132, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* ===== 顶部图片标题 ===== */
+.top-section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-bottom: 0.8rem;
+  text-align: center;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== 顶部图片描述 ===== */
+.top-section-description {
+  font-size: 1rem;
+  color: var(--color-text);
+  opacity: 0.8;
+  text-align: center;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+/* ===== 底部导航功能区域 ===== */
+.bottom-section {
+  background-color: rgba(255, 224, 247, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 2px 12px rgba(255, 128, 171, 0.2);
 }
 
 .left-panel-title {
@@ -826,6 +893,24 @@ const playAudio = (audioRef) => {
   min-width: 100px;
 }
 
+.character-link {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: color 0.2s ease;
+  font-weight: bold;
+}
+
+.character-link:hover {
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
+.character-text {
+  color: var(--color-text);
+  opacity: 0.8;
+  font-weight: bold;
+}
+
 .character-desc {
   color: var(--color-text);
   line-height: 1.4;
@@ -881,6 +966,16 @@ const playAudio = (audioRef) => {
   }
 }
 
+.side-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(255, 128, 171, 0.15);
+  border: 2px solid white;
+  margin-bottom: 1rem;
+}
+
 /* ===== 响应式设计 ===== */
 @media (max-width: 1024px) {
   .wiki-layout {
@@ -913,6 +1008,26 @@ const playAudio = (audioRef) => {
   /* 左侧面板 */
   .left-panel {
     padding: 1rem;
+  }
+
+  /* 新增：顶部和底部区域移动端适配 */
+  .top-section {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+  }
+
+  .bottom-section {
+    padding: 0.8rem;
+  }
+
+  .top-section-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .top-section-description {
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
   }
 
   .left-panel-title {
@@ -990,6 +1105,14 @@ const playAudio = (audioRef) => {
     width: 25%;
     min-width: 60px;
     max-width: 100px;
+  }
+
+  .character-link {
+    font-size: 0.8rem;
+  }
+
+  .character-text {
+    font-size: 0.8rem;
   }
 
   .character-desc {
