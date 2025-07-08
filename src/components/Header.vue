@@ -20,7 +20,6 @@
           <li><RouterLink to="/italian-brainrot-games">Italian Brainrot Games</RouterLink></li>
           <li><RouterLink to="/italian-brainrot-wiki">Italian Brainrot Wiki</RouterLink></li>
           <li><RouterLink to="/blog">Blog</RouterLink></li>
-          <li><a href="#" target="_blank" rel="noopener noreferrer">Discord</a></li>
         </ul>
       </nav>
     </div>

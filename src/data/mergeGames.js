@@ -1862,7 +1862,95 @@ export const mergeGamesData = {
           If you love puzzles with a twist, <strong>Block Blast 3D</strong> is your next obsession. Test your logic, master your rotations, and enjoy the thrill of watching blocks explode in a colorful 3D world. Start playing <strong>Block Blast 3D</strong> now and see how many blasts you can chain together!
         </p>
       `
+    },
+
+    {
+      id: 23,
+      title: 'Bricky Break',
+      time: '2025-07-08',
+      addressBar: 'bricky-break',
+      seo: {
+        title: 'Bricky Break - Free Online Brick Breaking Arcade Game',
+        description: 'Play Bricky Break, a colorful and fast-paced arcade game where you smash bricks with bouncing balls. Classic gameplay with modern twists—play free online!',
+        keywords: 'Bricky Break, brick breaker, arcade game, online breakout, ball and paddle, play Bricky Break'
+      },
+      category: ['merge-games'],
+      imageUrl: '/images/game-23.webp',
+      imageAlt: 'Bricky Break – Classic Brick Breaking Arcade Fun',
+      iframeUrl: 'https://azgames.io/bricky-break.embed',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+        <h2>Bricky Break – Smash Bricks, Catch Powerups, Rule the Arcade</h2>
+        <p>
+          <strong>Bricky Break</strong> is a thrilling brick-breaking arcade game that puts your reflexes and strategy to the test. If you love fast-paced, colorful games where bouncing balls shatter walls of bricks, <strong>Bricky Break</strong> is your new obsession. With sleek design, power-ups, and satisfying physics, it’s a fresh take on a timeless genre.
+        </p>
+    
+        <h2>What is Bricky Break?</h2>
+        <p>
+          <strong>Bricky Break</strong> is a modern arcade game inspired by classics like Breakout and Arkanoid. You control a paddle at the bottom of the screen, bouncing one or more balls to destroy bricks at the top. Some bricks take multiple hits, others drop special power-ups, and each level gets trickier as you advance. Your goal? Smash every single brick and don’t let those balls fall!
+        </p>
+    
+        <h2>How to Play Bricky Break</h2>
+        <p>
+          Playing <strong>Bricky Break</strong> is simple to start but surprisingly strategic. You move your paddle left and right to bounce the ball and prevent it from falling. Use angles, speed, and power-ups to your advantage to clear the stage.
+        </p>
+        <ul>
+          <li>Use arrow keys or touch to move your paddle</li>
+          <li>Bounce the ball off your paddle to hit bricks</li>
+          <li>Clear all bricks to complete a level</li>
+          <li>Catch falling power-ups for bonuses and boosts</li>
+          <li>Don’t miss the ball—or it’s game over!</li>
+        </ul>
+    
+        <h2>Bricky Break Game Features</h2>
+        <ul>
+          <li><strong>Classic Arcade Action:</strong> A tribute to old-school gameplay</li>
+          <li><strong>Smooth Controls:</strong> Responsive paddle movement and satisfying physics</li>
+          <li><strong>Power-Ups Galore:</strong> Multiball, lasers, paddle growth, and more</li>
+          <li><strong>Multiple Levels:</strong> Increasing difficulty and brick patterns</li>
+          <li><strong>Play Anywhere:</strong> Works great on desktop and mobile</li>
+          <li><strong>Free to Play:</strong> No downloads or installs required</li>
+        </ul>
+    
+        <h2>Why You’ll Love Bricky Break</h2>
+        <p>
+          <strong>Bricky Break</strong> hits that perfect sweet spot between nostalgia and modern fun. Whether you grew up playing classic brick breakers or you’re new to the genre, <strong>Bricky Break</strong> keeps you on your toes with fast gameplay and colorful design. The simple controls make it accessible, while the rising difficulty and combos keep it exciting.
+        </p>
+        <p>
+          The moment when you catch a multiball power-up or shatter the last brick is pure arcade joy. <strong>Bricky Break</strong> offers satisfying wins and rewarding challenges that make you want to keep playing “just one more level.”
+        </p>
+    
+        <h2>Tips & Tricks for Bricky Break</h2>
+        <ol>
+          <li><strong>Watch your ball’s angle</strong>—learn to control where it bounces</li>
+          <li><strong>Prioritize power-ups</strong>—they can turn the tide quickly</li>
+          <li><strong>Hit hard-to-reach bricks</strong> early before the ball speeds up</li>
+          <li><strong>Keep calm with multiballs</strong>—focus on one at a time if needed</li>
+          <li><strong>Stay centered</strong>—so you can move quickly in either direction</li>
+        </ol>
+    
+        <h2>Bricky Break FAQ</h2>
+        <h3>Is Bricky Break free to play?</h3>
+        <p>Yes! <strong>Bricky Break</strong> is completely free—no downloads or sign-ups required.</p>
+    
+        <h3>Can I play Bricky Break on my phone?</h3>
+        <p>Absolutely. <strong>Bricky Break</strong> works smoothly on both desktop and mobile devices.</p>
+    
+        <h3>Does Bricky Break have power-ups?</h3>
+        <p>Yes! <strong>Bricky Break</strong> includes exciting power-ups like multiball, lasers, and paddle expanders.</p>
+    
+        <h3>Is Bricky Break hard?</h3>
+        <p>It starts easy, but <strong>Bricky Break</strong> gets more challenging with each level—perfect for both casual and competitive players.</p>
+    
+        <h2>Play Bricky Break Now</h2>
+        <p>
+          Get ready to blast some bricks! Jump into <strong>Bricky Break</strong> and enjoy a classic arcade game with a modern touch. It’s fast, it’s fun, and it’s free. Play <strong>Bricky Break</strong> now and see how many levels you can clear!
+        </p>
+      `
     }
+    
     
     
     
