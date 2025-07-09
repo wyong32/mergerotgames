@@ -92,8 +92,8 @@
               
               <div class="contact-info">
                 <ul>
-                  <li><strong>General Inquiries:</strong> delldremo9898@gmail.com</li>
-                  <li><strong>Support:</strong> delldremo9898@gmail.com</li>
+                  <li><strong>General Inquiries:</strong> jennifermontai77@gmail.com</li>
+                  <li><strong>Support:</strong> jennifermontai77@gmail.com</li>
                   <li><strong>Contact Page:</strong> <RouterLink to="/contact-us">Contact Us</RouterLink></li>
                 </ul>
               </div>

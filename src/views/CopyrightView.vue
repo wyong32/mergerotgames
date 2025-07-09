@@ -157,9 +157,9 @@
               <h2>10. Contact Us</h2>
               <p>If you have any questions about copyright issues or need licensing, please contact us:</p>
               <ul>
-                <li><strong>Copyright Email:</strong> delldremo9898@gmail.com</li>
-                <li><strong>Legal Email:</strong> delldremo9898@gmail.com</li>
-                <li><strong>DMCA Notices:</strong> delldremo9898@gmail.com</li>
+                <li><strong>Copyright Email:</strong> jennifermontai77@gmail.com</li>
+                <li><strong>Legal Email:</strong> jennifermontai77@gmail.com</li>
+                <li><strong>DMCA Notices:</strong> jennifermontai77@gmail.com</li>
                 <li><strong>Contact Page:</strong> <RouterLink to="/contact-us">Contact Us</RouterLink></li>
               </ul>
             </section>

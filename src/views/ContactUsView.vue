@@ -21,28 +21,28 @@
                   <div class="contact-icon">📧</div>
                   <h3>Email</h3>
                   <p>For general inquiries, support, or feedback:</p>
-                  <a href="mailto:delldremo9898@gmail.com" class="contact-link">delldremo9898@gmail.com</a>
+                  <a href="mailto:jennifermontai77@gmail.com" class="contact-link">jennifermontai77@gmail.com</a>
                 </div>
                 
                 <div class="contact-item">
                   <div class="contact-icon">🎮</div>
                   <h3>Game Support</h3>
                   <p>Having trouble with a game? Need technical assistance?</p>
-                  <a href="mailto:delldremo9898@gmail.com" class="contact-link">delldremo9898@gmail.com</a>
+                  <a href="mailto:jennifermontai77@gmail.com" class="contact-link">jennifermontai77@gmail.com</a>
                 </div>
                 
                 <div class="contact-item">
                   <div class="contact-icon">💡</div>
                   <h3>Suggestions & Feedback</h3>
                   <p>Share your ideas for new features or improvements:</p>
-                  <a href="mailto:delldremo9898@gmail.com" class="contact-link">delldremo9898@gmail.com</a>
+                  <a href="mailto:jennifermontai77@gmail.com" class="contact-link">jennifermontai77@gmail.com</a>
                 </div>
                 
                 <div class="contact-item">
                   <div class="contact-icon">🐛</div>
                   <h3>Bug Reports</h3>
                   <p>Found a bug? Help us fix it by reporting it:</p>
-                  <a href="mailto:delldremo9898@gmail.com" class="contact-link">delldremo9898@gmail.com</a>
+                  <a href="mailto:jennifermontai77@gmail.com" class="contact-link">jennifermontai77@gmail.com</a>
                 </div>
               </div>
             </section>
@@ -151,7 +151,7 @@
               
               <div class="contact-cta">
                 <p><strong>Ready to get in touch?</strong></p>
-                <a href="mailto:delldremo9898@gmail.com" class="primary-contact-btn">Send us an email</a>
+                <a href="mailto:jennifermontai77@gmail.com" class="primary-contact-btn">Send us an email</a>
               </div>
             </section>
           </div>

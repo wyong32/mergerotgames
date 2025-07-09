@@ -127,7 +127,7 @@
               <h2>13. Contact Us</h2>
               <p>If you have any questions about these Terms of Use, please contact us:</p>
               <ul>
-                <li><strong>Email:</strong> delldremo9898@gmail.com</li>
+                <li><strong>Email:</strong> jennifermontai77@gmail.com</li>
                 <li><strong>Contact Page:</strong> <RouterLink to="/contact-us">Contact Us</RouterLink></li>
               </ul>
             </section>

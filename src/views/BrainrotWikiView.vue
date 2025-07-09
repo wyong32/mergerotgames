@@ -1105,6 +1105,7 @@ const playAudio = (audioRef) => {
     width: 25%;
     min-width: 60px;
     max-width: 100px;
+    overflow: hidden;
   }
 
   .character-link {
