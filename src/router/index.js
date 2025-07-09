@@ -2,6 +2,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  scrollBehavior(to, from, savedPosition) {
+    // 如果有保存的位置（浏览器前进/后退），返回保存的位置
+    if (savedPosition) {
+      return savedPosition
+    }
+    // 对于所有新的路由跳转，滚动到页面顶部
+    return { top: 0, behavior: 'smooth' }
+  },
   routes: [
     {
       path: '/',
