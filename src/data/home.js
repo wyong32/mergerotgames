@@ -1,7 +1,7 @@
 export const homeData = {
   gameTitle: 'Merge Rot',
   iframeSrc: 'https://1games.io/game/merge-brainrot/',
-  imageSrc: './images/home-game.webp',
+  imageSrc: './images/home-game-1.webp',
   videoIframeSrc: 'https://www.youtube.com/embed/LFEZn-HbZdk', // Placeholder video
   aboutHtml: `
   <section id="merge-rot-expanded">
