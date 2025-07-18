@@ -15,11 +15,11 @@ export const blogData = {
       },
       content: `
         <h2>What Is Merge-Rot?</h2>
-        <p><strong>Merge-Rot</strong> isn’t just a genre—it’s a glorious descent into digital madness. Born from the collision of casual puzzle mechanics and meme-fueled absurdity, Merge-Rot games take the satisfying formula of merging objects and inject it with chaos, physics glitches, and AI-generated voices screaming in Italian.</p>
+        <p><a href="/">Merge-Rot</a> isn’t just a genre—it’s a glorious descent into digital madness. Born from the collision of casual puzzle mechanics and meme-fueled absurdity, Merge-Rot games take the satisfying formula of merging objects and inject it with chaos, physics glitches, and AI-generated voices screaming in Italian.</p>
         <p>These games aren’t designed to be polished. They’re designed to be hilarious, unpredictable, and deeply viral. And players love them exactly because they make no sense.</p>
     
         <h2>The Core of Merge-Rot: Chaotic Merge Mechanics</h2>
-        <p>At the heart of every Merge-Rot experience is the familiar mechanic: drag and drop two identical items to create a bigger one. But unlike traditional merge games, where logic and progression are the focus, Merge-Rot flips the table (sometimes literally).</p>
+        <p>At the heart of every <a href="/">Merge-Rot</a> experience is the familiar mechanic: drag and drop two identical items to create a bigger one. But unlike traditional merge games, where logic and progression are the focus, Merge-Rot flips the table (sometimes literally).</p>
         <p>Physics are intentionally weird. A grape might bounce like a basketball. A croissant might explode into fireworks. Your goal might be to create a spaghetti monster or a sentient meatball. And that’s just Level 1.</p>
     
         <h3>From Merge Fellas to Merge Combo</h3>
@@ -33,7 +33,7 @@ export const blogData = {
         <p>Unlike traditional puzzle games, Merge-Rot titles don’t punish players. You can fail and still have fun. It’s about the moment-to-moment surprises and surreal aesthetic. Even failure feels funny.</p>
     
         <h3>Community-Driven Chaos</h3>
-        <p>The community around Merge-Rot is half the fun. Fans create their own characters, remix gameplay moments, and contribute to pages like <strong>Brainrot Wiki</strong> to preserve this ever-evolving universe of disorder.</p>
+        <p>The community around Merge-Rot is half the fun. Fans create their own characters, remix gameplay moments, and contribute to pages like <a href="/italian-brainrot-wiki">Brainrot Wiki</a> to preserve this ever-evolving universe of disorder.</p>
     
         <h2>The Future of Merge-Rot</h2>
         <p>Merge-Rot shows no signs of slowing down. More developers are embracing its chaotic formula, and more players are seeking dopamine-fueled nonsense in their downtime. Expect future titles to get even more ridiculous—with AI-generated dialogue, spaghetti physics, and maybe even multiplayer twerking sharks.</p>
@@ -57,7 +57,7 @@ export const blogData = {
       },
       content: `
         <h2>Merge-Rot: The Meme-Game Hybrid We Didn't Know We Needed</h2>
-        <p>Somewhere between a casual puzzle game and an internet fever dream lies <strong>Merge-Rot</strong>. What started as a joke—merging absurd items into even more absurd outcomes—has become a viral staple of mobile gaming and meme culture. And it’s not slowing down.</p>
+        <p>Somewhere between a casual puzzle game and an internet fever dream lies <a href="/">Merge-Rot</a>. What started as a joke—merging absurd items into even more absurd outcomes—has become a viral staple of mobile gaming and meme culture. And it’s not slowing down.</p>
         <p>Merge-Rot isn’t defined by polish or polishability. It’s defined by chaos, spaghetti, questionable voice acting, and dopamine-inducing absurdity.</p>
     
         <h2>How Merge-Rot Became a Digital Virus</h2>
@@ -73,7 +73,7 @@ export const blogData = {
         <p>It’s not just about playing these games. It’s about living them. Merge-Rot has spawned a full-blown aesthetic—garish colors, low-res textures, janky animations, and AI voiceovers so bad they’re genius. This deliberate visual noise has become part of its identity.</p>
     
         <h3>Brainrot Wiki and the Lore of Madness</h3>
-        <p>The community now treats these games like they’re part of a shared cinematic universe. <strong>Brainrot Wiki</strong> documents the characters, their chaotic evolutions, and even the “deep lore” of things like The Holy Lasagna or The Spaghetti Singularity.</p>
+        <p>The community now treats these games like they’re part of a shared cinematic universe. <a href="/italian-brainrot-wiki">Brainrot Wiki</a> documents the characters, their chaotic evolutions, and even the “deep lore” of things like The Holy Lasagna or The Spaghetti Singularity.</p>
     
         <h2>Where Does Merge-Rot Go From Here?</h2>
         <p>More developers are embracing the trend. Some are making deliberate Merge-Rot clones, while others are leaning into glitch art, meme physics, and AI-generated everything. The genre’s future might include co-op multiplayer nonsense, competitive rot leagues, or even VR pasta simulators.</p>
