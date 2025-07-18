@@ -9,7 +9,7 @@
           <section class="info-card">
             <h2>What Is Italian Brainrot & Why Are Your Kids Obsessed With It?</h2>
             <p>
-              <strong>By Jamie Kenney</strong> — <time datetime="2025-05-23">May 23, 2025</time>
+              <time datetime="2025-05-23">May 23, 2025</time>
             </p>
 
             <p>

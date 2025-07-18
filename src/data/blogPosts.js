@@ -61,7 +61,7 @@ export const blogData = {
         <p>Merge-Rot isn’t defined by polish or polishability. It’s defined by chaos, spaghetti, questionable voice acting, and dopamine-inducing absurdity.</p>
     
         <h2>How Merge-Rot Became a Digital Virus</h2>
-        <p>Unlike traditional game trends, Merge-Rot didn't emerge from a major studio or clever monetization model. It exploded out of nowhere—thanks to streamers, meme pages, and short-form video platforms. One clip of a pixelated sausage merging into a jet ski was all it took to spark global interest.</p>
+        <p>Unlike traditional game trends, <a href="/">Merge-Rot</a> didn't emerge from a major studio or clever monetization model. It exploded out of nowhere—thanks to streamers, meme pages, and short-form video platforms. One clip of a pixelated sausage merging into a jet ski was all it took to spark global interest.</p>
     
         <h3>Virality by Design</h3>
         <p>The best Merge-Rot games, like <em>Merge Fellas</em> and <em>Brainrot Clicker</em>, are basically meme generators. Every 10 seconds something ridiculous happens—an object clips through the wall, a cat sings opera, or a loaf of bread starts dancing. That’s instant shareability.</p>

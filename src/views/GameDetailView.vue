@@ -20,6 +20,7 @@
               <h1 class="section-title">{{ game.title }}</h1>
               <p class="release-date">Released: {{ formattedDate }}</p>
               <div v-html="game.detailsHtml" class="prose"></div>
+              <p>For more games, please click <RouterLink to="/merge-games">Merge Rot</RouterLink></p>
             </section>
           </div>
 
