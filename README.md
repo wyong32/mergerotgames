@@ -1,50 +1,62 @@
 # Merge Rot
 
-The ultimate merging game experience with brainrot entertainment!
+**Merge Rot** is a chaotic and brain-melting merge game where logic dies, and cursed combinations are born.
 
-## Vercel Deployment
+> It's not just a game... it's a lifestyle of *rot*.
 
-This project is optimized for **Vercel** deployment:
+## Play the Game
 
-1. **Connect your repository** to Vercel
-2. **Build command**: `npm run build`
-3. **Output directory**: `dist`
-4. **SPA routing** is handled by `vercel.json`
-
-### Auto-deployment
-- Push to main branch → automatic deployment
-- Pull requests → preview deployments
-
-### Configuration
-- `vercel.json` - Handles SPA routing and caching
-- All other routes redirect to `index.html`
-- Static assets get optimized caching headers
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## Features
-
-- ✅ SPA routing with client-side navigation
-- ✅ SEO-optimized meta tags
-- ✅ Responsive design
-- ✅ Legal pages (Privacy, Terms, etc.)
-- ✅ Automatic sitemap generation
-- ✅ Performance optimized builds
+[Play Merge Rot Now](https://mergerotgames.com/)  
+Warning: may cause uncontrollable laughter, confusion, and desire to merge everything IRL.
 
 ---
 
-For more games, please visit "https://https://mergerotgames.com/"
+## What Is Merge Rot?
+
+In **Merge Rot**, you drag-and-drop to merge the same units...  
+...until they become something *worse*.
+
+From suspicious tomatoes to sentient espresso cups, each evolution is more absurd than the last. There's no end. Just rot.
+
+This game was inspired by Italian Brainrot memes, chaotic animation loops, and the universal human urge to make things worse *on purpose*.
+
+---
+
+## Features
+
+- 100% Brainrot-certified characters
+- Merge mechanics with degenerating logic
+- Random soundbites, visual glitches, and ????
+- One-button gameplay, infinite mess
+- Runs on desktop, mobile, or grandma’s smart fridge
+
+---
+
+## How to Play
+
+1. Drag one unit onto another identical unit.
+2. They merge. Something changes. It gets... strange.
+3. Repeat. The rot spreads.
+4. Try to reach the final form. Fail. Try again.
+
+---
+
+## Screenshots
+
+> *Coming soon, if the images don't merge themselves first.*
+
+---
+
+## Roadmap
+
+- [ ] Add 20 more cursed merge levels
+- [ ] Implement Italian voiceovers ("Mamma mia!")
+- [ ] Mobile-friendly tweaks
+- [ ] Endgame lore nobody asked for
+
+---
+
+## License
+
+MIT, because rot is meant to be shared.
+
