@@ -46,8 +46,8 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
-import { useRoute, RouterLink } from 'vue-router'
+import { computed, watch } from 'vue'
+import { useRoute, useRouter, RouterLink } from 'vue-router'
 import { useHead } from '@vueuse/head'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
@@ -56,12 +56,52 @@ import GameGrid from '@/components/GameGrid.vue'
 import { mergeGamesData } from '@/data/mergeGames.js'
 
 const route = useRoute()
+const router = useRouter()
 
 const game = computed(() => {
   return mergeGamesData.gamesList.find(
     (g) => g.addressBar === route.params.addressBar
   )
 })
+
+// 检查当前分类是否正确
+const isCorrectCategory = computed(() => {
+  if (!game.value) return false
+  
+  const currentCategory = route.params.category
+  const gameCategories = game.value.category
+  
+  return gameCategories.includes(currentCategory)
+})
+
+// 验证路由分类参数
+const validateRoute = () => {
+  if (!game.value) {
+    // 游戏不存在，显示404
+    return
+  }
+  
+  const currentCategory = route.params.category
+  const gameCategories = game.value.category
+  
+  // 检查当前URL的分类是否与游戏的实际分类匹配
+  if (!gameCategories.includes(currentCategory)) {
+    // 分类不匹配，使用301重定向到正确的URL
+    const correctCategory = gameCategories[0] // 使用第一个分类作为默认
+    const correctPath = `/${correctCategory}/${game.value.addressBar}`
+    
+    console.log(`301重定向: ${route.fullPath} -> ${correctPath}`)
+    // 使用router.replace进行301重定向，不保留历史记录
+    router.replace(correctPath)
+  }
+}
+
+// 监听路由变化
+watch(
+  () => route.params,
+  () => validateRoute(),
+  { immediate: true }
+)
 
 const sidebarGames = computed(() => {
   return mergeGamesData.gamesList.filter(
@@ -84,9 +124,19 @@ const SITE_URL = 'https://mergerotgames.com'; // 根据实际域名修改
 // Set SEO meta tags
 useHead(
   computed(() => {
-    const canonicalUrl = `${SITE_URL}${route.fullPath}`;
+    // 确保使用正确的规范URL（基于游戏的实际分类）
+    let canonicalUrl = `${SITE_URL}${route.fullPath}`;
     
     if (game.value) {
+      const currentCategory = route.params.category
+      const gameCategories = game.value.category
+      
+      // 如果当前URL分类不正确，使用正确的分类生成canonical URL
+      if (!gameCategories.includes(currentCategory)) {
+        const correctCategory = gameCategories[0]
+        canonicalUrl = `${SITE_URL}/${correctCategory}/${game.value.addressBar}`
+      }
+      
       return {
         title: game.value.seo.title,
         meta: [

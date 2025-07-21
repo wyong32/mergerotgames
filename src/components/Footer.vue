@@ -37,9 +37,9 @@
           <div class="footer-links">
             <h4>Game Categories</h4>
             <ul>
-              <li><RouterLink to="/merge-fellas">Privacy Policy</RouterLink></li>
-              <li><RouterLink to="/2048-italian-brainrot">2048 Italian Brainrot</RouterLink></li>
-              <li><RouterLink to="/merge-games/brainrot-clicker">Brainrot Clicker</RouterLink></li>
+              <li><RouterLink to="/merge-fellas">Merge Fellas</RouterLink></li>
+              <li><RouterLink to="/italian-brainrot-games/2048-italian-brainrot">2048 Italian Brainrot</RouterLink></li>
+              <li><RouterLink to="/italian-brainrot-games/brainrot-clicker">Brainrot Clicker</RouterLink></li>
               <li><RouterLink to="/italian-brainrot-games/italian-brainrot-obby-parkour">Italian Brainrot Obby Parkour</RouterLink></li>
               <li><RouterLink to="/merge-games/merge-fellas-italian-brainrot">Merge Fellas Italian Brainrot</RouterLink></li>
             </ul>
