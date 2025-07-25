@@ -597,9 +597,9 @@ export const mergeGamesData = {
       imageUrl: '/images/game-08.webp',
       imageAlt: 'Number Merge – The Ultimate Number Puzzle Challenge',
       iframeUrl: 'https://game.enjoy4fun.com/mergethenumbers/v2/index.html?channel-id=default&site-id=site_4&zone-id=44233&debug=false',
-      isHome: true,
-      isFella: true,
-      isDetails: true,
+      isHome: false,
+      isFella: false,
+      isDetails: false,
       detailsHtml: `
       <h2>Number Merge – The Ultimate Number Puzzle Challenge</h2>
       <p>
@@ -768,9 +768,9 @@ export const mergeGamesData = {
       imageUrl: '/images/game-10.webp',
       imageAlt: 'Fish Eat Getting Big – Eat, Grow, and Survive!',
       iframeUrl: 'https://fish-eat-getting-big.game-files.crazygames.com/fish-eat-getting-big/3/index.html?czyBoltive_CZY_15200=disabled&czyDynamicPriceFloorVariantsCZY_14537=portal&czyEPBPooling_CZY_14716=enabled&ssrDevice=desktop',
-      isHome: true,
-      isFella: true,
-      isDetails: true,
+      isHome: false,
+      isFella: false,
+      isDetails: false,
       detailsHtml: `
       <h2>Fish Eat Getting Big – Eat, Grow, and Survive!</h2>
       <p>
@@ -938,9 +938,9 @@ export const mergeGamesData = {
       imageUrl: '/images/game-12.webp',
       imageAlt: 'Italian Brainrot: Puzzle & Battle – Mamma Mia, It’s War!',
       iframeUrl: 'https://html5.gamedistribution.com/rvvASMiM/76d4962cba62412c99813c9dce11f86e/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-puzzle-and-battle&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy50d29wbGF5ZXJnYW1lcy5vcmcvZ2FtZS9pdGFsaWFuLWJyYWlucm90LXB1enpsZS1hbmQtYmF0dGxlIiwicGFyZW50RG9tYWluIjoidHdvcGxheWVyZ2FtZXMub3JnIiwidG9wRG9tYWluIjoidHdvcGxheWVyZ2FtZXMub3JnIiwiaGFzSW1wcmVzc2lvbiI6ZmFsc2UsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTcifQ%253D%253D',
-      isHome: true,
-      isFella: true,
-      isDetails: true,
+      isHome: false,
+      isFella: false,
+      isDetails: false,
       detailsHtml: `
       <h2>Italian Brainrot: Puzzle & Battle – Mamma Mia, It’s War!</h2>
       <p>
@@ -1109,9 +1109,9 @@ export const mergeGamesData = {
       imageUrl: '/images/game-14.webp',
       imageAlt: 'Italian Brainrot Quiz – Think Fast, Think Loud, Think Wrong',
       iframeUrl: 'https://html5.gamedistribution.com/rvvASMiM/d2e5b8969a24463286ba074724014336/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-quiz&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy50d29wbGF5ZXJnYW1lcy5vcmcvZ2FtZS9pdGFsaWFuLWJyYWlucm90LXF1aXoiLCJwYXJlbnREb21haW4iOiJ0d29wbGF5ZXJnYW1lcy5vcmciLCJ0b3BEb21haW4iOiJ0d29wbGF5ZXJnYW1lcy5vcmciLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNyJ9',
-      isHome: true,
-      isFella: true,
-      isDetails: true,
+      isHome: false,
+      isFella: false,
+      isDetails: false,
       detailsHtml: `
       <h2>Italian Brainrot Quiz – Think Fast, Think Loud, Think Wrong</h2>
       <p>
@@ -1364,9 +1364,9 @@ export const mergeGamesData = {
       imageUrl: '/images/game-17.webp',
       imageAlt: 'Tung Tung Sahur: Clicker – Wake the World with Every Tap!',
       iframeUrl: 'https://html5.gamedistribution.com/b6b0c86bd4f643c29b440f4392eb1fd9/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Ftung-tung-sahur-clicker',
-      isHome: true,
-      isFella: true,
-      isDetails: true,
+      isHome: false,
+      isFella: false,
+      isDetails: false,
       detailsHtml: `
       <h2>Tung Tung Sahur: Clicker – Wake the World with Every Tap!</h2>
       <p>
@@ -1534,9 +1534,9 @@ export const mergeGamesData = {
       imageUrl: '/images/game-19.webp',
       imageAlt: '2048 – The Ultimate Number Puzzle Classic',
       iframeUrl: 'https://azgames.io/2048.embed',
-      isHome: true,
-      isFella: true,
-      isDetails: true,
+      isHome: false,
+      isFella: false,
+      isDetails: false,
       detailsHtml: `
         <h2>2048 – The Ultimate Number Puzzle Classic</h2>
         <p>
@@ -1878,9 +1878,9 @@ export const mergeGamesData = {
       imageUrl: '/images/game-23.webp',
       imageAlt: 'Bricky Break – Classic Brick Breaking Arcade Fun',
       iframeUrl: 'https://azgames.io/bricky-break.embed',
-      isHome: true,
-      isFella: true,
-      isDetails: true,
+      isHome: false,
+      isFella: false,
+      isDetails: false,
       detailsHtml: `
         <h2>Bricky Break – Smash Bricks, Catch Powerups, Rule the Arcade</h2>
         <p>
@@ -2222,9 +2222,9 @@ export const mergeGamesData = {
       imageUrl: '/images/game-27.webp',
       imageAlt: 'Italian Brainrot: Neuro Beasts – Glitch Arena Madness',
       iframeUrl: 'https://html5.gamedistribution.com/08f0d86ec4c04f3a97923c73cd98b753/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-neuro-beasts',
-      isHome: true,
-      isFella: true,
-      isDetails: true,
+      isHome: false,
+      isFella: false,
+      isDetails: false,
       detailsHtml: `
       <h2>Enter the Arena of Italian Brainrot: Neuro Beasts</h2>
 <p>
@@ -2288,7 +2288,353 @@ export const mergeGamesData = {
   Dive into the fractured code, summon your inner beast, and tap into the chaos. <strong>Italian Brainrot: Neuro Beasts</strong> is calling. The arena opens every hour. The monsters don’t wait. Will you survive <strong>Italian Brainrot: Neuro Beasts</strong>?
 </p>
       `
-    }
+    },
+
+    {
+      id: 28,
+      title: 'Italian Brainrot Clicker 2',
+      time: '2025-07-25',
+      addressBar: 'italian-brainrot-clicker-2',
+      seo: {
+        title: 'Italian Brainrot Clicker 2 - Infinite Espresso Taps',
+        description: 'Play Italian Brainrot Clicker 2, the sequel to the chaotic tapping game where espresso, memes, and brainrot collide. Tap, upgrade, and ascend into glitch heaven.',
+        keywords: 'Italian Brainrot Clicker 2, brainrot clicker, espresso tap game, infinite meme clicker, glitch tapper'
+      },
+      category: ['italian-brainrot-games'],
+      imageUrl: '/images/game-28.webp',
+      imageAlt: 'Italian Brainrot Clicker 2 – Espresso Meme Clicker',
+      iframeUrl: 'https://html5.gamedistribution.com/7bd88e3e96c34a86b8e41f5bc9b5a8e8/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-clicker-2',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+      <h2>Welcome to Italian Brainrot Clicker 2</h2>
+<p>
+  <strong>Italian Brainrot Clicker 2</strong> takes the madness of the original and multiplies it by infinite espresso shots. In this absurd tapping experience, your fingers become the ultimate espresso engine, fueling a universe of glitchy memes and evolving Italian Brainrot entities. <strong>Italian Brainrot Clicker 2</strong> is not just a game; it’s an endless loop of taps, memes, and caffeinated chaos.
+</p>
+
+<h2>What is Italian Brainrot Clicker 2?</h2>
+<p>
+  <strong>Italian Brainrot Clicker 2</strong> is the ultimate idle-tap sequel that drops you into a world of espresso rivers, cursed cappuccino machines, and meme-infused upgrades. Everything you knew from the original is back—only bigger, glitchier, and packed with more Brainrot DNA than ever before.
+</p>
+
+<h2>How to Play Italian Brainrot Clicker 2</h2>
+<p>
+  Playing <strong>Italian Brainrot Clicker 2</strong> is easy, but surviving its espresso storm is another story:
+</p>
+<ul>
+  <li>Tap the espresso button to generate brainrot points</li>
+  <li>Spend points on memes, machines, and glitch upgrades</li>
+  <li>Unlock powerful assistants like Cappuccino Assassino and Frigo Camelo Prime</li>
+  <li>Ascend to higher tap dimensions for exponential meme growth</li>
+</ul>
+
+<h2>Upgrades & Characters in Italian Brainrot Clicker 2</h2>
+<ul>
+  <li><strong>Glitch Grinder 9000:</strong> Doubles espresso per tap with chaotic side effects</li>
+  <li><strong>Burbaloni Barista Bot:</strong> Automates tapping and randomly spawns meme currency</li>
+  <li><strong>Lirili Larila Amplifier:</strong> Converts MIDI noise into tap multipliers</li>
+  <li><strong>Matteo Tap Spirit:</strong> Rare support unit increasing tap speed 300%</li>
+</ul>
+
+<h2>Why Play Italian Brainrot Clicker 2?</h2>
+<p>
+  <strong>Italian Brainrot Clicker 2</strong> delivers the perfect blend of idle gameplay and chaotic humor. It’s a never-ending meme machine that rewards persistence and insanity. Whether you play actively or leave it running in the background, <strong>Italian Brainrot Clicker 2</strong> keeps climbing into higher levels of absurdity.
+</p>
+
+<h2>Game Features</h2>
+<ul>
+  <li>Infinite tapping with espresso-fueled upgrades</li>
+  <li>Memes and soundbites exclusive to <strong>Italian Brainrot Clicker 2</strong></li>
+  <li>Offline progress and glitch-based bonuses</li>
+  <li>Cross-universe lore connecting <em>Neuro Beasts</em>, <em>Tung Sahur</em>, and more</li>
+  <li>Hidden Easter eggs that break the fourth wall</li>
+</ul>
+
+<h2>Tips for Italian Brainrot Clicker 2</h2>
+<ol>
+  <li>Upgrade automation early to maximize passive income</li>
+  <li>Tap in rhythm with MIDI glitches for bonus combos</li>
+  <li>Save glitch tokens for rare characters in <strong>Italian Brainrot Clicker 2</strong></li>
+  <li>Ascend frequently—prestige levels scale faster than you think</li>
+</ol>
+
+<h2>The Italian Brainrot Universe Expands</h2>
+<p>
+  <strong>Italian Brainrot Clicker 2</strong> expands the ever-growing Brainrot universe. It ties directly into characters from past titles, references events from Neuro Beasts, and sets up new lore for future games. If you love memes, absurd humor, and endless tapping, <strong>Italian Brainrot Clicker 2</strong> is your next obsession.
+</p>
+
+<h2>Start Tapping in Italian Brainrot Clicker 2</h2>
+<p>
+  Prepare your fingers, plug in your headphones, and grab an espresso. The taps won’t stop, and neither will you. <strong>Italian Brainrot Clicker 2</strong> is here to break your limits. Are you ready to click into chaos?
+</p>
+      `
+    },
+
+    {
+      id: 29,
+      title: 'Italian Brainrot Jigsaw',
+      time: '2025-07-25',
+      addressBar: 'italian-brainrot-jigsaw',
+      seo: {
+        title: 'Italian Brainrot Jigsaw – Piece Together Meme Madness',
+        description: 'Play Italian Brainrot Jigsaw and solve 15 iconic Italian Brainrot meme puzzles with multiple difficulty levels. Relax, strategize, and piece together chaotic characters.',
+        keywords: 'Italian Brainrot Jigsaw, brainrot puzzle, meme jigsaw, Italian Brainrot memes, jigsaw challenge'
+      },
+      category: ['italian-brainrot-games'],
+      imageUrl: '/images/game-29.webp',
+      imageAlt: 'Italian Brainrot Jigsaw – Meme Puzzle Challenge',
+      iframeUrl: 'https://storage.y8.com/y8-studio/html5/natalibt/italian_brainrot_jigsaw/',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
+      <h2>Italian Brainrot Jigsaw – Piece Together Meme Madness</h2>
+<p>
+  <strong>Italian Brainrot Jigsaw</strong> brings the chaotic energy of Brainrot memes into a relaxing jigsaw puzzle experience. Piece together 15 iconic meme artworks, from caffeinated creatures to MIDI-driven chaos, in this unique Italian Brainrot puzzle game. <strong>Italian Brainrot Jigsaw</strong> lets you challenge your brain while enjoying beloved chaotic characters.
+</p>
+
+<h2>Customizable Jigsaw Puzzle Adventure</h2>
+<p>
+  <strong>Italian Brainrot Jigsaw</strong> features traditional jigsaw mechanics enhanced by high-quality meme artwork. Choose from multiple layouts and enjoy intuitive controls with drag-and-drop functionality. Whether you’re a casual solver or a dedicated puzzler, <strong>Italian Brainrot Jigsaw</strong> adapts to your pace and style.
+</p>
+
+<h2>Master Every Puzzle Configuration</h2>
+<p>
+  With 4 unique difficulty levels, <strong>Italian Brainrot Jigsaw</strong> offers both casual fun and intense mental workouts. Beginners can start with quick 16-piece puzzles, while experts can take on 100-piece challenges that demand strategy and focus.
+</p>
+
+<h2>Key Features of Italian Brainrot Jigsaw</h2>
+<ul>
+  <li><strong>15 Memes, 4 Difficulty Levels:</strong> From 16-piece beginner sets to 100-piece expert masterpieces, <strong>Italian Brainrot Jigsaw</strong> offers a variety of configurations for all skill levels.</li>
+  <li><strong>Smart Assistance & Timing:</strong> Use built-in reference images and scramble features for extra replay value. A completion timer adds a competitive edge to every puzzle.</li>
+  <li><strong>Relaxing & Replayable:</strong> Perfect for casual gaming sessions or timed competitive challenges.</li>
+  <li><strong>Authentic Meme Imagery:</strong> Featuring fan-favorite Italian Brainrot characters such as Cappuccino Assassino, Matteo, and Boneca Ambalabu.</li>
+</ul>
+
+<h2>Tips for Conquering Italian Brainrot Jigsaw</h2>
+<ol>
+  <li>Start with corner and edge pieces to establish your puzzle framework.</li>
+  <li>Use the built-in reference image to avoid unnecessary guesswork.</li>
+  <li>Experiment with higher difficulty levels to improve puzzle-solving speed and memory.</li>
+  <li>Challenge friends by comparing your best times in <strong>Italian Brainrot Jigsaw</strong>.</li>
+</ol>
+
+<h2>Why Play Italian Brainrot Jigsaw?</h2>
+<p>
+  <strong>Italian Brainrot Jigsaw</strong> blends calm, methodical gameplay with the chaotic fun of Brainrot memes. It’s perfect for fans who want a relaxing yet engaging way to interact with their favorite chaotic universe. Whether you want to wind down or test your skills, <strong>Italian Brainrot Jigsaw</strong> delivers an experience for all players.
+</p>
+
+<h2>Start Solving Italian Brainrot Jigsaw Today</h2>
+<p>
+  Ready to test your puzzle-solving skills? Dive into <strong>Italian Brainrot Jigsaw</strong> and experience meme madness one piece at a time. Will you complete all 15 puzzles and claim your place as the ultimate Brainrot puzzler?
+</p>
+      `
+},
+
+{
+  id: 30,
+  title: 'Crocodilo Tralalero Run',
+  time: '2025-07-25',
+  addressBar: 'crocodilo-tralalero-run',
+  seo: {
+    title: 'Crocodilo Tralalero Run – Endless Brainrot Runner',
+    description: 'Play Crocodilo Tralalero Run, the endless runner featuring Bombardino Crocodilo, Tralalero, Tung Tung, and Bananini. Collect coins, unlock memes, and run forever!',
+    keywords: 'Crocodilo Tralalero Run, Italian Brainrot runner, Bombardino Crocodilo, endless meme runner, Brainrot adventure game'
+  },
+  category: ['italian-brainrot-games'],
+  imageUrl: '/images/game-30.webp',
+  imageAlt: 'Crocodilo Tralalero Run – Endless Meme Runner',
+  iframeUrl: 'https://html5.gamedistribution.com/ea1c782a2cbf479aa9461a834e82c6dd/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fcrocodilo-tralalero-run',
+  isHome: true,
+  isFella: true,
+  isDetails: true,
+  detailsHtml: `
+  <h2>Crocodilo Tralalero Run – Endless Adventure with Italian Brainrot Characters</h2>
+<p>
+<strong>Crocodilo Tralalero Run</strong> is a thrilling endless runner set in the vibrant and chaotic world of Italian Brainrot memes. Take control of Bombardino Crocodilo as you dash, dodge, and leap through increasingly challenging obstacles. With smooth controls and addictive gameplay, <strong>Crocodilo Tralalero Run</strong> is perfect for quick sessions or marathon runs.
+</p>
+
+<h2>Character Collection in Endless Running Adventure</h2>
+<p>
+Start your journey as Bombardino Crocodilo and unlock a variety of beloved Italian Brainrot characters. Each unlockable character features unique animations and personality quirks, giving every run a fresh and entertaining twist. Collect coins to unlock the following heroes:
+</p>
+<ul>
+<li><strong>Tralalero</strong> – 500 coins: Agile runner with enhanced dodge ability</li>
+<li><strong>Tung Tung</strong> – 2000 coins: Speed-boosting power with special audio effects</li>
+<li><strong>Bananini</strong> – 10000 coins: Legendary meme character with bonus coin magnetism</li>
+</ul>
+
+<h2>How to Play Crocodilo Tralalero Run</h2>
+<ul>
+<li>Swipe up to jump over obstacles</li>
+<li>Swipe down to slide under hazards</li>
+<li>Collect golden coins to unlock characters and upgrades</li>
+<li>Survive as long as possible to set high scores</li>
+</ul>
+
+<h2>Features of Crocodilo Tralalero Run</h2>
+<ul>
+<li>Fast-paced endless running gameplay with intuitive controls</li>
+<li>Colorful environments inspired by Italian Brainrot meme culture</li>
+<li>Multiple unlockable characters each with unique visual styles</li>
+<li>Coin collection system and progression-based upgrades</li>
+<li>Dynamic obstacle generation for endless replay value</li>
+</ul>
+
+<h2>Tips for Success in Crocodilo Tralalero Run</h2>
+<ol>
+<li>Focus on collecting coins early to unlock Tralalero quickly</li>
+<li>Memorize obstacle patterns to improve your survival time</li>
+<li>Save for Bananini to gain coin magnet power for easier upgrades</li>
+<li>Keep an eye on speed increases and stay alert as the run progresses</li>
+</ol>
+
+<h2>Why Play Crocodilo Tralalero Run?</h2>
+<p>
+<strong>Crocodilo Tralalero Run</strong> combines the fast-paced excitement of endless runners with the humor and charm of Italian Brainrot characters. It’s an accessible and entertaining experience for fans of both casual games and meme culture.
+</p>
+
+<h2>Start Your Run Today</h2>
+<p>
+Ready to race with Bombardino Crocodilo and friends? Jump into <strong>Crocodilo Tralalero Run</strong> now and see how far you can go. Unlock memes, collect coins, and embrace the endless chaos of Brainrot running fun!
+</p>
+  `
+},
+
+{
+  id: 31,
+  title: 'Italian Brainrot Differences',
+  time: '2025-07-25',
+  addressBar: 'italian-brainrot-differences',
+  seo: {
+    title: 'Italian Brainrot Differences – Spot the Meme Madness',
+    description: 'Play Italian Brainrot Differences, a spot-the-difference puzzle with 20 chaotic meme levels. Find hidden changes, race against time, and challenge your observation skills!',
+    keywords: 'Italian Brainrot Differences, meme spot game, Italian Brainrot puzzle, find the differences, meme observation challenge'
+  },
+  category: ['italian-brainrot-games'],
+  imageUrl: '/images/game-31.webp',
+  imageAlt: 'Italian Brainrot Differences – Meme Spotting Puzzle',
+  iframeUrl: 'https://html5.gamedistribution.com/4f9d2c3e4e1d45b9b4f6f6c483b6a6b9/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-differences',
+  isHome: true,
+  isFella: true,
+  isDetails: true,
+  detailsHtml: `
+  <h2>Italian Brainrot Differences – Spot the Meme Madness</h2>
+<p>
+<strong>Italian Brainrot Differences</strong> takes the classic spot-the-difference formula and injects it with meme-driven chaos from the Italian Brainrot universe. Carefully study each pair of images featuring characters like Tung Sahur, Cappuccino Assassino, and Boneca Ambalabu to find hidden changes before time runs out.
+</p>
+
+<h2>Classic Spot-the-Difference with Viral Meme Twist</h2>
+<p>
+<strong>Italian Brainrot Differences</strong> blends nostalgic puzzle mechanics with modern meme culture. Every level features detailed side-by-side scenes full of subtle, hilarious changes that only the sharpest eyes will detect. Whether you're a casual fan or a hardcore Brainrot enthusiast, these puzzles are as entertaining as they are challenging.
+</p>
+
+<h2>Progressive Challenge System</h2>
+<p>
+Advance through 20 unique levels, each featuring 7 hidden differences. Starting scenes are simple enough for beginners, but later levels introduce complex layouts with trickier visual alterations. From missing background objects to color variations and altered meme faces, <strong>Italian Brainrot Differences</strong> keeps players engaged with every stage.
+</p>
+
+<h2>Precision & Speed Mastery</h2>
+<ul>
+<li>Spot all 7 differences before the timer runs out</li>
+<li>Only 3 wrong clicks are allowed per level</li>
+<li>Earn up to 3 stars based on speed and accuracy</li>
+<li>Perfect all 20 levels for a total of 60 stars</li>
+</ul>
+
+<h2>Why Play Italian Brainrot Differences?</h2>
+<p>
+<strong>Italian Brainrot Differences</strong> offers an engaging way to test your focus and memory while enjoying the humor of Italian Brainrot memes. The combination of fun art, challenging gameplay, and iconic meme characters creates a puzzle experience perfect for quick sessions or long playthroughs.
+</p>
+
+<h2>Tips for Success</h2>
+<ol>
+<li>Start by scanning for obvious differences like missing objects or color swaps.</li>
+<li>Zoom in on background details—many changes are subtle and easy to miss.</li>
+<li>Work methodically from one corner to the other to avoid missing any differences.</li>
+<li>Use all three lives wisely; avoid random clicking to maintain your star rating.</li>
+</ol>
+
+<h2>Start Spotting Now</h2>
+<p>
+Are you ready to become the ultimate meme detective? Jump into <strong>Italian Brainrot Differences</strong> and see if you can find every hidden change across all 20 chaotic meme levels!
+</p>
+  `
+},
+
+{
+  id: 32,
+  title: 'Italian Brainrot Anomaly',
+  time: '2025-07-25',
+  addressBar: 'italian-brainrot-anomaly',
+  seo: {
+    title: 'Italian Brainrot Anomaly – Detect the Meme Distortions',
+    description: 'Play Italian Brainrot Anomaly and find bizarre distortions hidden within chaotic meme scenes. Train your eyes and spot every anomaly in the Italian Brainrot universe!',
+    keywords: 'Italian Brainrot Anomaly, meme anomaly game, find anomaly puzzle, Italian Brainrot hidden object, meme spotter'
+  },
+  category: ['italian-brainrot-games'],
+  imageUrl: '/images/game-32.webp',
+  imageAlt: 'Italian Brainrot Anomaly – Spot the Meme Distortions',
+  iframeUrl: 'https://html5.gamedistribution.com/f2877c3a5a2144ecaf2fb799b1f3ad4d/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-anomaly',
+  isHome: true,
+  isFella: true,
+  isDetails: true,
+  detailsHtml: `
+  <h2>Italian Brainrot Anomaly – Detect the Meme Distortions</h2>
+<p>
+<strong>Italian Brainrot Anomaly</strong> challenges you to identify strange and surreal changes hidden in Italian Brainrot meme scenes. From misplaced espresso cups to warped meme characters, anomalies lurk in every corner. Your mission: find them all before time runs out!
+</p>
+
+<h2>Classic Hidden-Object Gameplay with a Meme Twist</h2>
+<p>
+Built on the timeless concept of anomaly detection, <strong>Italian Brainrot Anomaly</strong> adds chaotic meme humor to the mix. Scenes featuring characters like Tralalero, Tung Sahur, and Cappuccino Assassino are intentionally corrupted with weird changes, requiring sharp eyes and quick thinking.
+</p>
+
+<h2>Progressive Difficulty</h2>
+<ul>
+<li>20 levels of increasing complexity with unique meme scenes</li>
+<li>Randomized anomaly positions for high replay value</li>
+<li>Only 3 mistakes allowed per level</li>
+<li>Race against the clock for higher scores</li>
+</ul>
+
+<h2>Key Features of Italian Brainrot Anomaly</h2>
+<ul>
+<li>Authentic meme artwork with hilarious and unexpected changes</li>
+<li>Dynamic hint system to assist beginners</li>
+<li>Star rating based on speed and accuracy</li>
+<li>Integration of Italian Brainrot lore and favorite characters</li>
+</ul>
+
+<h2>Tips for Detecting Anomalies</h2>
+<ol>
+<li>Look for unnatural distortions such as misplaced items or color shifts</li>
+<li>Compare known character features carefully—many changes are subtle</li>
+<li>Use hints sparingly to maintain your score and star ratings</li>
+<li>Stay calm and methodical; rushing leads to mistakes</li>
+</ol>
+
+<h2>Why Play Italian Brainrot Anomaly?</h2>
+<p>
+<strong>Italian Brainrot Anomaly</strong> is perfect for fans who enjoy brain-training puzzles with a humorous twist. The combination of meme culture and anomaly spotting creates a unique gameplay experience for casual and hardcore players alike.
+</p>
+
+<h2>Start Spotting Anomalies Now</h2>
+<p>
+Ready to prove your observational skills? Jump into <strong>Italian Brainrot Anomaly</strong> and hunt down every strange detail across all meme-infused levels. Can you catch every anomaly before the timer hits zero?
+</p>
+  `
+}
+
+
+
+
+
+
+
+
+
     
 
 
