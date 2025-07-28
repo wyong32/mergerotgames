@@ -2625,7 +2625,63 @@ Built on the timeless concept of anomaly detection, <strong>Italian Brainrot Ano
 Ready to prove your observational skills? Jump into <strong>Italian Brainrot Anomaly</strong> and hunt down every strange detail across all meme-infused levels. Can you catch every anomaly before the timer hits zero?
 </p>
   `
+},
+
+{
+  id: 33,
+  title: 'Bubble Shooter',
+  time: '2025-07-28',
+  addressBar: 'bubble-shooter',
+  seo: {
+    title: 'Bubble Shooter – Classic Bubble Popping Fun',
+    description: 'Play Bubble Shooter for free and enjoy the timeless bubble popping challenge. Match colors, create chain reactions, and clear the board in this addictive classic game.',
+    keywords: 'Bubble Shooter, free bubble shooter, bubble pop game, classic bubble puzzle, bubble shooter online'
+  },
+  category: ['merge-games'],
+  imageUrl: '/images/game-33.webp',
+  imageAlt: 'Bubble Shooter – Classic Bubble Popping Fun',
+  iframeUrl: 'https://cdn.bubbleshooter.net/games/bubble-shooter-mobile/?gd_sdk_referrer_url=https://www.jopi.com/game/game/bubble-shooter/',
+  isHome: true,
+  isFella: false,
+  isDetails: true,
+  detailsHtml: 
+  `<h2>Bubble Shooter – Classic Bubble Popping Fun</h2>
+<p>
+<strong>Bubble Shooter</strong> brings you one of the most iconic and relaxing puzzle challenges ever made. The goal is simple: shoot bubbles from the bottom of the screen and match three or more of the same color to make them pop. The faster and more strategically you play, the higher your score will climb.
+</p>
+
+<h2>Timeless Bubble Popping Gameplay</h2>
+<p>
+Originally inspired by arcade classics, <strong>Bubble Shooter</strong> has evolved into a beloved browser game enjoyed by millions. Using your mouse or finger, aim the arrow at clusters of bubbles and fire away. Matching groups trigger satisfying explosions, clearing space and creating room for strategic shots.
+</p>
+
+<h2>Features of Bubble Shooter</h2>
+<ul>
+<li>Instant play—no downloads required</li>
+<li>Classic bubble-matching mechanics with modern performance</li>
+<li>Dynamic scoring based on combo pops and chain reactions</li>
+<li>Simple controls for quick pick-up-and-play fun</li>
+</ul>
+
+<h2>How to Play Bubble Shooter</h2>
+<ol>
+<li>Match three or more bubbles of the same color to make them pop.</li>
+<li>Use angles and rebounds to reach hard-to-access spots.</li>
+<li>Avoid too many misses—each failed shot brings the bubble stack closer.</li>
+<li>Clear the board entirely to achieve maximum points and bonus multipliers.</li>
+</ol>
+
+<h2>Why Bubble Shooter Is Still Addictive</h2>
+<p>
+The charm of <strong>Bubble Shooter</strong> lies in its simplicity and relaxing rhythm. Whether you’re looking to kill a few minutes or spend an entire evening chasing high scores, this game delivers endless fun. The retro-inspired graphics and soothing popping effects create a perfect casual gaming experience.
+</p>
+
+<h2>Start Shooting Now</h2>
+<p>
+Ready to test your aim and strategy? Jump into <strong>Bubble Shooter</strong> and see how many points you can rack up while clearing the colorful bubble field. It’s free, fun, and always ready to play!
+</p>`
 }
+
 
 
 
