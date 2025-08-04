@@ -2680,7 +2680,65 @@ The charm of <strong>Bubble Shooter</strong> lies in its simplicity and relaxing
 <p>
 Ready to test your aim and strategy? Jump into <strong>Bubble Shooter</strong> and see how many points you can rack up while clearing the colorful bubble field. It’s free, fun, and always ready to play!
 </p>`
+},
+
+{
+  "id": 34,
+  "title": "Big Block Blast",
+  "time": "2025-07-28",
+  "addressBar": "big-block-blast",
+  "seo": {
+    "title": "Big Block Blast – Explosive Puzzle Challenge",
+    "description": "Play Big Block Blast for free and experience a colorful block puzzle challenge packed with combos, wild tiles, and endless strategic fun. Drag, match, and blast your way to victory!",
+    "keywords": "Big Block Blast, block puzzle game, colorful block challenge, big block puzzle, block blast online"
+  },
+  "category": ["merge-games"],
+  "imageUrl": "/images/game-34.webp",
+  "imageAlt": "Big Block Blast – Explosive Puzzle Challenge",
+  "iframeUrl": "https://html5.gamedistribution.com/rvvASMiM/058a3fd0d58949be9b79e666de9ac36d/index.html?gd_sdk_referrer_url=https%3A%2F%2F1games.io%2Fbig-block-blast&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovLzFnYW1lcy5pby9iaWctYmxvY2stYmxhc3QiLCJwYXJlbnREb21haW4iOiIxZ2FtZXMuaW8iLCJ0b3BEb21haW4iOiIxZ2FtZXMuaW8iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D",
+  "isHome": true,
+  "isFella": true,
+  "isDetails": true,
+  "detailsHtml": 
+  `<h2>Big Block Blast – Explosive Puzzle Challenge</h2>
+<p>
+<strong>Big Block Blast</strong> gives you a thrilling twist on the classic block puzzle experience. Drag colorful shapes, place them wisely on the grid, and form giant blocks to trigger chain reactions. Each move can be the difference between a high score and a full board!
+</p>
+
+<h2>Colorful, Strategic, and Addictive</h2>
+<p>
+Built for both casual players and puzzle masters, <strong>Big Block Blast</strong> mixes simple mechanics with deep strategy. Every match feels rewarding as chain combos explode in bursts of color, clearing room for your next smart move. Wild tiles and special shapes add even more layers of excitement.
+</p>
+
+<h2>Features of Big Block Blast</h2>
+<ul>
+<li>Drag-and-drop controls for quick, smooth gameplay</li>
+<li>Unique shapes with both triangle and square pieces</li>
+<li>Wild tiles that clear rows or create space instantly</li>
+<li>Bonus scoring for color-matched block formations</li>
+<li>Endless play mode with no time limits</li>
+</ul>
+
+<h2>How to Play Big Block Blast</h2>
+<ol>
+<li>Receive three random shapes each turn and place them onto the board grid.</li>
+<li>Create 2x2 Big Blocks or larger clusters to trigger point bonuses.</li>
+<li>Match colors within completed blocks for extra combo explosions.</li>
+<li>Use wild tiles strategically to prevent early lockups.</li>
+<li>Keep the board clear as long as possible to achieve record-breaking scores.</li>
+</ol>
+
+<h2>Why Big Block Blast Is So Addictive</h2>
+<p>
+The thrill of <strong>Big Block Blast</strong> lies in its evolving challenge. As the grid fills, every placement becomes more critical, and one clever move can set off a cascade of chain reactions. With its bright visuals and satisfying effects, this is the perfect puzzle to keep your mind sharp and your reflexes quick.
+</p>
+
+<h2>Start Blasting Now</h2>
+<p>
+Ready to test your puzzle-solving skills? Jump into <strong>Big Block Blast</strong> today and experience endless block-breaking fun. Drag, match, and blast your way to puzzle glory!
+</p>`
 }
+
 
 
 
