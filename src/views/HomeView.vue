@@ -4,16 +4,15 @@
     <main>
       <div class="page-wrapper container">
         <h1 class="page-title">Merge Rot</h1>
-        <div class="home-layout">
-
-          <!-- PC端横幅广告 -->
-          <aside
+        
+        <!-- PC端横幅广告 -->
+        <aside
           class="ads-wrapper"
           v-if="!isMobile"
           style="width: 100%; min-height: 90px; margin: 10px 0"
         >
          <ins class="adsbygoogle"
-     style="display:block"
+     style="display:block; min-height: 90px;"
      data-ad-client="ca-pub-8698738517703947"
      data-ad-slot="4266230179"
      data-ad-format="auto"
@@ -27,15 +26,14 @@
           style="width: 100%; min-height: 90px; margin: 10px 0"
         >
         <ins class="adsbygoogle"
-     style="display:block"
+     style="display:block; min-height: 90px;"
      data-ad-client="ca-pub-8698738517703947"
      data-ad-slot="7116604857"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
         </aside>
-
-
-
+        
+        <div class="home-layout">
           <!-- Main Content -->
           <div class="main-content">
             <!-- Game Section -->
@@ -159,6 +157,45 @@ const loadAds = () => {
     setTimeout(loadAds, 1000)
   }
 }
+
+// 监听广告脚本加载完成
+const waitForAdScript = () => {
+  if (window.adsbygoogle) {
+    // 延迟加载广告，确保页面完全渲染
+    setTimeout(loadAds, 3000)
+  } else {
+    setTimeout(waitForAdScript, 100)
+  }
+}
+
+// 监听页面可见性变化，重新加载广告
+const handleVisibilityChange = () => {
+  if (!document.hidden) {
+    setTimeout(loadAds, 1000)
+  }
+}
+
+onMounted(() => {
+  // 等待广告脚本加载完成后立即加载广告
+  waitForAdScript()
+
+  // 监听页面可见性变化
+  document.addEventListener('visibilitychange', handleVisibilityChange)
+
+  // 监听路由变化
+  const unwatch = watch(
+    () => route.path,
+    () => {
+      setTimeout(loadAds, 2000)
+    },
+  )
+
+  // 清理监听器
+  onUnmounted(() => {
+    document.removeEventListener('visibilitychange', handleVisibilityChange)
+    unwatch()
+  })
+})
 
 const homeGames = computed(() => {
   return mergeGamesData.gamesList.filter((game) => game.isHome)
