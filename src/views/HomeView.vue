@@ -32,7 +32,7 @@
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
         </aside>
-        
+
         <div class="home-layout">
           <!-- Main Content -->
           <div class="main-content">
@@ -98,7 +98,8 @@
 </template>
 
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, ref, onMounted, onUnmounted, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import GameFrame from '@/components/GameFrame.vue'
@@ -108,6 +109,7 @@ import { mergeGamesData } from '@/data/mergeGames.js'
 
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
 
+const route = useRoute()
 const { isMobile } = useDeviceDetection()
 
 // 手动触发广告加载
