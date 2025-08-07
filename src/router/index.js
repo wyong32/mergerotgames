@@ -158,7 +158,19 @@ const router = createRouter({
           keywords: 'contact us, support, merge rot, help'
         }
       }
-    }
+    },
+    {
+      path: '/ad-test',
+      name: 'adTest',
+      component: AdTestView,
+      meta: {
+        seo: {
+          title: 'AdSense 广告测试 - Chill Guy Games',
+          description: '测试Google AdSense广告是否正常工作的页面',
+          keywords: 'adsense test, google ads, ad testing',
+        },
+      },
+    },
   ],
 })
 
