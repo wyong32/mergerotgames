@@ -117,10 +117,14 @@ const loadAds = () => {
   if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
     try {
       // 只处理当前页面中的广告元素
-      const homeContainer = document.querySelector('.home-wrapper')
-      if (!homeContainer) return
+      const homeContainer = document.querySelector('.page-wrapper')
+      if (!homeContainer) {
+        console.log('HomeView: 未找到 .page-wrapper 容器')
+        return
+      }
 
       const adElements = homeContainer.querySelectorAll('.adsbygoogle')
+      console.log(`HomeView: 找到 ${adElements.length} 个广告元素`)
 
       // 检查哪些广告需要重新加载
       const adsToReload = []
@@ -130,15 +134,23 @@ const loadAds = () => {
 
         if (!status || status === 'unfilled' || !hasContent) {
           adsToReload.push({ element: el, index })
+        } else {
+          console.log(`HomeView: 广告 ${index + 1} 已有内容，跳过`)
         }
       })
 
       if (adsToReload.length === 0) {
+        console.log('HomeView: 所有广告都已加载完成')
         return
       }
 
+      console.log(`HomeView: 需要重新加载 ${adsToReload.length} 个广告`)
+
       adsToReload.forEach(({ element, index }) => {
         try {
+          const adSlot = element.getAttribute('data-ad-slot')
+          console.log(`HomeView: 正在加载广告 ${index + 1} (广告位: ${adSlot})`)
+          
           // 标记广告元素已处理
           element.setAttribute('data-ad-status', 'loading')
           ;(window.adsbygoogle = window.adsbygoogle || []).push({})
@@ -156,6 +168,7 @@ const loadAds = () => {
     }
   } else {
     // 如果 adsbygoogle 还没加载，延迟重试
+    console.log('HomeView: adsbygoogle 未加载，延迟重试')
     setTimeout(loadAds, 1000)
   }
 }
@@ -163,6 +176,7 @@ const loadAds = () => {
 // 监听广告脚本加载完成
 const waitForAdScript = () => {
   if (window.adsbygoogle) {
+    console.log('HomeView: adsbygoogle 脚本已加载，准备加载广告')
     // 延迟加载广告，确保页面完全渲染
     setTimeout(loadAds, 3000)
   } else {
