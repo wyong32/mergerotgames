@@ -7,7 +7,7 @@
         <strong>测试说明：</strong> 此页面用于测试您的Google AdSense广告是否正常工作。
       </div>
 
-      <div class="status info"><strong>广告客户端ID：</strong> ca-pub-4638984121333143</div>
+      <div class="status info"><strong>广告客户端ID：</strong> ca-pub-8698738517703947</div>
 
       <div class="control-buttons">
         <button @click="loadAds" class="btn">手动加载广告</button>
@@ -18,7 +18,7 @@
       <hr />
 
       <!-- 横幅广告测试 -->
-      <h2>横幅广告测试 (广告位: 3707198686)</h2>
+      <h2>横幅广告测试 (广告位: 7116604857)</h2>
       <div class="ad-test banner">
         <ins class="adsbygoogle"
      style="display:block"

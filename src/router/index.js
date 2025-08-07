@@ -162,7 +162,7 @@ const router = createRouter({
     {
       path: '/ad-test',
       name: 'adTest',
-      component: AdTestView,
+      component: () => import('../views/AdTestView.vue'),
       meta: {
         seo: {
           title: 'AdSense 广告测试 - Chill Guy Games',
