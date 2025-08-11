@@ -2737,6 +2737,29 @@ The thrill of <strong>Big Block Blast</strong> lies in its evolving challenge. A
 <p>
 Ready to test your puzzle-solving skills? Jump into <strong>Big Block Blast</strong> today and experience endless block-breaking fun. Drag, match, and blast your way to puzzle glory!
 </p>`
+},
+
+{
+  "id": 35,
+  "title": "Astro Robot Clicker",
+  "time": "2025-08-11",
+  "addressBar": "astro-robot-clicker",
+  "seo": {
+    "title": "Astro Robot Clicker – Idle Space Adventure",
+    "description": "Launch into an endless space journey with Astro Robot Clicker! Build your robot army, collect resources, and explore the galaxy in this addictive idle clicker game.",
+    "keywords": "Astro Robot Clicker, idle game, clicker game, space adventure, robot army, incremental game"
+  },
+  "category": ["merge-games"],
+  "imageUrl": "/images/game-35.webp",
+  "imageAlt": "Astro Robot Clicker – Idle Space Adventure",
+  "iframeUrl": "https://game.azgame.io/astro-robot-clicker/",
+  "isHome": false,
+  "isFella": true,
+  "isDetails": true,
+  "detailsHtml": `
+    <h3>About Astro Robot Clicker</h3>
+    <p>Embark on an epic cosmic adventure with <b>Astro Robot Clicker</b>! This isn't just any idle game—it's your ticket to the stars. Your mission: command a team of robots to mine resources, build a sprawling galactic empire, and unlock the secrets of the universe. Just click and watch your empire grow, even when you're offline. Are you ready to become the ultimate space tycoon?</p>
+  `
 }
 
 
