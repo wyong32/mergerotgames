@@ -2760,7 +2760,54 @@ Ready to test your puzzle-solving skills? Jump into <strong>Big Block Blast</str
     <h3>About Astro Robot Clicker</h3>
     <p>Embark on an epic cosmic adventure with <b>Astro Robot Clicker</b>! This isn't just any idle game—it's your ticket to the stars. Your mission: command a team of robots to mine resources, build a sprawling galactic empire, and unlock the secrets of the universe. Just click and watch your empire grow, even when you're offline. Are you ready to become the ultimate space tycoon?</p>
   `
+},
+
+{
+  "id": 36,
+  "title": "TriMerge",
+  "time": "2025-08-18",
+  "addressBar": "trimerge",
+  "seo": {
+    "title": "TriMerge – Smart Number-Merging Puzzle",
+    "description": "Slide, combine, and strategize in TriMerge! Fuse tiles to build larger multiples of 3, starting with the special 1 + 2 = 3 rule. Plan ahead and chase your highest score.",
+    "keywords": "TriMerge, number merge, puzzle game, sliding tiles, math puzzle, 2048-like, multiples of 3, brain teaser"
+  },
+  "category": ["merge-games"],
+  "imageUrl": "/images/game-36.webp",
+  "imageAlt": "TriMerge – number tiles merging on a 4×4 grid",
+  "iframeUrl": "https://game.azgame.io/trimerge/",
+  "isHome": false,
+  "isFella": true,
+  "isDetails": true,
+  "detailsHtml": `
+    <h3>About TriMerge</h3>
+    <p><b>TriMerge</b> is a sleek number-merging puzzle where every move counts. Slide tiles on a compact 4×4 board to combine values and craft ever-larger <i>multiples of 3</i>. The twist? Only <b>1 + 2</b> can form a <b>3</b>; from there, tiles merge only with an identical value (3+3, 6+6, 12+12, and so on). Simple rules, deep strategy—perfect for quick sessions or marathon runs.</p>
+
+    <h4>Rules &amp; Objectives</h4>
+    <ul>
+      <li><b>1 pairs only with 2</b> (and vice versa) to create 3.</li>
+      <li>From <b>3 onward</b>, tiles merge only with the <b>same number</b>.</li>
+      <li>After each slide, a <b>new tile</b> appears on the board.</li>
+      <li>The round ends when <b>no merges or moves</b> remain.</li>
+      <li>Main goal: build the <b>largest multiples of 3</b> you can and set a new high score.</li>
+    </ul>
+
+    <h4>How to Play</h4>
+    <p>Swipe (mobile) or use the arrow keys (PC) to shift all tiles <b>up, down, left,</b> or <b>right</b>. If compatible tiles collide, they merge. Keep the grid from clogging up while you ladder up: 3 → 6 → 12 → 24 → 48 → 96 → 192… How far can you climb?</p>
+
+    <h4>Smart Tips</h4>
+    <ul>
+      <li><b>Clear 1s &amp; 2s early:</b> Convert them into 3s quickly to free space.</li>
+      <li><b>Build lanes:</b> Reserve a row/column to grow a “chain” of identical tiles.</li>
+      <li><b>Plan cascades:</b> Look for slides that trigger <b>multiple merges</b> in a single move.</li>
+      <li><b>Use edges:</b> Park 1 and 2 along walls to line up clean 3s.</li>
+    </ul>
+
+    <h4>Scoring &amp; End Condition</h4>
+    <p>Your score rises with each merge—the <b>bigger the tile, the bigger the points</b>. The game ends when the board is full and no legal merges remain. Aim for high-value tiles like <b>48</b>, <b>96</b>, <b>192</b>, and beyond to dominate the leaderboard.</p>
+  `
 }
+
 
 
 
