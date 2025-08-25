@@ -2430,26 +2430,26 @@ export const mergeGamesData = {
   Ready to test your puzzle-solving skills? Dive into <strong>Italian Brainrot Jigsaw</strong> and experience meme madness one piece at a time. Will you complete all 15 puzzles and claim your place as the ultimate Brainrot puzzler?
 </p>
       `
-},
+    },
 
-{
-  id: 30,
-  title: 'Crocodilo Tralalero Run',
-  time: '2025-07-25',
-  addressBar: 'crocodilo-tralalero-run',
-  seo: {
-    title: 'Crocodilo Tralalero Run – Endless Brainrot Runner',
-    description: 'Play Crocodilo Tralalero Run, the endless runner featuring Bombardino Crocodilo, Tralalero, Tung Tung, and Bananini. Collect coins, unlock memes, and run forever!',
-    keywords: 'Crocodilo Tralalero Run, Italian Brainrot runner, Bombardino Crocodilo, endless meme runner, Brainrot adventure game'
-  },
-  category: ['italian-brainrot-games'],
-  imageUrl: '/images/game-30.webp',
-  imageAlt: 'Crocodilo Tralalero Run – Endless Meme Runner',
-  iframeUrl: 'https://html5.gamedistribution.com/ea1c782a2cbf479aa9461a834e82c6dd/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fcrocodilo-tralalero-run',
-  isHome: true,
-  isFella: true,
-  isDetails: true,
-  detailsHtml: `
+    {
+      id: 30,
+      title: 'Crocodilo Tralalero Run',
+      time: '2025-07-25',
+      addressBar: 'crocodilo-tralalero-run',
+      seo: {
+        title: 'Crocodilo Tralalero Run – Endless Brainrot Runner',
+        description: 'Play Crocodilo Tralalero Run, the endless runner featuring Bombardino Crocodilo, Tralalero, Tung Tung, and Bananini. Collect coins, unlock memes, and run forever!',
+        keywords: 'Crocodilo Tralalero Run, Italian Brainrot runner, Bombardino Crocodilo, endless meme runner, Brainrot adventure game'
+      },
+      category: ['italian-brainrot-games'],
+      imageUrl: '/images/game-30.webp',
+      imageAlt: 'Crocodilo Tralalero Run – Endless Meme Runner',
+      iframeUrl: 'https://html5.gamedistribution.com/ea1c782a2cbf479aa9461a834e82c6dd/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fcrocodilo-tralalero-run',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
   <h2>Crocodilo Tralalero Run – Endless Adventure with Italian Brainrot Characters</h2>
 <p>
 <strong>Crocodilo Tralalero Run</strong> is a thrilling endless runner set in the vibrant and chaotic world of Italian Brainrot memes. Take control of Bombardino Crocodilo as you dash, dodge, and leap through increasingly challenging obstacles. With smooth controls and addictive gameplay, <strong>Crocodilo Tralalero Run</strong> is perfect for quick sessions or marathon runs.
@@ -2500,26 +2500,26 @@ Start your journey as Bombardino Crocodilo and unlock a variety of beloved Itali
 Ready to race with Bombardino Crocodilo and friends? Jump into <strong>Crocodilo Tralalero Run</strong> now and see how far you can go. Unlock memes, collect coins, and embrace the endless chaos of Brainrot running fun!
 </p>
   `
-},
+    },
 
-{
-  id: 31,
-  title: 'Italian Brainrot Differences',
-  time: '2025-07-25',
-  addressBar: 'italian-brainrot-differences',
-  seo: {
-    title: 'Italian Brainrot Differences – Spot the Meme Madness',
-    description: 'Play Italian Brainrot Differences, a spot-the-difference puzzle with 20 chaotic meme levels. Find hidden changes, race against time, and challenge your observation skills!',
-    keywords: 'Italian Brainrot Differences, meme spot game, Italian Brainrot puzzle, find the differences, meme observation challenge'
-  },
-  category: ['italian-brainrot-games'],
-  imageUrl: '/images/game-31.webp',
-  imageAlt: 'Italian Brainrot Differences – Meme Spotting Puzzle',
-  iframeUrl: 'https://html5.gamedistribution.com/4f9d2c3e4e1d45b9b4f6f6c483b6a6b9/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-differences',
-  isHome: true,
-  isFella: true,
-  isDetails: true,
-  detailsHtml: `
+    {
+      id: 31,
+      title: 'Italian Brainrot Differences',
+      time: '2025-07-25',
+      addressBar: 'italian-brainrot-differences',
+      seo: {
+        title: 'Italian Brainrot Differences – Spot the Meme Madness',
+        description: 'Play Italian Brainrot Differences, a spot-the-difference puzzle with 20 chaotic meme levels. Find hidden changes, race against time, and challenge your observation skills!',
+        keywords: 'Italian Brainrot Differences, meme spot game, Italian Brainrot puzzle, find the differences, meme observation challenge'
+      },
+      category: ['italian-brainrot-games'],
+      imageUrl: '/images/game-31.webp',
+      imageAlt: 'Italian Brainrot Differences – Meme Spotting Puzzle',
+      iframeUrl: 'https://html5.gamedistribution.com/4f9d2c3e4e1d45b9b4f6f6c483b6a6b9/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-differences',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
   <h2>Italian Brainrot Differences – Spot the Meme Madness</h2>
 <p>
 <strong>Italian Brainrot Differences</strong> takes the classic spot-the-difference formula and injects it with meme-driven chaos from the Italian Brainrot universe. Carefully study each pair of images featuring characters like Tung Sahur, Cappuccino Assassino, and Boneca Ambalabu to find hidden changes before time runs out.
@@ -2561,26 +2561,26 @@ Advance through 20 unique levels, each featuring 7 hidden differences. Starting 
 Are you ready to become the ultimate meme detective? Jump into <strong>Italian Brainrot Differences</strong> and see if you can find every hidden change across all 20 chaotic meme levels!
 </p>
   `
-},
+    },
 
-{
-  id: 32,
-  title: 'Italian Brainrot Anomaly',
-  time: '2025-07-25',
-  addressBar: 'italian-brainrot-anomaly',
-  seo: {
-    title: 'Italian Brainrot Anomaly – Detect the Meme Distortions',
-    description: 'Play Italian Brainrot Anomaly and find bizarre distortions hidden within chaotic meme scenes. Train your eyes and spot every anomaly in the Italian Brainrot universe!',
-    keywords: 'Italian Brainrot Anomaly, meme anomaly game, find anomaly puzzle, Italian Brainrot hidden object, meme spotter'
-  },
-  category: ['italian-brainrot-games'],
-  imageUrl: '/images/game-32.webp',
-  imageAlt: 'Italian Brainrot Anomaly – Spot the Meme Distortions',
-  iframeUrl: 'https://html5.gamedistribution.com/f2877c3a5a2144ecaf2fb799b1f3ad4d/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-anomaly',
-  isHome: true,
-  isFella: true,
-  isDetails: true,
-  detailsHtml: `
+    {
+      id: 32,
+      title: 'Italian Brainrot Anomaly',
+      time: '2025-07-25',
+      addressBar: 'italian-brainrot-anomaly',
+      seo: {
+        title: 'Italian Brainrot Anomaly – Detect the Meme Distortions',
+        description: 'Play Italian Brainrot Anomaly and find bizarre distortions hidden within chaotic meme scenes. Train your eyes and spot every anomaly in the Italian Brainrot universe!',
+        keywords: 'Italian Brainrot Anomaly, meme anomaly game, find anomaly puzzle, Italian Brainrot hidden object, meme spotter'
+      },
+      category: ['italian-brainrot-games'],
+      imageUrl: '/images/game-32.webp',
+      imageAlt: 'Italian Brainrot Anomaly – Spot the Meme Distortions',
+      iframeUrl: 'https://html5.gamedistribution.com/f2877c3a5a2144ecaf2fb799b1f3ad4d/?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fitalian-brainrot-anomaly',
+      isHome: true,
+      isFella: true,
+      isDetails: true,
+      detailsHtml: `
   <h2>Italian Brainrot Anomaly – Detect the Meme Distortions</h2>
 <p>
 <strong>Italian Brainrot Anomaly</strong> challenges you to identify strange and surreal changes hidden in Italian Brainrot meme scenes. From misplaced espresso cups to warped meme characters, anomalies lurk in every corner. Your mission: find them all before time runs out!
@@ -2625,27 +2625,27 @@ Built on the timeless concept of anomaly detection, <strong>Italian Brainrot Ano
 Ready to prove your observational skills? Jump into <strong>Italian Brainrot Anomaly</strong> and hunt down every strange detail across all meme-infused levels. Can you catch every anomaly before the timer hits zero?
 </p>
   `
-},
+    },
 
-{
-  id: 33,
-  title: 'Bubble Shooter',
-  time: '2025-07-28',
-  addressBar: 'bubble-shooter',
-  seo: {
-    title: 'Bubble Shooter – Classic Bubble Popping Fun',
-    description: 'Play Bubble Shooter for free and enjoy the timeless bubble popping challenge. Match colors, create chain reactions, and clear the board in this addictive classic game.',
-    keywords: 'Bubble Shooter, free bubble shooter, bubble pop game, classic bubble puzzle, bubble shooter online'
-  },
-  category: ['merge-games'],
-  imageUrl: '/images/game-33.webp',
-  imageAlt: 'Bubble Shooter – Classic Bubble Popping Fun',
-  iframeUrl: 'https://cdn.bubbleshooter.net/games/bubble-shooter-mobile/?gd_sdk_referrer_url=https://www.jopi.com/game/game/bubble-shooter/',
-  isHome: true,
-  isFella: false,
-  isDetails: true,
-  detailsHtml: 
-  `<h2>Bubble Shooter – Classic Bubble Popping Fun</h2>
+    {
+      id: 33,
+      title: 'Bubble Shooter',
+      time: '2025-07-28',
+      addressBar: 'bubble-shooter',
+      seo: {
+        title: 'Bubble Shooter – Classic Bubble Popping Fun',
+        description: 'Play Bubble Shooter for free and enjoy the timeless bubble popping challenge. Match colors, create chain reactions, and clear the board in this addictive classic game.',
+        keywords: 'Bubble Shooter, free bubble shooter, bubble pop game, classic bubble puzzle, bubble shooter online'
+      },
+      category: ['merge-games'],
+      imageUrl: '/images/game-33.webp',
+      imageAlt: 'Bubble Shooter – Classic Bubble Popping Fun',
+      iframeUrl: 'https://cdn.bubbleshooter.net/games/bubble-shooter-mobile/?gd_sdk_referrer_url=https://www.jopi.com/game/game/bubble-shooter/',
+      isHome: true,
+      isFella: false,
+      isDetails: true,
+      detailsHtml:
+        `<h2>Bubble Shooter – Classic Bubble Popping Fun</h2>
 <p>
 <strong>Bubble Shooter</strong> brings you one of the most iconic and relaxing puzzle challenges ever made. The goal is simple: shoot bubbles from the bottom of the screen and match three or more of the same color to make them pop. The faster and more strategically you play, the higher your score will climb.
 </p>
@@ -2680,27 +2680,27 @@ The charm of <strong>Bubble Shooter</strong> lies in its simplicity and relaxing
 <p>
 Ready to test your aim and strategy? Jump into <strong>Bubble Shooter</strong> and see how many points you can rack up while clearing the colorful bubble field. It’s free, fun, and always ready to play!
 </p>`
-},
+    },
 
-{
-  "id": 34,
-  "title": "Big Block Blast",
-  "time": "2025-07-28",
-  "addressBar": "big-block-blast",
-  "seo": {
-    "title": "Big Block Blast – Explosive Puzzle Challenge",
-    "description": "Play Big Block Blast for free and experience a colorful block puzzle challenge packed with combos, wild tiles, and endless strategic fun. Drag, match, and blast your way to victory!",
-    "keywords": "Big Block Blast, block puzzle game, colorful block challenge, big block puzzle, block blast online"
-  },
-  "category": ["merge-games"],
-  "imageUrl": "/images/game-34.webp",
-  "imageAlt": "Big Block Blast – Explosive Puzzle Challenge",
-  "iframeUrl": "https://html5.gamedistribution.com/rvvASMiM/058a3fd0d58949be9b79e666de9ac36d/index.html?gd_sdk_referrer_url=https%3A%2F%2F1games.io%2Fbig-block-blast&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovLzFnYW1lcy5pby9iaWctYmxvY2stYmxhc3QiLCJwYXJlbnREb21haW4iOiIxZ2FtZXMuaW8iLCJ0b3BEb21haW4iOiIxZ2FtZXMuaW8iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D",
-  "isHome": true,
-  "isFella": true,
-  "isDetails": true,
-  "detailsHtml": 
-  `<h2>Big Block Blast – Explosive Puzzle Challenge</h2>
+    {
+      "id": 34,
+      "title": "Big Block Blast",
+      "time": "2025-07-28",
+      "addressBar": "big-block-blast",
+      "seo": {
+        "title": "Big Block Blast – Explosive Puzzle Challenge",
+        "description": "Play Big Block Blast for free and experience a colorful block puzzle challenge packed with combos, wild tiles, and endless strategic fun. Drag, match, and blast your way to victory!",
+        "keywords": "Big Block Blast, block puzzle game, colorful block challenge, big block puzzle, block blast online"
+      },
+      "category": ["merge-games"],
+      "imageUrl": "/images/game-34.webp",
+      "imageAlt": "Big Block Blast – Explosive Puzzle Challenge",
+      "iframeUrl": "https://html5.gamedistribution.com/rvvASMiM/058a3fd0d58949be9b79e666de9ac36d/index.html?gd_sdk_referrer_url=https%3A%2F%2F1games.io%2Fbig-block-blast&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovLzFnYW1lcy5pby9iaWctYmxvY2stYmxhc3QiLCJwYXJlbnREb21haW4iOiIxZ2FtZXMuaW8iLCJ0b3BEb21haW4iOiIxZ2FtZXMuaW8iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D",
+      "isHome": true,
+      "isFella": true,
+      "isDetails": true,
+      "detailsHtml":
+        `<h2>Big Block Blast – Explosive Puzzle Challenge</h2>
 <p>
 <strong>Big Block Blast</strong> gives you a thrilling twist on the classic block puzzle experience. Drag colorful shapes, place them wisely on the grid, and form giant blocks to trigger chain reactions. Each move can be the difference between a high score and a full board!
 </p>
@@ -2737,49 +2737,49 @@ The thrill of <strong>Big Block Blast</strong> lies in its evolving challenge. A
 <p>
 Ready to test your puzzle-solving skills? Jump into <strong>Big Block Blast</strong> today and experience endless block-breaking fun. Drag, match, and blast your way to puzzle glory!
 </p>`
-},
+    },
 
-{
-  "id": 35,
-  "title": "Astro Robot Clicker",
-  "time": "2025-08-11",
-  "addressBar": "astro-robot-clicker",
-  "seo": {
-    "title": "Astro Robot Clicker – Idle Space Adventure",
-    "description": "Launch into an endless space journey with Astro Robot Clicker! Build your robot army, collect resources, and explore the galaxy in this addictive idle clicker game.",
-    "keywords": "Astro Robot Clicker, idle game, clicker game, space adventure, robot army, incremental game"
-  },
-  "category": ["merge-games"],
-  "imageUrl": "/images/game-35.webp",
-  "imageAlt": "Astro Robot Clicker – Idle Space Adventure",
-  "iframeUrl": "https://game.azgame.io/astro-robot-clicker/",
-  "isHome": false,
-  "isFella": true,
-  "isDetails": true,
-  "detailsHtml": `
+    {
+      "id": 35,
+      "title": "Astro Robot Clicker",
+      "time": "2025-08-11",
+      "addressBar": "astro-robot-clicker",
+      "seo": {
+        "title": "Astro Robot Clicker – Idle Space Adventure",
+        "description": "Launch into an endless space journey with Astro Robot Clicker! Build your robot army, collect resources, and explore the galaxy in this addictive idle clicker game.",
+        "keywords": "Astro Robot Clicker, idle game, clicker game, space adventure, robot army, incremental game"
+      },
+      "category": ["merge-games"],
+      "imageUrl": "/images/game-35.webp",
+      "imageAlt": "Astro Robot Clicker – Idle Space Adventure",
+      "iframeUrl": "https://game.azgame.io/astro-robot-clicker/",
+      "isHome": false,
+      "isFella": true,
+      "isDetails": true,
+      "detailsHtml": `
     <h3>About Astro Robot Clicker</h3>
     <p>Embark on an epic cosmic adventure with <b>Astro Robot Clicker</b>! This isn't just any idle game—it's your ticket to the stars. Your mission: command a team of robots to mine resources, build a sprawling galactic empire, and unlock the secrets of the universe. Just click and watch your empire grow, even when you're offline. Are you ready to become the ultimate space tycoon?</p>
   `
-},
+    },
 
-{
-  "id": 36,
-  "title": "TriMerge",
-  "time": "2025-08-18",
-  "addressBar": "trimerge",
-  "seo": {
-    "title": "TriMerge – Smart Number-Merging Puzzle",
-    "description": "Slide, combine, and strategize in TriMerge! Fuse tiles to build larger multiples of 3, starting with the special 1 + 2 = 3 rule. Plan ahead and chase your highest score.",
-    "keywords": "TriMerge, number merge, puzzle game, sliding tiles, math puzzle, 2048-like, multiples of 3, brain teaser"
-  },
-  "category": ["merge-games"],
-  "imageUrl": "/images/game-36.webp",
-  "imageAlt": "TriMerge – number tiles merging on a 4×4 grid",
-  "iframeUrl": "https://game.azgame.io/trimerge/",
-  "isHome": false,
-  "isFella": true,
-  "isDetails": true,
-  "detailsHtml": `
+    {
+      "id": 36,
+      "title": "TriMerge",
+      "time": "2025-08-18",
+      "addressBar": "trimerge",
+      "seo": {
+        "title": "TriMerge – Smart Number-Merging Puzzle",
+        "description": "Slide, combine, and strategize in TriMerge! Fuse tiles to build larger multiples of 3, starting with the special 1 + 2 = 3 rule. Plan ahead and chase your highest score.",
+        "keywords": "TriMerge, number merge, puzzle game, sliding tiles, math puzzle, 2048-like, multiples of 3, brain teaser"
+      },
+      "category": ["merge-games"],
+      "imageUrl": "/images/game-36.webp",
+      "imageAlt": "TriMerge – number tiles merging on a 4×4 grid",
+      "iframeUrl": "https://game.azgame.io/trimerge/",
+      "isHome": false,
+      "isFella": true,
+      "isDetails": true,
+      "detailsHtml": `
     <h3>About TriMerge</h3>
     <p><b>TriMerge</b> is a sleek number-merging puzzle where every move counts. Slide tiles on a compact 4×4 board to combine values and craft ever-larger <i>multiples of 3</i>. The twist? Only <b>1 + 2</b> can form a <b>3</b>; from there, tiles merge only with an identical value (3+3, 6+6, 12+12, and so on). Simple rules, deep strategy—perfect for quick sessions or marathon runs.</p>
 
@@ -2806,11 +2806,105 @@ Ready to test your puzzle-solving skills? Jump into <strong>Big Block Blast</str
     <h4>Scoring &amp; End Condition</h4>
     <p>Your score rises with each merge—the <b>bigger the tile, the bigger the points</b>. The game ends when the board is full and no legal merges remain. Aim for high-value tiles like <b>48</b>, <b>96</b>, <b>192</b>, and beyond to dominate the leaderboard.</p>
   `
-}
+    },
 
+    {
+      "id": 37,
+      "title": "Slope Rider",
+      "time": "2025-08-25",
+      "addressBar": "slope-rider",
+      "seo": {
+        "title": "Slope Rider – Thrilling Endless Sledding Adventure",
+        "description": "Ride the snowy slopes in Slope Rider! Steer fast, dodge obstacles, and collect gifts to unlock new sleds. How long can you survive the icy terrain?",
+        "keywords": "Slope Rider, sled game, endless runner, snow racing, winter game, obstacle dodging, fast reflex, survival game"
+      },
+      "category": ["merge-games"],
+      "imageUrl": "/images/game-37.webp",
+      "imageAlt": "Slope Rider – sled racing through snowy slopes",
+      "iframeUrl": "https://game.azgame.io/slope-rider/",
+      "isHome": false,
+      "isFella": true,
+      "isDetails": true,
+      "detailsHtml": `
+    <h3>About Slope Rider</h3>
+    <p><b>Slope Rider</b> throws you into an endless sledding challenge across dazzling snow-covered landscapes. Your sled races forward at breakneck speed, and your job is simple: <b>survive</b>. Navigate through forests, icy cliffs, and unpredictable terrain, where every second brings new dangers. Fast, fluid, and unforgiving—this game tests both your reflexes and nerves of steel.</p>
+    
+    <img src="/images/game-37-01.webp" alt="Slope Rider – sled racing through snowy slopes" />
 
+    <h4>Rules &amp; Objectives</h4>
+    <ul>
+      <li>Your sled <b>never stops</b>; it constantly rushes forward.</li>
+      <li><b>Steer left or right</b> to dodge obstacles like pine trees, icy rocks, or rolling snowballs.</li>
+      <li>Use <b>jumps</b> to clear dangerous gaps and sudden hazards.</li>
+      <li>A single collision ends the run—<b>game over</b>.</li>
+      <li>Collect <b>gift boxes</b> along the way to unlock fresh sled designs.</li>
+    </ul>
+    
+    <h4>How to Play</h4>
+    <p>Control is simple yet demanding: <b>arrow keys</b> (PC) or <b>swipes</b> (mobile) guide your sled left and right, while a quick tap makes you jump. Stay sharp, as obstacles spawn unpredictably—trees block your lane, rocks tumble from above, and snowballs roll straight into your path. The longer you last, the faster and harder the course becomes.</p>
+    
+    <h4>Smart Tips</h4>
+    <ul>
+      <li><b>Stay centered:</b> Position your sled near the middle to react quickly to hazards.</li>
+      <li><b>Don’t chase every gift:</b> Only grab them if it’s safe—survival comes first.</li>
+      <li><b>Anticipate patterns:</b> Watch for gaps in obstacle lines to steer through cleanly.</li>
+      <li><b>Reflex over hesitation:</b> Quick movements save you more often than cautious ones.</li>
+    </ul>
+    
+    <h4>Scoring &amp; End Condition</h4>
+    <p>Your score is determined by <b>how long you survive</b> and how many <b>gifts you collect</b>. Crashing into any obstacle ends your adventure instantly. Push your limits, unlock new sleds, and see how far you can ride the slopes in this thrilling winter survival test.</p>
+    `
+    },
 
+    {
+      "id": 38,
+      "title": "Meme Puzzle",
+      "time": "2025-08-25",
+      "addressBar": "meme-puzzle",
+      "seo": {
+        "title": "Meme Puzzle – Funny Casual Puzzle Game",
+        "description": "Play Meme Puzzle and piece together hilarious memes! Relax, laugh, and unlock endless meme combinations in this addictive puzzle game.",
+        "keywords": "Meme Puzzle, meme game, funny puzzle, casual puzzle, jigsaw meme, humor game, relaxing puzzle, addictive casual game"
+      },
+      "category": ["merge-games"],
+      "imageUrl": "/images/game-38.webp",
+      "imageAlt": "Meme Puzzle – assembling funny meme pieces",
+      "iframeUrl": "https://game.azgame.io/meme-puzzle/",
+      "isHome": false,
+      "isFella": true,
+      "isDetails": true,
+      "detailsHtml": `
+    <h3>About Meme Puzzle</h3>
+    <p><b>Meme Puzzle</b> is a lighthearted and entertaining puzzle game where memes take center stage. Instead of traditional pictures, you’ll be piecing together funny, absurd, and internet-famous meme images. The goal is simple: complete the puzzles, have a laugh, and enjoy the quirky humor packed into each level.</p>
+    
+    <img src="/images/game-38-01.webp" alt="Meme Puzzle – assembling funny meme pieces" />
 
+    <h4>Rules &amp; Objectives</h4>
+    <ul>
+      <li>Drag and drop puzzle pieces into the correct positions.</li>
+      <li>Each completed puzzle reveals a <b>funny meme</b> image.</li>
+      <li>Advance through levels to unlock <b>new meme collections</b>.</li>
+      <li>The objective is to <b>relax and enjoy</b> while solving memes with a twist of humor.</li>
+    </ul>
+    
+    <h4>How to Play</h4>
+    <p>Use your mouse (PC) or touch (mobile) to move pieces into place. Each meme puzzle starts scrambled, and your task is to arrange the pieces correctly. Complete a stage, and you’ll unlock the full meme, often with a punchline or comedic reference. The more puzzles you solve, the more hilarious memes you uncover!</p>
+    
+    <h4>Smart Tips</h4>
+    <ul>
+      <li><b>Start with edges:</b> Like classic puzzles, corners and edges make solving easier.</li>
+      <li><b>Look for patterns:</b> Meme faces, text, or backgrounds often stand out—use them to guide placement.</li>
+      <li><b>Play casually:</b> It’s designed for relaxation and laughs, not stress.</li>
+      <li><b>Collect favorites:</b> Keep track of your funniest completed memes for replay value.</li>
+    </ul>
+    
+    <h4>Why Play Meme Puzzle?</h4>
+    <p>If you love both <b>puzzles</b> and <b>memes</b>, this game gives you the best of both worlds. It’s casual, endlessly funny, and perfect for quick gaming breaks. With each solved puzzle, you’re rewarded not just with progress—but with a laugh. <b>Meme Puzzle</b> is a must-try for anyone who enjoys internet humor mixed with simple puzzle-solving fun.</p>
+    `
+    }
+    
+    
+    
 
   ]
 }; 
