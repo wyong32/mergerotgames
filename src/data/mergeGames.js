@@ -2901,8 +2901,61 @@ Ready to test your puzzle-solving skills? Jump into <strong>Big Block Blast</str
     <h4>Why Play Meme Puzzle?</h4>
     <p>If you love both <b>puzzles</b> and <b>memes</b>, this game gives you the best of both worlds. It’s casual, endlessly funny, and perfect for quick gaming breaks. With each solved puzzle, you’re rewarded not just with progress—but with a laugh. <b>Meme Puzzle</b> is a must-try for anyone who enjoys internet humor mixed with simple puzzle-solving fun.</p>
     `
-    }
+    },
+
+    {
+      "id": 39,
+      "title": "Lizard Lizard Clicker",
+      "time": "2025-08-25",
+      "addressBar": "lizard-lizard-clicker",
+      "seo": {
+        "title": "Lizard Lizard Clicker – Fun Idle Clicker Game with Cute Lizards",
+        "description": "Play Lizard Lizard Clicker and meet quirky lizards! Click, earn points, buy upgrades, and unlock adorable lizards in this fun idle clicker game.",
+        "keywords": "Lizard Lizard Clicker, clicker game, idle game, lizard game, casual clicker, incremental game, upgrade game, fun idle clicker"
+      },
+      "category": ["merge-games"],
+      "imageUrl": "/images/game-39.webp",
+      "imageAlt": "Lizard Lizard Clicker – click to unlock quirky lizards",
+      "iframeUrl": "https://game.azgame.io/lizard-lizard-clicker/",
+      "isHome": false,
+      "isFella": true,
+      "isDetails": true,
+      "detailsHtml": `
+        <h3>About Lizard Lizard Clicker</h3>
+        <p><b>Lizard Lizard Clicker</b> is the newest addition to the Clicker Games collection, offering players a lighthearted and quirky idle clicking experience. Instead of typical items or coins, you’ll be clicking your way to meet <b>cute and quirky lizards</b>. Each new milestone unlocks new characters, making the journey both fun and rewarding.</p>
+        
+        <img src="/images/game-39-01.webp" alt="Lizard Lizard Clicker – click to unlock quirky lizards" />
     
+        <h4>Gameplay Walkthrough</h4>
+        <p>This idle clicker game developed by <b>AZgames.io</b> sticks to the familiar click-and-upgrade formula, but with a twist: charming lizards! Keep clicking to generate points, purchase upgrades to multiply your clicks, and eventually unlock <b>idle income</b> so the game keeps progressing even when you’re not actively clicking. The loop is simple, addictive, and highly satisfying.</p>
+        
+        <h4>How to Play</h4>
+        <ul>
+          <li><b>Click to Earn:</b> Tap or click the lizard repeatedly to generate your first points.</li>
+          <li><b>Buy Upgrades:</b> Spend points on upgrades that boost your click power and add idle earnings.</li>
+          <li><b>Unlock Lizards:</b> Reach milestones to meet new quirky lizards with unique looks.</li>
+          <li><b>Keep Growing:</b> Reinvest your earnings into upgrades for exponential growth.</li>
+        </ul>
+        
+        <h4>Rules &amp; Objectives</h4>
+        <p>There are no strict objectives or levels in <b>Lizard Lizard Clicker</b>. The main goal is to <b>have fun</b>, unlock as many lizards as possible, and enjoy the sense of progress. Whether you’re casually playing for a few minutes or investing more time to optimize upgrades, the game adapts to your style.</p>
+        
+        <h4>Smart Tips</h4>
+        <ul>
+          <li><b>Click Quickly:</b> At the start, fast clicking helps you stack points faster.</li>
+          <li><b>Prioritize Upgrades:</b> Early upgrades may look small, but they snowball into big gains.</li>
+          <li><b>Balance Idle &amp; Active:</b> Use idle upgrades to keep progress going while you’re away.</li>
+          <li><b>Collect Lizards:</b> Each new lizard unlocked keeps the game fresh and fun.</li>
+        </ul>
+        
+        <h4>Game Controls</h4>
+        <p><b>PC:</b> Click the lizard with your mouse to earn points and navigate upgrade menus.<br>
+        <b>Mobile:</b> Tap the lizard with your finger to generate points and buy upgrades easily.</p>
+        
+        <h4>Why Play Lizard Lizard Clicker?</h4>
+        <p>If you enjoy <b>incremental games</b> and want something casual yet funny, <b>Lizard Lizard Clicker</b> is a perfect choice. It blends the addictive loop of clicker games with the charm of quirky lizards, giving you a reason to keep coming back. Relax, click, upgrade, and meet your new reptilian friends!</p>
+      `
+    }
     
     
 
