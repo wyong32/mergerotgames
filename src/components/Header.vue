@@ -1,11 +1,11 @@
 <template>
   <header class="main-header">
     <div class="container">
-      <RouterLink to="/" class="logo">
+      <a href="/" class="logo">
         <img src="/images/logo.png" alt="Merge Rot" class="logo-image">
         <span class="logo-merge">Merge</span>
         <span class="logo-rot">Rot</span>
-      </RouterLink>
+      </a>
       <button @click="toggleMenu" class="mobile-nav-toggle" aria-controls="main-nav" :aria-expanded="isMenuOpen" aria-label="Toggle navigation menu">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -14,12 +14,12 @@
       </button>
       <nav class="main-nav" :class="{ 'is-open': isMenuOpen }">
         <ul @click="closeMenu">
-          <li><RouterLink to="/">Home</RouterLink></li>
-          <li><RouterLink to="/merge-fellas">Merge Fellas</RouterLink></li>
-          <li><RouterLink to="/merge-games">Merge Games</RouterLink></li>
-          <li><RouterLink to="/italian-brainrot-games">Italian Brainrot Games</RouterLink></li>
-          <li><RouterLink to="/italian-brainrot-wiki">Italian Brainrot Wiki</RouterLink></li>
-          <li><RouterLink to="/blog">Blog</RouterLink></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/merge-fellas">Merge Fellas</a></li>
+          <li><a href="/merge-games">Merge Games</a></li>
+          <li><a href="/italian-brainrot-games">Italian Brainrot Games</a></li>
+          <li><a href="/italian-brainrot-wiki">Italian Brainrot Wiki</a></li>
+          <li><a href="/blog">Blog</a></li>
         </ul>
       </nav>
     </div>

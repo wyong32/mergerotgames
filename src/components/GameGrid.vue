@@ -1,14 +1,14 @@
 <template>
   <div class="games-grid">
-    <RouterLink
+    <a
       v-for="game in games"
       :key="game.id"
-      :to="`/merge-games/${game.addressBar}`"
+      :href="`/merge-games/${game.addressBar}`"
       class="game-card"
     >
       <img :src="game.imageUrl" :alt="game.imageAlt" loading="lazy" decoding="async" />
       <div class="game-card-title">{{ game.title }}</div>
-    </RouterLink>
+    </a>
   </div>
 </template>
 

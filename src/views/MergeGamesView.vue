@@ -10,17 +10,17 @@
         </p>
 
         <div class="games-list">
-          <RouterLink
+          <a
             v-for="game in mergeRotGames"
             :key="game.id"
-            :to="`/merge-games/${game.addressBar}`"
+            :href="`/merge-games/${game.addressBar}`"
             class="game-card"
           >
                           <img :src="game.imageUrl" :alt="game.imageAlt" class="game-image" loading="lazy" decoding="async" />
             <div class="game-info">
               <h2 class="game-title">{{ game.title }}</h2>
             </div>
-          </RouterLink>
+          </a>
         </div>
       </div>
     </main>

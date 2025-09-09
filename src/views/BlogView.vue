@@ -9,10 +9,10 @@
         </p>
 
         <div class="games-list">
-          <RouterLink
+          <a
             v-for="post in posts"
             :key="post.id"
-            :to="`/blog/${post.addressBar}`"
+            :href="`/blog/${post.addressBar}`"
             class="game-card"
           >
                           <img :src="post.imageUrl" :alt="post.imageAlt" class="game-image" loading="lazy" decoding="async" />
@@ -21,7 +21,7 @@
               <p class="game-excerpt">{{ post.excerpt }}</p>
               <span class="game-date">{{ formatDate(post.date) }}</span>
             </div>
-          </RouterLink>
+          </a>
         </div>
       </div>
     </main>

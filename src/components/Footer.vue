@@ -26,32 +26,32 @@
           <div class="footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><RouterLink to="/">Home</RouterLink></li>
-              <li><RouterLink to="/merge-fellas">Merge Fellas</RouterLink></li>
-              <li><RouterLink to="/merge-games">Merge Games</RouterLink></li>
-              <li><RouterLink to="/italian-brainrot-games">Italian Brainrot Games</RouterLink></li>
-              <li><RouterLink to="/italian-brainrot-wiki">Brainrot Wiki</RouterLink></li>
-              <li><RouterLink to="/blog">Blog</RouterLink></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/merge-fellas">Merge Fellas</a></li>
+              <li><a href="/merge-games">Merge Games</a></li>
+              <li><a href="/italian-brainrot-games">Italian Brainrot Games</a></li>
+              <li><a href="/italian-brainrot-wiki">Brainrot Wiki</a></li>
+              <li><a href="/blog">Blog</a></li>
             </ul>
           </div>
           <div class="footer-links">
             <h4>Game Categories</h4>
             <ul>
-              <li><RouterLink to="/merge-fellas">Merge Fellas</RouterLink></li>
-              <li><RouterLink to="/italian-brainrot-games/2048-italian-brainrot">2048 Italian Brainrot</RouterLink></li>
-              <li><RouterLink to="/italian-brainrot-games/brainrot-clicker">Brainrot Clicker</RouterLink></li>
-              <li><RouterLink to="/italian-brainrot-games/italian-brainrot-obby-parkour">Italian Brainrot Obby Parkour</RouterLink></li>
-              <li><RouterLink to="/merge-games/merge-fellas-italian-brainrot">Merge Fellas Italian Brainrot</RouterLink></li>
+              <li><a href="/merge-fellas">Merge Fellas</a></li>
+              <li><a href="/italian-brainrot-games/2048-italian-brainrot">2048 Italian Brainrot</a></li>
+              <li><a href="/italian-brainrot-games/brainrot-clicker">Brainrot Clicker</a></li>
+              <li><a href="/italian-brainrot-games/italian-brainrot-obby-parkour">Italian Brainrot Obby Parkour</a></li>
+              <li><a href="/merge-games/merge-fellas-italian-brainrot">Merge Fellas Italian Brainrot</a></li>
             </ul>
           </div>
           <div class="footer-links">
             <h4>Legal</h4>
             <ul>
-              <li><RouterLink to="/privacy-policy">Privacy Policy</RouterLink></li>
-              <li><RouterLink to="/terms-of-use">Terms of Use</RouterLink></li>
-              <li><RouterLink to="/copyright">Copyright</RouterLink></li>
-              <li><RouterLink to="/about-us">About Us</RouterLink></li>
-              <li><RouterLink to="/contact-us">Contact Us</RouterLink></li>
+              <li><a href="/privacy-policy">Privacy Policy</a></li>
+              <li><a href="/terms-of-use">Terms of Use</a></li>
+              <li><a href="/copyright">Copyright</a></li>
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="/contact-us">Contact Us</a></li>
             </ul>
           </div>
         </div>

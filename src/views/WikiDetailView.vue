@@ -44,13 +44,13 @@
           
           <!-- Back Link Section -->
           <section class="back-link-section">
-            <RouterLink to="/italian-brainrot-wiki" class="back-link">&larr; Back to Wiki</RouterLink>
+            <a href="/italian-brainrot-wiki" class="back-link">&larr; Back to Wiki</a>
           </section>
         </div>
         <div v-else class="not-found">
           <h1 class="page-title">Entry Not Found</h1>
           <p>Sorry, we couldn't find the wiki entry you're looking for.</p>
-          <RouterLink to="/italian-brainrot-wiki" class="back-link">Back to Wiki</RouterLink>
+          <a href="/italian-brainrot-wiki" class="back-link">Back to Wiki</a>
         </div>
       </div>
     </main>
